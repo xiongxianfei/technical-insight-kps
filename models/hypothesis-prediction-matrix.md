@@ -8,7 +8,7 @@ reviewed: "2026-10-07"
 basis_kind: "authored synthesis; evidence and inference distinguished"
 confidence: "scoped and revisable; not validated as a complete framework"
 uses_principles: ["ti:p:explanations-can-share-the-same-predictions", "ti:p:factor-effects-can-depend-on-other-factors"]
-uses_methods: ["ti:me:design-a-discriminating-test"]
+uses_methods: ["ti:me:design-of-experiments", "ti:me:measurement-uncertainty-budget"]
 references: ["ti:r:pearl-2009-causal-inference-in-statistics", "ti:r:nist-undated-experimental-design-handbook", "ti:r:openstax-2016-university-physics-heat-transfer"]
 ---
 
@@ -55,7 +55,7 @@ The essential explanation or procedure is above. These links provide reusable de
 
 - [Explanations can share the same predictions](../principles/explanations-can-share-the-same-predictions.md)
 - [Factor effects can depend on other factors](../principles/factor-effects-can-depend-on-other-factors.md)
-- [Design a discriminating test](../methods/design-a-discriminating-test.md)
+- [Design a discriminating test in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage5-design-a-discriminating-comparison)
 
 - [Causal inference in statistics An overview](../references/pearl-2009-causal-inference-in-statistics.md)
 - [NIST experimental design guidance](../references/nist-undated-experimental-design-handbook.md)

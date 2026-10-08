@@ -9,7 +9,7 @@ basis_kind: "explanatory synthesis with source premises and inference separated"
 confidence: "scope dependent; application requires evaluation"
 level: "domain"
 uses_models: ["ti:mo:causal-path-and-intervention-model"]
-uses_methods: ["ti:me:generate-competing-explanations"]
+uses_methods: ["ti:me:hypothesis-driven-analysis", "ti:me:fishbone-analysis", "ti:me:five-whys"]
 references: ["ti:r:pearl-2009-causal-inference-in-statistics"]
 ---
 
@@ -48,7 +48,7 @@ Experiments also require valid assignment, implementation and measurement. A ran
 The essential explanation or procedure is above. These links provide reusable detail and source inspection.
 
 - [Causal path and intervention model](../models/causal-path-and-intervention-model.md)
-- [Generate competing explanations](../methods/generate-competing-explanations.md)
+- [Generate competing explanations in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage4-build-rival-explanations-and-a-model)
 
 - [Causal inference in statistics An overview](../references/pearl-2009-causal-inference-in-statistics.md)
 

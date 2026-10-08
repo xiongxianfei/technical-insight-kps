@@ -9,7 +9,7 @@ basis_kind: "explanatory synthesis with source premises and inference separated"
 confidence: "scope dependent; application requires evaluation"
 level: "domain"
 uses_models: ["ti:mo:measurement-and-uncertainty-model"]
-uses_methods: ["ti:me:audit-an-observation"]
+uses_methods: ["ti:me:sipoc", "ti:me:measurement-uncertainty-budget"]
 references: ["ti:r:nist-undated-measurement-uncertainty"]
 ---
 
@@ -48,7 +48,7 @@ This is not a claim that all measurements are unreliable or that every discrepan
 The essential explanation or procedure is above. These links provide reusable detail and source inspection.
 
 - [Measurement and uncertainty model](../models/measurement-and-uncertainty-model.md)
-- [Audit an observation](../methods/audit-an-observation.md)
+- [Audit an observation in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage2-audit-the-evidence-before-the-story)
 
 - [NIST essentials of measurement uncertainty](../references/nist-undated-measurement-uncertainty.md)
 

@@ -1,17 +1,17 @@
 ---
 id: "ti:pr:maintain-technical-insight-knowledge"
 type: "practice"
-version: "1.0.0"
+version: "2.0.0"
 language: "KPS 9.x"
 status: "active"
-reviewed: "2026-10-07"
-basis_kind: "authored operational synthesis; no field effectiveness study"
+reviewed: "2026-10-08"
+basis_kind: "authored Practice integrating established techniques; not an independently validated programme"
 confidence: "provisional for application"
-stage_titles: ["Stage1 Identify the knowledge change", "Stage2 Review evidence and downstream consequences", "Stage3 Write and check locally complete knowledge", "Stage4 Publish for review and preserve authority"]
+stage_titles: ["Stage1 Identify the knowledge change", "Stage2 Review evidence and downstream consequences", "Stage3 Write and check locally complete knowledge", "Stage4 Validate publish and preserve authority"]
 practice_format: "staged-inline-local-v1"
-uses_methods: ["ti:me:review-and-revise-knowledge", "ti:me:synthesize-claim-relevant-sources", "ti:me:write-an-insight-record"]
+uses_methods: ["ti:me:5w2h", "ti:me:structured-literature-review"]
 uses_models: ["ti:mo:claim-evidence-inference-model", "ti:mo:insight-learning-cycle"]
-references: ["ti:r:kps-undated-authoring-contract-9x", "ti:r:w3c-2013-prov-overview", "ti:r:li-2019-collecting-data-cochrane"]
+references: ["ti:r:ahrq-undated-5w2h", "ti:r:kps-undated-authoring-contract-9x", "ti:r:li-2019-collecting-data-cochrane", "ti:r:w3c-2013-prov-overview"]
 ---
 
 # Maintain technical insight knowledge
@@ -24,6 +24,12 @@ Keep the knowledge and its uses consistent when evidence, context or interpretat
 
 This Practice uses KPS to maintain Technical Insight KPS itself. It turns evidence and application feedback into reviewed changes, keeps source identity and inference separate, and publishes through the authorized PR-or-ZIP workflow.
 
+
+## Established techniques used
+
+[5W2H](../methods/5w2h.md), [Structured literature review](../methods/structured-literature-review.md). These supply repeatable techniques; the stage order, handoffs and decisions below are our authored Practice, not an official combined method.
+
+
 ## Goal and prerequisites
 
 Bring a specific correction, new finding or actual use record. The current domain is independent of KPS Core and does not redefine its authoring contract. No real investigation results are prefilled.
@@ -35,7 +41,7 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 1. [Stage1 Identify the knowledge change](#stage1-identify-the-knowledge-change)
 2. [Stage2 Review evidence and downstream consequences](#stage2-review-evidence-and-downstream-consequences)
 3. [Stage3 Write and check locally complete knowledge](#stage3-write-and-check-locally-complete-knowledge)
-4. [Stage4 Publish for review and preserve authority](#stage4-publish-for-review-and-preserve-authority)
+4. [Stage4 Validate publish and preserve authority](#stage4-validate-publish-and-preserve-authority)
 
 ## Stage1 Identify the knowledge change
 
@@ -62,6 +68,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 
 **Fallback and stopping:** Do not use this workflow to silently change the core authoring contract or introduce a sixth knowledge type.
 
+**Capture before formalization.** Use 5W2H only to fill decision-critical context. Separate a dated observation, source quotation or paraphrase, working hypothesis, calculation and decision. The five KPS roles classify reusable knowledge; actual project records are not automatically new Concepts or Principles.
+
 ## Stage2 Review evidence and downstream consequences
 
 **Goal:** Understand which explanations and applications must change.
@@ -86,6 +94,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 4. Check whether the revision changes applicability or merely improves wording.
 
 **Fallback and stopping:** Never refresh hashes merely to silence a stale-summary error. Unresolved scientific disagreement stays visible.
+
+**Review the claim rather than count citations.** Use structured literature review when external evidence matters. Keep source families, access limits, contrary findings and our inference visible. A familiar technique may still be inapplicable; assess the original scope and which downstream summaries depend on the changed condition.
 
 ## Stage3 Write and check locally complete knowledge
 
@@ -112,7 +122,9 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 
 **Fallback and stopping:** A passing validator cannot approve factual accuracy, usability, safety or novelty. Seek expert review when those are material.
 
-## Stage4 Publish for review and preserve authority
+**Apply the established Method policy.** A new Method must name a recognized technique, inspected source and supported procedure. Local examples, cautions and worksheets are exposition, not claims of invention. Put custom end-to-end sequencing, decisions and record keeping in Practices. Hide links to test local usability, then check faithfulness against canonical depth. Stage headings use Stage1, Stage2 and complete matching fragments; metadata identity is not an anchor.
+
+## Stage4 Validate publish and preserve authority
 
 **Goal:** Deliver a traceable version without bypassing approval.
 
@@ -131,11 +143,13 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 **Procedure**
 
 1. Use the existing repository state as the base when a matching repository is available; preserve unrelated work and license.
-2. Create a bounded branch and ready-for-review PR, leaving merge/tag/release to the owner.
+2. Create one branch and PR directly to main. For an explicitly authorized automatic-publication task, merge after required checks; otherwise follow the owner's stated authority. Do not create tags or official releases unless requested, and report unavailable write capability honestly.
 3. Otherwise package the independently usable Markdown domain with references, tooling and checksums.
 4. State the exact verification completed, unresolved limits and publication status. Never claim an operation that was not performed.
 
 **Fallback and stopping:** If the repository or permissions cannot be verified, do not force a write or substitute another repository. Provide the package and explain the boundary.
+
+**Knowledge first publication.** Prepare one coherent change and run structure, links, typed relationships and regression checks. Refresh dependency hashes only after reviewing affected summaries, then rebuild the manifest. With user authorization, create one PR to main and merge after required checks without an extra ceremony. If the current connection lacks write capability, deliver the validated package and record that GitHub was not changed. Do not stack PRs, bypass branch protections or claim a merge that was not observed.
 
 ## Troubleshooting
 
@@ -163,9 +177,9 @@ No real investigation results are supplied in this publication. Fill this sectio
 
 The essential explanation or procedure is above. These links provide reusable detail and source inspection.
 
-- [Review and revise knowledge](../methods/review-and-revise-knowledge.md)
-- [Synthesize claim relevant sources](../methods/synthesize-claim-relevant-sources.md)
-- [Write an insight record](../methods/write-an-insight-record.md)
+- [Review and revise knowledge in the Practice](../practices/maintain-technical-insight-knowledge.md#stage2-review-evidence-and-downstream-consequences)
+- [Synthesize claim relevant sources in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage3-find-the-knowledge-the-question-needs)
+- [Write an insight record in the Practice](../practices/maintain-technical-insight-knowledge.md#stage1-identify-the-knowledge-change)
 - [Claim evidence and inference model](../models/claim-evidence-inference-model.md)
 - [Insight learning cycle](../models/insight-learning-cycle.md)
 

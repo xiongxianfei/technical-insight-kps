@@ -1,51 +1,51 @@
 ---
+language: "KPS 9.x"
+reviewed: "2026-10-08"
 id: "ti:r:oxford-creativity-undated-triz-glossary"
 type: "reference"
-version: "1.1.0"
-language: "KPS 9.x"
+version: "2.0.0"
 status: "active"
-reviewed: "2026-10-08"
 source_title: "Oxford Creativity TRIZ glossary"
 creators: ["Oxford Creativity"]
-source_type: "primary public guidance"
+source_type: "primary guidance or documentation"
 publication_year: null
-date_basis: "No reliable publication date on the inspected page; access date is not publication date"
 url: "https://www.triz.co.uk/glossary"
 accessed: "2026-10-08"
-access_extent: "Selected public HTML sections inspected"
-evidence_family: "oxford-creativity-triz-guidance"
+access_extent: "Existing reference and located extracted contribution inspected; no new full page review claimed"
+evidence_family: "Oxford Creativity"
 ---
 
 # Oxford Creativity TRIZ glossary
 
 ## Key takeaway
 
-The glossary describes technical and physical contradictions and separation by time, space, condition and scale as routes for generating solution ideas.
+The glossary distinguishes property tradeoffs from opposing requirements for a property and describes separation prompts.
 
 ## Summary
 
-This record identifies the source contribution and inspection boundary. It is not evidence that the complete Technical Insight KPS workflow improves outcomes.
+This is a source record, not our preferred conclusion. It identifies the source contribution, inspected extent and the boundary of use.
 
 ## Source identity
 
-**Creator:** Oxford Creativity
+**Creator:** Oxford Creativity  
+**Date basis:** No verified publication year; accessed date is not a publication date.
 
-**Publication date basis:** No reliable publication date on the inspected page; access date is not publication date
-
-[External publication](https://www.triz.co.uk/glossary)
+[External source](https://www.triz.co.uk/glossary)
 
 ## Inspection extent
 
-Selected public HTML sections inspected. Accessed 2026-10-08. Locator: Technical Contradiction; Physical Contradiction; Separation Principles and the four following entries.
+Existing reference and located extracted contribution inspected; no new full page review claimed. Inspection date: 2026-10-08. **Locator:** Technical Contradiction; Physical Contradiction; Separation Principles.
 
 ## Claim contribution
 
-The glossary describes technical and physical contradictions and separation by time, space, condition and scale as routes for generating solution ideas.
+The glossary distinguishes property tradeoffs from opposing requirements for a property and describes separation prompts.
 
 ## Role and independence
 
-This is first-party documentation of the stated subject, not an independent evaluation of this KPS adaptation. Evidence family: oxford-creativity-triz-guidance. Other pages restating this publication do not provide independent confirmation.
+This first-party source identifies the technique or framework. It does not independently evaluate this KPS workflow. Documents from the same organization or repeating the same underlying source are not automatically independent evidence. Our engineering examples, worksheets and stopping decisions are authored application, not quotations from the source.
 
 ## Limits and nonclaims
 
-This is a commercial training provider description. Universal claims about complete solution lists or guaranteed innovation are not adopted here. Its overlap with MATRIZ reflects shared TRIZ concepts, not independent empirical confirmation. Named inventive principles are solution heuristics, not KPS scientific Principles.
+This is a training-provider description, not empirical proof of effectiveness; it shares TRIZ foundations with MATRIZ rather than providing independent confirmation.
+
+Source identity establishes provenance, not truth. Claims must retain their original context. External publications are not relicensed by this repository and their full text is not bundled.

@@ -1,17 +1,17 @@
 ---
 id: "ti:pr:assess-a-technical-claim"
 type: "practice"
-version: "1.0.0"
+version: "2.0.0"
 language: "KPS 9.x"
 status: "active"
-reviewed: "2026-10-07"
-basis_kind: "authored operational synthesis; no field effectiveness study"
+reviewed: "2026-10-08"
+basis_kind: "authored Practice integrating established techniques; not an independently validated programme"
 confidence: "provisional for application"
 stage_titles: ["Stage1 Extract the exact claim", "Stage2 Inspect sources and independence", "Stage3 Reconstruct the argument", "Stage4 Challenge the consequential uncertainty", "Stage5 Publish the judgment with boundaries"]
 practice_format: "staged-inline-local-v1"
-uses_methods: ["ti:me:synthesize-claim-relevant-sources", "ti:me:audit-an-observation", "ti:me:challenge-and-replicate-an-explanation", "ti:me:evaluate-results-and-uncertainty"]
+uses_methods: ["ti:me:5w2h", "ti:me:structured-literature-review", "ti:me:hypothesis-driven-analysis", "ti:me:measurement-uncertainty-budget", "ti:me:sensitivity-analysis", "ti:me:statistical-hypothesis-testing", "ti:me:design-of-experiments"]
 uses_models: ["ti:mo:claim-evidence-inference-model"]
-references: ["ti:r:li-2019-collecting-data-cochrane", "ti:r:pearl-2009-causal-inference-in-statistics", "ti:r:nist-undated-model-fit-and-residuals", "ti:r:sandve-2013-reproducible-computational-research"]
+references: ["ti:r:ahrq-undated-5w2h", "ti:r:bain-undated-case-interview-preparation", "ti:r:li-2019-collecting-data-cochrane", "ti:r:nasa-7009b-2024-models-and-simulations", "ti:r:nasa-undated-decision-analysis", "ti:r:nist-undated-experimental-design-handbook", "ti:r:nist-undated-hypothesis-tests", "ti:r:nist-undated-measurement-uncertainty", "ti:r:nist-undated-model-fit-and-residuals", "ti:r:pearl-2009-causal-inference-in-statistics", "ti:r:sandve-2013-reproducible-computational-research", "ti:r:w3c-2013-prov-overview"]
 ---
 
 # Assess a technical claim
@@ -23,6 +23,12 @@ Evaluate the exact claim and its supporting chain before adopting the conclusion
 ## Summary
 
 Use this for a paper, product claim, AI explanation, internal analysis or existing knowledge object. It distinguishes source quality, evidence independence, inference quality and relevance to the intended use. An honest result may be a narrowed or unresolved claim.
+
+
+## Established techniques used
+
+[5W2H](../methods/5w2h.md), [Structured literature review](../methods/structured-literature-review.md), [Hypothesis driven analysis](../methods/hypothesis-driven-analysis.md), [Measurement uncertainty budget](../methods/measurement-uncertainty-budget.md), [Sensitivity analysis](../methods/sensitivity-analysis.md), [Statistical hypothesis testing](../methods/statistical-hypothesis-testing.md), [Design of experiments](../methods/design-of-experiments.md). These supply repeatable techniques; the stage order, handoffs and decisions below are our authored Practice, not an official combined method.
+
 
 ## Goal and prerequisites
 
@@ -63,6 +69,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 
 **Fallback and stopping:** Do not silently strengthen or repair the source. Mark an ambiguous claim as ambiguous until clarified.
 
+**5W2H application.** Extract the exact statement, claimant, intended population/system, timing, environment, outcome measure and claimed magnitude. Why may mean the claim's relevance or its asserted cause; distinguish them. Record unspecified comparisons rather than quietly supplying an easier claim to test.
+
 ## Stage2 Inspect sources and independence
 
 **Goal:** Find what evidence was actually supplied.
@@ -87,6 +95,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 4. Seek a materially independent challenge or boundary case when the claim warrants it.
 
 **Fallback and stopping:** Use abstract-level support only for what the abstract says. Do not pretend inaccessible evidence resolves a disputed detail.
+
+**Structured review application.** Trace summaries to original work. Record search boundary, selection reasons, study/report families, actual access extent and evidence limitations. A reference confirms the origin of a statement, not its truth. A negative result and an unsearched area are different entries.
 
 ## Stage3 Reconstruct the argument
 
@@ -113,6 +123,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 
 **Fallback and stopping:** If the argument cannot be reconstructed, do not fill it with a more sophisticated story and attribute that story to the source.
 
+**Hypothesis-driven analysis application.** Write premises, modeling assumptions and inference as distinct statements. Compare the proposed explanation with a rival mechanism and an observation artifact. Check units, boundary conditions and a limiting case. Retain an incomplete argument as incomplete rather than repairing it and attributing the repair to the source.
+
 ## Stage4 Challenge the consequential uncertainty
 
 **Goal:** Check the part most likely to change the verdict.
@@ -138,6 +150,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 
 **Fallback and stopping:** If testing is unavailable, report an evidence gap rather than simulate a favourable real result.
 
+**DOE, uncertainty and sensitivity application.** Select a check that can distinguish the important alternatives, not simply reproduce a convenient number. Preserve independent-unit and measurement assumptions. Report effect sizes and intervals when supported; statistical significance is not practical importance or causality. If safe intervention is unavailable, document that limitation rather than inventing a result.
+
 ## Stage5 Publish the judgment with boundaries
 
 **Goal:** Communicate what is supported and what is not.
@@ -162,6 +176,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 4. Update downstream summaries and reference records without disguising the review as a full systematic review.
 
 **Fallback and stopping:** Do not create a numerical confidence score without an explicit justified model. Keep judgment and approval distinct.
+
+**Judgment record.** State supported, contradicted or unresolved components separately. Distinguish a statistical finding, a causal account, source access, applicability and a recommended action. Record what changed relative to the prior assessment and the evidence needed to revise the conclusion. This combination of Methods and documentation is our Practice.
 
 ## Troubleshooting
 
@@ -189,10 +205,10 @@ No real investigation results are supplied in this publication. Fill this sectio
 
 The essential explanation or procedure is above. These links provide reusable detail and source inspection.
 
-- [Synthesize claim relevant sources](../methods/synthesize-claim-relevant-sources.md)
-- [Audit an observation](../methods/audit-an-observation.md)
-- [Challenge and replicate an explanation](../methods/challenge-and-replicate-an-explanation.md)
-- [Evaluate results and uncertainty](../methods/evaluate-results-and-uncertainty.md)
+- [Synthesize claim relevant sources in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage3-find-the-knowledge-the-question-needs)
+- [Audit an observation in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage2-audit-the-evidence-before-the-story)
+- [Challenge and replicate an explanation in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage7-evaluate-the-explanation-and-its-limits)
+- [Evaluate results and uncertainty in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage7-evaluate-the-explanation-and-its-limits)
 - [Claim evidence and inference model](../models/claim-evidence-inference-model.md)
 
 - [Cochrane collecting data guidance](../references/li-2019-collecting-data-cochrane.md)

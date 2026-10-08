@@ -1,43 +1,45 @@
 ---
-package_version: "1.0.0"
 language: "KPS 9.x"
-reviewed: "2026-10-07"
+reviewed: "2026-10-08"
+package_version: "2.0.0"
 ---
 
-# Source review
+# Source review for the established Method transition
 
 ## Key takeaway
 
-Source access and evidence independence are recorded explicitly rather than inferred from a citation.
+Preserve what a source actually supports and distinguish named technique guidance from our engineering application.
 
 ## Summary
 
-Review date: 7 October 2026. The sources below were selected for specific engineering-method claims. This is a claim-driven desk review, not a systematic or exhaustive survey of engineering science. Where only selected sections were read, the record says so.
+This refactor combines prior inspected source records with newly inspected public technique guidance. The established name is not treated as evidence of universal efficacy. No source is claimed to validate the entire Technical Insight KPS workflow.
 
-## Inspected sources
+## Inspection boundaries
 
-| Record | Evidence role | Inspected extent |
+The eleven original Reference records preserve their earlier access notes; they are not all presented as freshly inspected full texts. The added technique and intelligence records identify the public pages or selected PDF sections examined for this refactor. WIPO inspection used selected text in sections 8.1 to 8.3 and a contents screenshot, not a full-report audit. Oxford Creativity retains its located prior extraction and is not presented as a new full-page inspection.
+
+## Claim to source roles
+
+| Claim or role | Source basis | What is not established |
 |---|---|---|
-| [Causal inference in statistics An overview](references/pearl-2009-causal-inference-in-statistics.md) | Theory of causal reasoning | Selected full-text PDF sections: abstract, Sections 2.1 through 2.4 and 3.1 through 3.2; page 99 visually inspected. Not a full review of all 51 pages. |
-| [NIST experimental design guidance](references/nist-undated-experimental-design-handbook.md) | Experimental design guidance | Selected official HTML sections inspected: design selection, randomized block designs, two-level full factorial designs and DOE glossary. |
-| [NIST essentials of measurement uncertainty](references/nist-undated-measurement-uncertainty.md) | Measurement concepts and evaluation basis | Basic definitions page inspected in full: measurement equation, input quantities, uncertainty components and Type A/Type B evaluation. |
-| [NIST model fit and residual analysis](references/nist-undated-model-fit-and-residuals.md) | Model evaluation guidance | Selected HTML prose inspected: R squared limitations, residual definition and interpretation. The example dataset was not reused. |
-| [NASA standard for models and simulations](references/nasa-7009b-2024-models-and-simulations.md) | Model credibility and scope guidance | Selected PDF sections inspected: definitions, 4.1.1, 4.2.1 and 4.2.3 through 4.2.7; PDF page 29 visually inspected. No claim of full clause-level conformance. |
-| [NASA decision analysis guidance](references/nasa-undated-decision-analysis.md) | Decision reasoning and stopping guidance | Selected official HTML text inspected: 6.8.1, inputs, defining criteria, alternatives and discussion of reducing decision-relevant uncertainty. |
-| [Reproducible computational research](references/sandve-2013-reproducible-computational-research.md) | Reproducible analysis and reporting guidance | Publisher HTML inspected, especially Rules 1–3 and 9–10, introduction and publication metadata. |
-| [W3C provenance overview](references/w3c-2013-prov-overview.md) | Provenance vocabulary | Dated overview inspected: abstract, document status, introduction and document roadmap. |
-| [Cochrane collecting data guidance](references/li-2019-collecting-data-cochrane.md) | Source synthesis and scope guidance | Chapter citation, key points, 5.2.1, 5.3.3 and 5.3.4.1 inspected; no comprehensive review of all chapters. |
-| [OpenStax heat capacity and heat transfer](references/openstax-2016-university-physics-heat-transfer.md) | Physical basis for the illustrative thermal example | Selected HTML prose and equations inspected: heat capacity, temperature change and mechanisms of heat transfer. No textbook tables copied. |
-| [KPS authoring contract](references/kps-undated-authoring-contract-9x.md) | Authoring compatibility authority | Full AUTHORING.md read through connected GitHub; matching local bytes verified by Git blob hash. Validator and regression tests inspected at the same commit. |
+| 5W2H prompts and use | AHRQ workflow tool | Causes or universal effectiveness |
+| Five Whys, Fishbone, SIPOC, FMEA, Pareto | ASQ public quality resources | A sector-specific compliance process or validated local diagnosis |
+| Pugh and weighted matrix variants | ASQ and NASA decision analysis | A universal optimal choice |
+| Radial plotting | Official Matplotlib example | Polygon area as utility or visualization superiority |
+| DOE and statistical reasoning | NIST public handbook | Automatic test selection or causation from arbitrary observations |
+| Measurement uncertainty | NIST reference | All errors captured or every nonlinear case covered |
+| Structured evidence review | Cochrane extraction and provenance guidance | A full systematic review by default |
+| Hypothesis structuring | Bain public guidance and NASA reasoning | Official Bain engineering specification or endorsement |
+| Scanning and roadmapping | UK Futures Toolkit and IfM public overview | Forecast accuracy or guaranteed milestone dates |
+| Readiness | NASA levels and demonstrations | Commercial value or operational safety |
+| Patent landscape | WIPO and EPO | Legal clearance or exhaustive novelty search |
+| Research proposal review | DARPA Heilmeier questions | Funding eligibility or feasibility |
+| TRIZ and morphology | MATRIZ, Oxford Creativity and Ritchey | Guaranteed invention or a complete proprietary curriculum |
 
-## Source selection and limits
+## Synthesis boundaries
 
-Pearl supplies causal-inference theory; NIST supplies metrology and experimental/model-assessment guidance; NASA supplies model-credibility and decision-analysis guidance. Sandve and W3C contribute reproducibility/provenance distinctions; Cochrane contributes source-family and extraction concepts adapted from healthcare reviews. OpenStax supports the physics premises of a synthetic example.
+The source-backed technique is separated from our worked examples, worksheets, checking questions and decisions. Multiple pages from one organization or descriptions of the same tradition are not independent efficacy studies. Domain-specific adaptations require evidence and expert judgment where consequences are material.
 
-The two NIST handbook records share one evidence family. Several pages or NASA sections are not independent field replications. KPS Core is authoring authority, not evidence of effectiveness. No source directly evaluates this complete package.
+## External material and privacy
 
-## Access fidelity
-
-Selected primary PDFs were inspected as text and selected pages visually checked. Only Markdown bibliographic/contribution records are distributed. No full publications, external diagrams or original datasets are reproduced.
-
-The local examples and workflow steps are authored and labelled as such. Source support does not automatically validate an implementation, quantify a probability or establish applicability to a hazardous target.
+Only Reference records and our exposition are bundled. No full external book, standards text, proprietary matrix, personal field data or hidden credentials are included. [Third party notices](THIRD-PARTY-NOTICES.md) and [Boundaries](BOUNDARIES.md) remain applicable.

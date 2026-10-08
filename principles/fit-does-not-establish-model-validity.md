@@ -9,7 +9,7 @@ basis_kind: "explanatory synthesis with source premises and inference separated"
 confidence: "scope dependent; application requires evaluation"
 level: "domain"
 uses_models: ["ti:mo:model-validity-envelope"]
-uses_methods: ["ti:me:evaluate-results-and-uncertainty"]
+uses_methods: ["ti:me:statistical-hypothesis-testing", "ti:me:measurement-uncertainty-budget", "ti:me:sensitivity-analysis"]
 references: ["ti:r:nist-undated-model-fit-and-residuals", "ti:r:nasa-7009b-2024-models-and-simulations"]
 ---
 
@@ -48,7 +48,7 @@ A predictive black box can be adequate for a bounded use without revealing the t
 The essential explanation or procedure is above. These links provide reusable detail and source inspection.
 
 - [Model validity envelope](../models/model-validity-envelope.md)
-- [Evaluate results and uncertainty](../methods/evaluate-results-and-uncertainty.md)
+- [Evaluate results and uncertainty in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage7-evaluate-the-explanation-and-its-limits)
 
 - [NIST model fit and residual analysis](../references/nist-undated-model-fit-and-residuals.md)
 - [NASA standard for models and simulations](../references/nasa-7009b-2024-models-and-simulations.md)

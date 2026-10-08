@@ -9,7 +9,7 @@ basis_kind: "explanatory synthesis with source premises and inference separated"
 confidence: "scope dependent; application requires evaluation"
 level: "domain"
 uses_models: ["ti:mo:model-validity-envelope"]
-uses_methods: ["ti:me:assess-transfer-to-a-new-context"]
+uses_methods: ["ti:me:technology-readiness-assessment", "ti:me:sensitivity-analysis"]
 references: ["ti:r:nasa-7009b-2024-models-and-simulations"]
 ---
 
@@ -48,7 +48,7 @@ The principle is not a demand to repeat all evidence for every tiny change. Comp
 The essential explanation or procedure is above. These links provide reusable detail and source inspection.
 
 - [Model validity envelope](../models/model-validity-envelope.md)
-- [Assess transfer to a new context](../methods/assess-transfer-to-a-new-context.md)
+- [Assess transfer to a new context in the Practice](../practices/apply-and-transfer-an-insight.md#stage2-map-preserved-changed-and-unknown-assumptions)
 
 - [NASA standard for models and simulations](../references/nasa-7009b-2024-models-and-simulations.md)
 

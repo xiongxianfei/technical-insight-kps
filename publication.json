@@ -1,12 +1,15 @@
 {
   "name": "Technical Insight KPS",
-  "package_version": "1.1.0",
+  "package_version": "2.0.0",
   "kps_language": "9.x",
   "validated_with": "9.0.1",
   "markdown_profile": "practical-markdown-v1",
   "authoring_commit": "60972c57199ae8bc21d4b7a00ac55552b4105277",
-  "publication_mode": "github-ready-review-pr",
+  "publication_mode": "repository-pr-managed",
   "created": "2026-10-07",
-  "scope": "domain independent technical investigation and technology intelligence methodology",
-  "no_real_experimental_results": true
+  "scope": "technical investigation and technology intelligence using established Methods and authored Practices",
+  "no_real_experimental_results": true,
+  "base_commit": "85a92fdd39453a0de670cbfeadea85f237acc749",
+  "method_policy": "established-techniques",
+  "reviewed": "2026-10-08"
 }

@@ -1,51 +1,51 @@
 ---
+language: "KPS 9.x"
+reviewed: "2026-10-08"
 id: "ti:r:government-office-for-science-2024-futures-toolkit"
 type: "reference"
-version: "1.1.0"
-language: "KPS 9.x"
+version: "2.0.0"
 status: "active"
-reviewed: "2026-10-08"
-source_title: "Government Office for Science Futures Toolkit"
+source_title: "The Futures Toolkit"
 creators: ["UK Government Office for Science"]
-source_type: "primary public guidance"
+source_type: "primary guidance or documentation"
 publication_year: 2024
-date_basis: "Updated edition dated 29 August 2024; the collection first appeared in 2014"
 url: "https://www.gov.uk/government/publications/futures-toolkit-for-policy-makers-and-analysts/the-futures-toolkit-html"
 accessed: "2026-10-08"
-access_extent: "Selected public HTML sections inspected"
-evidence_family: "uk-government-futures-toolkit"
+access_extent: "Public HTML text at the named sections inspected in this authoring session"
+evidence_family: "UK Government Office for Science"
 ---
 
-# Government Office for Science Futures Toolkit
+# The Futures Toolkit
 
 ## Key takeaway
 
-The toolkit describes horizon scanning as a scoped search for change signals, scenarios as alternative futures rather than predictions, and roadmapping as staged connections between a goal and developments.
+The toolkit provides scoped scanning and participatory futures methods, including roadmaps.
 
 ## Summary
 
-This record identifies the source contribution and inspection boundary. It is not evidence that the complete Technical Insight KPS workflow improves outcomes.
+This is a source record, not our preferred conclusion. It identifies the source contribution, inspected extent and the boundary of use.
 
 ## Source identity
 
-**Creator:** UK Government Office for Science
+**Creator:** UK Government Office for Science  
+**Date basis:** The publication or page identifies 2024.
 
-**Publication date basis:** Updated edition dated 29 August 2024; the collection first appeared in 2014
-
-[External publication](https://www.gov.uk/government/publications/futures-toolkit-for-policy-makers-and-analysts/the-futures-toolkit-html)
+[External source](https://www.gov.uk/government/publications/futures-toolkit-for-policy-makers-and-analysts/the-futures-toolkit-html)
 
 ## Inspection extent
 
-Selected public HTML sections inspected. Accessed 2026-10-08. Locator: Horizon scanning; Scenarios; Roadmapping.
+Public HTML text at the named sections inspected in this authoring session. Inspection date: 2026-10-08. **Locator:** Horizon scanning; Roadmapping.
 
 ## Claim contribution
 
-The toolkit describes horizon scanning as a scoped search for change signals, scenarios as alternative futures rather than predictions, and roadmapping as staged connections between a goal and developments.
+The toolkit provides scoped scanning and participatory futures methods, including roadmaps.
 
 ## Role and independence
 
-This is first-party documentation of the stated subject, not an independent evaluation of this KPS adaptation. Evidence family: uk-government-futures-toolkit. Other pages restating this publication do not provide independent confirmation.
+This first-party source identifies the technique or framework. It does not independently evaluate this KPS workflow. Documents from the same organization or repeating the same underlying source are not automatically independent evidence. Our engineering examples, worksheets and stopping decisions are authored application, not quotations from the source.
 
 ## Limits and nonclaims
 
-The source is foresight guidance for policy work. It does not make a signal a forecast, assign reliable probabilities to scenarios, or demonstrate the efficacy of this KPS engineering adaptation. Its facilitated workshop sizes and suggested output counts are not mandatory here.
+Foresight explores possible futures; a scenario or roadmap is not a reliable forecast merely because it is documented.
+
+Source identity establishes provenance, not truth. Claims must retain their original context. External publications are not relicensed by this repository and their full text is not bundled.

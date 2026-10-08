@@ -1,36 +1,37 @@
 ---
-package_version: "1.1.0"
 language: "KPS 9.x"
 reviewed: "2026-10-08"
+package_version: "2.0.0"
 ---
 
-# Integrated technical investigation and intelligence routes
+# Integrated Practice routes
 
 ## Key takeaway
 
-Choose a self-contained Practice by the question and evidence gap, not by the name of a famous framework.
+Established Methods supply techniques while Practices own their selection, sequencing and decisions.
 
 ## Summary
 
-Two existing Practices are now integrated end to end. The investigation route uses bounded questions, structured rival hypotheses and engineering evidence. The technology intelligence route connects emerging signals, technology landscapes, readiness, inventive alternatives and conditional research decisions. Neither route requires new software or assumes that an analytical tool proves a technical claim.
+The five existing Practice identities remain the main routes. They are not replaced with a second parallel set of wrappers. Their stages contain the essential reasoning, concrete techniques, procedures, observations and fallbacks inline.
 
-## Select the route
+## Route by the actual question
 
-| Current question | Practice | Expected qualified output |
+| Question | Practice | Main established techniques |
 |---|---|---|
-| Why does this technical behavior occur | [Discover and validate a technical insight](practices/discover-and-validate-a-technical-insight.md) | Scoped explanations, rival predictions, counterevidence and authorized decisions |
-| Which technology or research opportunity warrants action | [Investigate a technical opportunity](practices/investigate-a-technical-opportunity.md) | Dated scouting evidence, maturity gaps, falsifiable milestones and fallback roadmap |
-| Does a specific source claim hold | [Assess a technical claim](practices/assess-a-technical-claim.md) | Located premises, uncertainties and evidence limits |
-| Can a finding be used elsewhere | [Apply and transfer an insight](practices/apply-and-transfer-an-insight.md) | Target-context boundary and decision conditions |
+| Why does a technical behavior occur | [Investigation](practices/discover-and-validate-a-technical-insight.md) | 5W2H, SIPOC, hypotheses, Fishbone, Five Whys, DOE, uncertainty |
+| Which technology deserves further work | [Opportunity](practices/investigate-a-technical-opportunity.md) | Scanning, literature, patents, TRL, TRIZ, morphology, Heilmeier, decision matrices, roadmapping |
+| Does a source claim hold | [Claim assessment](practices/assess-a-technical-claim.md) | Structured review, hypothesis comparison, sensitivity and appropriate tests |
+| Can a finding be used elsewhere | [Transfer](practices/apply-and-transfer-an-insight.md) | 5W2H, SIPOC, readiness, FMEA, Pugh and controlled evaluation |
+| How do we retain and update learning | [Maintenance](practices/maintain-technical-insight-knowledge.md) | Evidence review plus our KPS authoring and publication workflow |
 
-## How the routes connect
+## Handoffs without invented certainty
 
-If scouting yields a disputed performance or mechanism claim, move that claim into hypothesis investigation with its original source, alternative explanation and context. When an investigation uncovers an unmet capability rather than an isolated cause, move its bounded need and uncertainty into scouting. Carry only what was observed and justified, not a stronger claim from the handoff.
+A technology signal carries its exact source, date and scope into investigation when performance or mechanism is disputed. An investigation can expose a new capability need that warrants scanning. At either handoff preserve observations, proposed tests, actual results, assumptions and decision preferences as different things.
 
-## Choose a supporting method
+## Reading order and file boundaries
 
-The [Method selection map](METHOD-MAP.md) links individual Methods to questions. Bain-inspired decomposition organizes questions but does not prove causality. DARPA Heilmeier-inspired evaluation challenges a research proposal but does not establish feasibility. TRIZ-inspired contradiction exploration generates candidate mechanisms requiring tests. Context-specific TRL assessment is not an adoption recommendation. Conditional roadmaps describe decisions under future evidence, not predictions of inevitable success.
+Stage numbers show recommended order. Prerequisites and authorization are real dependencies. A stage stays in its Practice file unless size and reuse genuinely require separation. A Method is optional depth, not a link the user must open to understand the immediate stage.
 
-## Worked example and limits
+## Limits and example
 
-See the [Synthetic technology opportunity example](INTEGRATED-EXAMPLE.md) for a full handoff, hypothesis comparison and gated roadmap. It reports no actual field observation. Real investigations need appropriate source access, engineering expertise, authority, safety review and documented results.
+An attractive framework does not establish a technical claim. [INTEGRATED EXAMPLE](INTEGRATED-EXAMPLE.md) shows a synthetic route; [METHOD MAP](METHOD-MAP.md) selects the relevant technique without requiring the full catalogue.

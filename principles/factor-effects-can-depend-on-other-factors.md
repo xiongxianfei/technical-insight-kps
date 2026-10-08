@@ -9,7 +9,7 @@ basis_kind: "explanatory synthesis with source premises and inference separated"
 confidence: "scope dependent; application requires evaluation"
 level: "domain"
 uses_models: ["ti:mo:hypothesis-prediction-matrix"]
-uses_methods: ["ti:me:design-a-discriminating-test"]
+uses_methods: ["ti:me:design-of-experiments", "ti:me:measurement-uncertainty-budget"]
 references: ["ti:r:nist-undated-experimental-design-handbook"]
 ---
 
@@ -48,7 +48,7 @@ Every possible interaction need not be tested. Select those material to the mech
 The essential explanation or procedure is above. These links provide reusable detail and source inspection.
 
 - [Hypothesis prediction matrix](../models/hypothesis-prediction-matrix.md)
-- [Design a discriminating test](../methods/design-a-discriminating-test.md)
+- [Design a discriminating test in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage5-design-a-discriminating-comparison)
 
 - [NIST experimental design guidance](../references/nist-undated-experimental-design-handbook.md)
 

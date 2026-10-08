@@ -9,7 +9,7 @@ basis_kind: "explanatory synthesis with source premises and inference separated"
 confidence: "scope dependent; application requires evaluation"
 level: "domain"
 uses_models: ["ti:mo:claim-evidence-inference-model"]
-uses_methods: ["ti:me:synthesize-claim-relevant-sources"]
+uses_methods: ["ti:me:structured-literature-review"]
 references: ["ti:r:li-2019-collecting-data-cochrane", "ti:r:w3c-2013-prov-overview"]
 ---
 
@@ -48,7 +48,7 @@ Independence is not binary: different analyses can reveal weaknesses in shared d
 The essential explanation or procedure is above. These links provide reusable detail and source inspection.
 
 - [Claim evidence and inference model](../models/claim-evidence-inference-model.md)
-- [Synthesize claim relevant sources](../methods/synthesize-claim-relevant-sources.md)
+- [Synthesize claim relevant sources in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage3-find-the-knowledge-the-question-needs)
 
 - [Cochrane collecting data guidance](../references/li-2019-collecting-data-cochrane.md)
 - [W3C provenance overview](../references/w3c-2013-prov-overview.md)

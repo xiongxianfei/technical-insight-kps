@@ -8,7 +8,7 @@ reviewed: "2026-10-07"
 basis_kind: "authored synthesis; evidence and inference distinguished"
 confidence: "scoped and revisable; not validated as a complete framework"
 uses_principles: ["ti:p:fit-does-not-establish-model-validity", "ti:p:validation-has-a-domain-of-applicability"]
-uses_methods: ["ti:me:challenge-and-replicate-an-explanation"]
+uses_methods: ["ti:me:design-of-experiments", "ti:me:sensitivity-analysis"]
 references: ["ti:r:nasa-7009b-2024-models-and-simulations", "ti:r:nist-undated-model-fit-and-residuals"]
 ---
 
@@ -62,7 +62,7 @@ The essential explanation or procedure is above. These links provide reusable de
 
 - [Fit does not establish model validity](../principles/fit-does-not-establish-model-validity.md)
 - [Validation has a domain of applicability](../principles/validation-has-a-domain-of-applicability.md)
-- [Challenge and replicate an explanation](../methods/challenge-and-replicate-an-explanation.md)
+- [Challenge and replicate an explanation in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage7-evaluate-the-explanation-and-its-limits)
 
 - [NASA standard for models and simulations](../references/nasa-7009b-2024-models-and-simulations.md)
 - [NIST model fit and residual analysis](../references/nist-undated-model-fit-and-residuals.md)

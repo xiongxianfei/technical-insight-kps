@@ -1,51 +1,51 @@
 ---
+language: "KPS 9.x"
+reviewed: "2026-10-08"
 id: "ti:r:epo-undated-patent-families"
 type: "reference"
-version: "1.1.0"
-language: "KPS 9.x"
+version: "2.0.0"
 status: "active"
-reviewed: "2026-10-08"
-source_title: "EPO patent families"
+source_title: "Patent families"
 creators: ["European Patent Office"]
-source_type: "primary public guidance"
+source_type: "primary guidance or documentation"
 publication_year: null
-date_basis: "No reliable publication date on the inspected page; access date is not publication date"
 url: "https://www.epo.org/en/searching-for-patents/helpful-resources/first-time-here/patent-families"
 accessed: "2026-10-08"
-access_extent: "Selected public HTML sections inspected"
-evidence_family: "epo-patent-family-documentation"
+access_extent: "Public HTML text at the named sections inspected in this authoring session"
+evidence_family: "European Patent Office"
 ---
 
-# EPO patent families
+# Patent families
 
 ## Key takeaway
 
-Patent families group applications linked through priority claims. DOCDB simple and INPADOC extended families use different grouping concepts, so databases can return different family memberships.
+Family definitions group related patent applications differently, affecting counting and interpretation.
 
 ## Summary
 
-This record identifies the source contribution and inspection boundary. It is not evidence that the complete Technical Insight KPS workflow improves outcomes.
+This is a source record, not our preferred conclusion. It identifies the source contribution, inspected extent and the boundary of use.
 
 ## Source identity
 
-**Creator:** European Patent Office
+**Creator:** European Patent Office  
+**Date basis:** No verified publication year; accessed date is not a publication date.
 
-**Publication date basis:** No reliable publication date on the inspected page; access date is not publication date
-
-[External publication](https://www.epo.org/en/searching-for-patents/helpful-resources/first-time-here/patent-families)
+[External source](https://www.epo.org/en/searching-for-patents/helpful-resources/first-time-here/patent-families)
 
 ## Inspection extent
 
-Selected public HTML sections inspected. Accessed 2026-10-08. Locator: Patent families; DOCDB simple patent family; INPADOC extended patent family.
+Public HTML text at the named sections inspected in this authoring session. Inspection date: 2026-10-08. **Locator:** Patent families; DOCDB simple and INPADOC extended.
 
 ## Claim contribution
 
-Patent families group applications linked through priority claims. DOCDB simple and INPADOC extended families use different grouping concepts, so databases can return different family memberships.
+Family definitions group related patent applications differently, affecting counting and interpretation.
 
 ## Role and independence
 
-This is first-party documentation of the stated subject, not an independent evaluation of this KPS adaptation. Evidence family: epo-patent-family-documentation. Other pages restating this publication do not provide independent confirmation.
+This first-party source identifies the technique or framework. It does not independently evaluate this KPS workflow. Documents from the same organization or repeating the same underlying source are not automatically independent evidence. Our engineering examples, worksheets and stopping decisions are authored application, not quotations from the source.
 
 ## Limits and nonclaims
 
-Family grouping is not technical maturity, validity of a patent, ownership verification or freedom to operate. This source does not establish a universal publication-count metric for innovation.
+A family count is not an invention quality score, market forecast or legal freedom-to-operate opinion.
+
+Source identity establishes provenance, not truth. Claims must retain their original context. External publications are not relicensed by this repository and their full text is not bundled.

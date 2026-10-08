@@ -1,51 +1,51 @@
 ---
+language: "KPS 9.x"
+reviewed: "2026-10-08"
 id: "ti:r:matriz-undated-contradictions"
 type: "reference"
-version: "1.1.0"
-language: "KPS 9.x"
+version: "2.0.0"
 status: "active"
-reviewed: "2026-10-08"
-source_title: "MATRIZ contradictions"
+source_title: "TRIZ glossary"
 creators: ["MATRIZ"]
-source_type: "primary public guidance"
+source_type: "primary guidance or documentation"
 publication_year: null
-date_basis: "No reliable publication date on the inspected page; access date is not publication date"
-url: "https://wiki.matriz.org/docs/triz/problem-solving-tools-5890/contradictions/"
+url: "https://wiki.matriz.org/docs/triz/glossary-6146/"
 accessed: "2026-10-08"
-access_extent: "Selected public HTML sections inspected"
-evidence_family: "matriz-triz-methodology"
+access_extent: "Public HTML text at the named sections inspected in this authoring session"
+evidence_family: "MATRIZ"
 ---
 
-# MATRIZ contradictions
+# TRIZ glossary
 
 ## Key takeaway
 
-MATRIZ distinguishes engineering contradictions, where improving one parameter worsens another, from physical contradictions, where one parameter faces justified opposing requirements.
+The glossary distinguishes TRIZ concepts used to formulate conflicts and seek inventive directions.
 
 ## Summary
 
-This record identifies the source contribution and inspection boundary. It is not evidence that the complete Technical Insight KPS workflow improves outcomes.
+This is a source record, not our preferred conclusion. It identifies the source contribution, inspected extent and the boundary of use.
 
 ## Source identity
 
-**Creator:** MATRIZ
+**Creator:** MATRIZ  
+**Date basis:** No verified publication year; accessed date is not a publication date.
 
-**Publication date basis:** No reliable publication date on the inspected page; access date is not publication date
-
-[External publication](https://wiki.matriz.org/docs/triz/problem-solving-tools-5890/contradictions/)
+[External source](https://wiki.matriz.org/docs/triz/glossary-6146/)
 
 ## Inspection extent
 
-Selected public HTML sections inspected. Accessed 2026-10-08. Locator: Overview; Relation between the engineering and physical contradiction; Resolving the contradictions.
+Public HTML text at the named sections inspected in this authoring session. Inspection date: 2026-10-08. **Locator:** Contradiction terms and TRIZ entries.
 
 ## Claim contribution
 
-MATRIZ distinguishes engineering contradictions, where improving one parameter worsens another, from physical contradictions, where one parameter faces justified opposing requirements.
+The glossary distinguishes TRIZ concepts used to formulate conflicts and seek inventive directions.
 
 ## Role and independence
 
-This is first-party documentation of the stated subject, not an independent evaluation of this KPS adaptation. Evidence family: matriz-triz-methodology. Other pages restating this publication do not provide independent confirmation.
+This first-party source identifies the technique or framework. It does not independently evaluate this KPS workflow. Documents from the same organization or repeating the same underlying source are not automatically independent evidence. Our engineering examples, worksheets and stopping decisions are authored application, not quotations from the source.
 
 ## Limits and nonclaims
 
-This is documentation of a TRIZ problem representation and solution-search approach. It is not an independent effectiveness study, a proof that a conflict is physically unavoidable, or evidence that a generated solution works. The full matrix and ARIZ procedure are not reproduced.
+An inventive principle is a heuristic, not an explanatory KPS Principle or a proof that a design works.
+
+Source identity establishes provenance, not truth. Claims must retain their original context. External publications are not relicensed by this repository and their full text is not bundled.

@@ -1,38 +1,35 @@
 ---
+language: "KPS 9.x"
+reviewed: "2026-10-08"
 id: "ti:c:technology-intelligence"
 type: "concept"
-version: "1.1.0"
-language: "KPS 9.x"
+version: "2.0.0"
 status: "active"
-reviewed: "2026-10-08"
-basis_kind: "authored working distinction"
-uses_models: ["ti:mo:question-and-system-boundary-model"]
+references: ["ti:r:government-office-for-science-2024-futures-toolkit", "ti:r:wipo-2015-patent-landscape-guidelines"]
 ---
 
 # Technology intelligence
 
 ## Key takeaway
 
-Technology intelligence connects signals about possible technologies to a specific engineering decision without treating attention as capability.
+Technology intelligence connects external technical signals to a defined decision.
 
 ## Summary
 
-Here, technology intelligence means a scoped, revisable assessment of technical alternatives, emerging evidence, maturity and opportunities. Technical investigation asks how a system behaves and which explanation is supported. Intelligence asks what may be available, useful or worth investigating next. They exchange questions rather than compete as workflows.
+It identifies emerging approaches, compares available evidence and clarifies opportunities under a stated search scope. A signal is a lead; evidence of successful use needs separate assessment.
 
-## Meaning and boundaries
+## Definition
 
-A signal is a reported event or change worth checking. A landscape compares candidate approaches under an explicit search scope. A maturity assessment examines demonstrated capability under a named framework and target environment. An opportunity is a possible valuable change with unresolved feasibility and adoption questions.
+Technology intelligence is the purposeful collection and interpretation of technical information to support an action or research decision. It can include scanning, literature and patent analysis, benchmarks and readiness assessment. Technical investigation instead asks why behavior occurs or whether a claim holds under specified conditions. The two activities feed one another.
 
-These are working KPS distinctions, not newly claimed universal terminology. A paper, patent or announcement can create a lead without demonstrating a working solution. A mature component can still be unsuitable for the system objective.
+## Example and boundary
 
-## Example
-
-A team needs lower peak temperature within a mass limit. Intelligence identifies passive storage, improved heat transfer and active cooling candidates. Investigation tests whether a candidate changes only the transient or also sustained performance. The result may change both the explanation and the shortlist.
+A battery announcement is a signal. A dated record of its test conditions is evidence. A decision to fund a temperature-specific prototype is an application choice. None is interchangeable with an independently demonstrated improvement in a product.
 
 ## Use and limits
 
-Record the decision, search boundary, assessment date, comparator and missing evidence. Keep observed demonstrations separate from forecasts. A domain-independent process still needs discipline-specific measurement, safety and professional judgment; it is not a substitute for them.
+Record the decision owner, time horizon, baseline, search sources and omissions. Separate novelty, feasibility, maturity and usefulness. A quiet search result can reflect missing coverage rather than absence of relevant work. Public patent and marketing information does not authorize implementation or reveal confidential competitor plans.
 
-## Deeper knowledge
+## Evidence and deeper knowledge
 
-[Question and system boundary](../models/question-and-system-boundary-model.md) explains the investigation boundary. [Routing model](../models/investigation-and-intelligence-routing-model.md) selects the next kind of work.
+The distinction is authored synthesis informed by [Futures Toolkit](../references/government-office-for-science-2024-futures-toolkit.md) and [patent landscape guidance](../references/wipo-2015-patent-landscape-guidelines.md), not a universal definition imposed by these sources.

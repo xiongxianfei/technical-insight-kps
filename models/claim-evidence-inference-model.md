@@ -8,7 +8,7 @@ reviewed: "2026-10-07"
 basis_kind: "authored synthesis; evidence and inference distinguished"
 confidence: "scoped and revisable; not validated as a complete framework"
 uses_principles: ["ti:p:repeated-reports-can-share-one-evidence-base", "ti:p:reproducibility-does-not-establish-correctness"]
-uses_methods: ["ti:me:synthesize-claim-relevant-sources"]
+uses_methods: ["ti:me:structured-literature-review"]
 references: ["ti:r:li-2019-collecting-data-cochrane", "ti:r:w3c-2013-prov-overview"]
 ---
 
@@ -65,7 +65,7 @@ The essential explanation or procedure is above. These links provide reusable de
 
 - [Repeated reports can share one evidence base](../principles/repeated-reports-can-share-one-evidence-base.md)
 - [Reproducibility does not establish correctness](../principles/reproducibility-does-not-establish-correctness.md)
-- [Synthesize claim relevant sources](../methods/synthesize-claim-relevant-sources.md)
+- [Synthesize claim relevant sources in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage3-find-the-knowledge-the-question-needs)
 
 - [Cochrane collecting data guidance](../references/li-2019-collecting-data-cochrane.md)
 - [W3C provenance overview](../references/w3c-2013-prov-overview.md)

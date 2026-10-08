@@ -1,11 +1,10 @@
 ---
+language: "KPS 9.x"
+reviewed: "2026-10-08"
 id: "ti:c:technology-readiness"
 type: "concept"
-version: "1.1.0"
-language: "KPS 9.x"
+version: "2.0.0"
 status: "active"
-reviewed: "2026-10-08"
-basis_kind: "authored distinction using NASA reference"
 references: ["ti:r:nasa-2023-technology-readiness-levels"]
 ---
 
@@ -13,26 +12,24 @@ references: ["ti:r:nasa-2023-technology-readiness-levels"]
 
 ## Key takeaway
 
-Readiness is a claim about demonstrated capability for a stated technology and environment, not a universal score of attractiveness.
+Readiness concerns demonstrated capability in a specified context, not general attractiveness.
 
 ## Summary
 
-A readiness assessment names the technology, intended use, framework and criteria, then maps evidence to those criteria. Technology readiness levels are one way to organize that assessment. A number without the evaluated configuration, environment and evidence is not an inspectable conclusion.
+A Technology Readiness Level summarizes evidence against an identified framework. The evaluated technology, configuration and relevant environment need to be named before assigning a level.
 
-## Meaning
+## Definition
 
-Distinguish a proposed mechanism, a proof of concept, component validation, a representative prototype and an integrated operational demonstration. NASA's public TRL description provides one nine-level aerospace example; it is not an automatic cross-industry certification.
-
-The target environment includes the stresses, scale, interfaces, users and operating conditions that matter to the claimed capability. A lab success can justify further work while leaving those conditions untested.
+Technology readiness describes how far a technology has been demonstrated toward the intended use. NASA uses nine levels, progressing from foundational observation toward successful operational use. Readiness is not the same as manufacturing readiness, business viability, certification or the suitability of a proposed application.
 
 ## Example
 
-A thermal material has measured properties in a small laboratory specimen. That evidence does not establish a maintainable cooling module at the target heat load. The difference is an integration and environment gap, not a reason to declare the material worthless or to invent a project-wide average TRL.
+A sensor algorithm demonstrated on stored laboratory traces may provide component evidence. It does not establish integrated field performance under intermittent communications. Missing artifact or environmental evidence should be recorded as unknown, not converted into an average of subsystem scores.
 
 ## Use and limits
 
-Record an assessment date and configuration. Mark a criterion supported, not supported or not assessed, with the actual source. Missing records are not the same as a demonstrated low capability. Do not average ordinal levels across unrelated components. Keep manufacturing, integration, operating cost and adoption questions explicit rather than hiding them in a maturity number.
+State the framework, assessed item, dated evidence, environment and missing demonstrations. Different frameworks can define levels differently. A TRL label copied from a vendor is a claim to inspect, not an automatically accepted fact.
 
-## Deeper knowledge
+## Evidence and deeper knowledge
 
-[NASA reference](../references/nasa-2023-technology-readiness-levels.md) supplies an aerospace scale. [Readiness evidence model](../models/readiness-evidence-model.md) organizes a context-specific assessment.
+[NASA TRL guidance](../references/nasa-2023-technology-readiness-levels.md) supplies the framework. [Readiness evidence model](../models/readiness-evidence-model.md) explains how this package records contextual claims.

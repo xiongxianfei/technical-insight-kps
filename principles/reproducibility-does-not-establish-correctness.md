@@ -8,8 +8,9 @@ reviewed: "2026-10-07"
 basis_kind: "explanatory synthesis with source premises and inference separated"
 confidence: "scope dependent; application requires evaluation"
 level: "domain"
-uses_methods: ["ti:me:challenge-and-replicate-an-explanation", "ti:me:write-an-insight-record"]
+uses_methods: ["ti:me:design-of-experiments", "ti:me:sensitivity-analysis"]
 references: ["ti:r:sandve-2013-reproducible-computational-research", "ti:r:w3c-2013-prov-overview"]
+uses_practices: ["ti:pr:maintain-technical-insight-knowledge"]
 ---
 
 # Reproducibility does not establish correctness
@@ -46,8 +47,8 @@ Reproducibility remains useful; this is not a reason to omit it. Independent rep
 
 The essential explanation or procedure is above. These links provide reusable detail and source inspection.
 
-- [Challenge and replicate an explanation](../methods/challenge-and-replicate-an-explanation.md)
-- [Write an insight record](../methods/write-an-insight-record.md)
+- [Challenge and replicate an explanation in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage7-evaluate-the-explanation-and-its-limits)
+- [Write an insight record in the Practice](../practices/maintain-technical-insight-knowledge.md#stage1-identify-the-knowledge-change)
 
 - [Reproducible computational research](../references/sandve-2013-reproducible-computational-research.md)
 - [W3C provenance overview](../references/w3c-2013-prov-overview.md)

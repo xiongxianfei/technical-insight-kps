@@ -1,43 +1,73 @@
 ---
-package_version: "1.1.0"
 language: "KPS 9.x"
 reviewed: "2026-10-08"
+package_version: "2.0.0"
 ---
 
-# Synthetic technology opportunity example
+# Synthetic sensor opportunity example
 
 ## Key takeaway
 
-A promising technology signal is a reason to investigate, not evidence that a candidate will work in the intended system.
+A concrete worksheet can improve the question without turning invented example data into evidence.
 
 ## Summary
 
-This example is explicitly synthetic. A fictional team considers remote vibration monitoring when network connectivity and sensor energy are constrained. No literature search, patent assessment, experiment, user study, pilot, source-specific performance result or deployment actually occurred. Every candidate and outcome below is an illustrative question or proposed check.
+This example reuses the sensor opportunity from the integrated release and makes the named techniques explicit. All candidates, numbers and proposed tests are synthetic. No literature search, patent review, experiment, field trial or performance result actually occurred.
 
-## Frame the capability and alternatives
+## Frame with 5W2H
 
-The need is to detect abnormal vibration soon enough to support a maintenance decision under intermittent connectivity, with energy and missed-event constraints to be defined by an authorized owner. The illustrative incumbent transmits measurements to remote analysis. Candidate A uses local event-triggered sampling; candidate B uses a small on-device anomaly detector. Naming B as an attractive AI technology does not establish its superiority or even the suitability of the monitoring requirement.
+| Prompt | Illustrative answer |
+|---|---|
+| Who | Maintenance users and the engineering decision owner |
+| What | Evaluate low-power anomaly monitoring |
+| When | During intermittent connectivity; time horizon not yet agreed |
+| Where | A hypothetical remote sensor installation |
+| Why | Timely detection may help maintenance decisions |
+| How | Incumbent transmits data; candidates change sampling or analysis |
+| How much | Energy, detection and latency thresholds still require an owner decision |
 
-## Build competing explanations
+This yields a bounded question, not a conclusion: can a candidate reduce energy without violating the agreed detection and latency limits in the target duty cycle?
 
-A Bain-inspired issue tree separates sensing and event definition, energy consumption, communications, computation, integration and operations, acknowledging that these factors interact. A candidate claim is that B reduces transmission without harming detection. A rival account is that A could save similar communication energy without continual inference. An observation-process explanation is that comparisons might use different event sets or sampling definitions. State predictions in advance: transmission and computation change differently between candidates, while false-alert and missed-event outcomes require representative tests. No prediction has been observed.
+## Organize hypotheses and causes
 
-## Scout and assess evidence
+Use a Fishbone table with sensing, mounting, environment, sampling, computation, communications and measurement. Candidate A triggers sampling; candidate B runs a small local detector. Hypotheses include reduced transmission, added computation, missed short events and differences in evaluation traces. Each needs a prediction and a rival. Five Whys may deepen a branch but cannot supply the missing observations.
 
-A real intelligence step would preserve dated original literature, patent-family coverage, comparable implementations and search omissions. A publication or patent can identify candidate work; neither independently verifies operational feasibility or freedom to operate. A readiness assessment would name the operating environment, inspect actual component and integrated demonstration evidence, and identify missing safety, connectivity and maintenance checks. No TRL is assigned in this example because evidence of a real artifact was not inspected.
+## Investigate external possibilities
 
-## Explore a contradiction
+A real Horizon Scan would record dated original signals and counter-signals. A structured literature and patent landscape would record coverage and family definitions. TRL assessment would inspect an actual artifact, environment and criterion-level evidence. No TRL or patent-rights conclusion is assigned here because none of that evidence has been collected.
 
-The possible tradeoff is richer on-device analysis versus computation energy. TRIZ-inspired candidate directions include duty cycling, staged detection or changing sensing frequency. These are invention prompts, not validated benefits. For each idea ask what additional condition could make its energy effect worse, and what safe comparison could distinguish it from the incumbent.
+## Generate candidate configurations
 
-## Make the research decision
+The tentative conflict is frequent sensing versus energy use. TRIZ separation prompts suggest time- or condition-dependent activity. A morphological field combines sensing (continuous or triggered), computation (local or remote) and transmission (immediate or batched). A plausible combination is not a demonstrated viable product. Check global interactions after pairwise compatibility.
 
-A Heilmeier-inspired opportunity review would require a precise benefit, baseline, novelty claim, scope of source evidence, technical risks, earliest falsifiable milestone, resource limit and stopping rule. A conditional roadmap could sequence original-source review, controlled fixture, integrated prototype and authorized pilot, with continue, redesign or stop branches at each gate. The first reasonable decision could be desk-level comparison only, not automatic field deployment.
+## Plan a discriminating test
+
+A DOE plan would specify representative independent units or traces, factors, randomization where justified, replication, response definitions and safety/authority limits. Detection, energy and latency are different outcomes. For illustration only, the four response values 10, 14, 15 and 13 yield different effects of factor A at the two levels of B. The difference of effects is -6. Without replication or a justified error model, this is no significance result.
+
+## Compare without false precision
+
+For an illustrative radar input table, use fixed bounds and outward-desirable mapping:
+
+| Dimension | Direction | Bounds | A raw | B raw | A mapped | B mapped |
+|---|---|---|---|---|---|---|
+| Energy in mJ per event | Lower | 10 to 50 | 20 | 35 | 0.75 | 0.375 |
+| Accuracy | Higher | 0.80 to 1.00 | 0.92 | 0.96 | 0.60 | 0.80 |
+| Mass in grams | Lower | 80 to 180 | 120 | 100 | 0.60 | 0.80 |
+
+The declared units and values describe only this hypothetical example, not a real device. A real comparison would also specify the event, test population and operating context. The table supports a description of assumed tradeoffs, not a winning product. A chart would retain this table, uncertainty and missing values. Do not use polygon area as a decision criterion.
+
+Our mathematical counterexample uses four equally spaced radial axes: values (1,1,0.2,0.2) have polygon area 0.72, while the same values reordered (1,0.2,1,0.2) have area 0.40. The sum is unchanged. Axis ordering alone changes area, so apparent size is not intrinsic overall merit.
+
+A Pugh matrix instead compares +, 0, - or unknown to an incumbent by criterion. A weighted decision matrix requires defensible score scales and preference weights. Neither can waive a hard constraint or replace missing measurements.
+
+## Decide a bounded research step
+
+Heilmeier questions separate the need, incumbent limitation, proposed novelty, technical basis, beneficiaries, risks, resources and falsifiable milestones. The conditional roadmap may move from defining outcomes to source review, a controlled fixture, integrated prototype and authorized representative demonstration. Each gate can continue, redesign or stop. No calendar commitment or operational deployment follows automatically.
 
 ## Current working summary
 
-**Actual results:** None. **Supported preference:** None between A, B and the incumbent. **Next technical question:** How can representative traces distinguish communication-energy savings from added computation and missed detections under a shared event definition? **Authorization:** No trial or deployment is implied.
+Actual results: none. Supported preference: none. Next question: which representative evidence would separate communication savings from extra computation and missed detections? Authority: no live trial or deployment is implied.
 
 ## Deeper knowledge
 
-Use the [Technology opportunity Practice](practices/investigate-a-technical-opportunity.md), the [Hypothesis investigation Practice](practices/discover-and-validate-a-technical-insight.md), [Readiness Method](methods/assess-technology-readiness.md), [Contradictions Method](methods/explore-technical-contradictions.md), [Research opportunity Method](methods/evaluate-a-research-opportunity.md) and [Roadmapping Method](methods/build-a-conditional-technology-roadmap.md). These links provide more detail without changing the untested status of this example.
+[Investigation](practices/discover-and-validate-a-technical-insight.md), [Opportunity](practices/investigate-a-technical-opportunity.md), [5W2H](methods/5w2h.md), [DOE](methods/design-of-experiments.md), [Radar](methods/radar-chart.md), [Pugh](methods/pugh-matrix.md) and [Roadmapping](methods/technology-roadmapping.md) provide procedures. The arithmetic is checked by `test_transition.py`, not by fabricated field data.

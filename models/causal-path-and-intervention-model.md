@@ -8,7 +8,7 @@ reviewed: "2026-10-07"
 basis_kind: "authored synthesis; evidence and inference distinguished"
 confidence: "scoped and revisable; not validated as a complete framework"
 uses_principles: ["ti:p:associations-do-not-determine-interventions", "ti:p:a-useful-intervention-need-not-identify-its-mechanism"]
-uses_methods: ["ti:me:build-an-explanatory-model"]
+uses_methods: ["ti:me:hypothesis-driven-analysis", "ti:me:sensitivity-analysis"]
 references: ["ti:r:pearl-2009-causal-inference-in-statistics", "ti:r:nist-undated-experimental-design-handbook"]
 ---
 
@@ -60,7 +60,7 @@ The essential explanation or procedure is above. These links provide reusable de
 
 - [Associations do not determine intervention effects](../principles/associations-do-not-determine-interventions.md)
 - [A useful intervention need not identify its mechanism](../principles/a-useful-intervention-need-not-identify-its-mechanism.md)
-- [Build an explanatory model](../methods/build-an-explanatory-model.md)
+- [Build an explanatory model in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage4-build-rival-explanations-and-a-model)
 
 - [Causal inference in statistics An overview](../references/pearl-2009-causal-inference-in-statistics.md)
 - [NIST experimental design guidance](../references/nist-undated-experimental-design-handbook.md)

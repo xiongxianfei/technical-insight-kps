@@ -1,7 +1,7 @@
 ---
-package_version: "1.0.0"
+package_version: "2.0.0"
 language: "KPS 9.x"
-reviewed: "2026-10-07"
+reviewed: "2026-10-08"
 ---
 
 # Third party notices
@@ -25,3 +25,7 @@ Reference records identify their external creators and located contributions. Re
 ## No endorsements
 
 No author, publisher, NASA, NIST, W3C, Cochrane or KPS contributor is represented as endorsing this domain’s overall effectiveness. A source can inform one distinction without supporting every Method or example.
+
+## Established technique sources
+
+The Reference records identify ASQ, AHRQ, NIST, NASA, DARPA, WIPO, EPO, the UK Government Office for Science, Bain, IfM Engage, MATRIZ, Oxford Creativity, Tom Ritchey and Matplotlib contributions where applicable. Names identify sources, not endorsement. The original exposition, tables and synthetic examples in this package are not copies of full source manuals, proprietary matrices or standards. External materials retain their respective rights and license terms.

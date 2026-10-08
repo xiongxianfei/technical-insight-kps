@@ -1,7 +1,7 @@
 ---
-package_version: "1.0.0"
+package_version: "2.0.0"
 language: "KPS 9.x"
-reviewed: "2026-10-07"
+reviewed: "2026-10-08"
 ---
 
 # Investigation and insight templates
@@ -85,3 +85,7 @@ The row is intentionally unfilled. Do not convert a planned experiment into an o
 ## Review card
 
 What exactly is claimed? What evidence supports it? What are the uncertain assumptions? Which rival explanations remain? What would change the judgment? What use is justified now? What source or context change requires review? Answer locally; links provide inspectable depth.
+
+## Technique worksheets
+
+Use the working template inside the selected [Method](METHOD-MAP.md). Every Method has a filled synthetic example and a minimal blank structure. Do not require every form for every investigation. Preserve the original raw values when transforming a chart; keep a hypothesis and its evidence status separate when asking why. Complete personal records belong outside the public knowledge repository unless explicitly authorized and appropriately anonymized.

@@ -1,51 +1,51 @@
 ---
+language: "KPS 9.x"
+reviewed: "2026-10-08"
 id: "ti:r:darpa-undated-heilmeier-catechism"
 type: "reference"
-version: "1.1.0"
-language: "KPS 9.x"
+version: "2.0.0"
 status: "active"
-reviewed: "2026-10-08"
-source_title: "DARPA Heilmeier Catechism"
+source_title: "The Heilmeier Catechism"
 creators: ["DARPA"]
-source_type: "primary public guidance"
+source_type: "primary guidance or documentation"
 publication_year: null
-date_basis: "No reliable publication date on the inspected page; access date is not publication date"
 url: "https://www.darpa.mil/about/heilmeier-catechism"
 accessed: "2026-10-08"
-access_extent: "Selected public HTML sections inspected"
-evidence_family: "darpa-heilmeier-guidance"
+access_extent: "Public HTML text at the named sections inspected in this authoring session"
+evidence_family: "DARPA"
 ---
 
-# DARPA Heilmeier Catechism
+# The Heilmeier Catechism
 
 ## Key takeaway
 
-DARPA uses eight questions to examine a proposed research program: the aim, current limitations, novelty and plausibility, beneficiaries, risks, cost, duration, and intermediate/final tests.
+Research proposals are interrogated through purpose, current practice, new approach, benefit, risk, resources, time and evaluation.
 
 ## Summary
 
-This record identifies the source contribution and inspection boundary. It is not evidence that the complete Technical Insight KPS workflow improves outcomes.
+This is a source record, not our preferred conclusion. It identifies the source contribution, inspected extent and the boundary of use.
 
 ## Source identity
 
-**Creator:** DARPA
+**Creator:** DARPA  
+**Date basis:** No verified publication year; accessed date is not a publication date.
 
-**Publication date basis:** No reliable publication date on the inspected page; access date is not publication date
-
-[External publication](https://www.darpa.mil/about/heilmeier-catechism)
+[External source](https://www.darpa.mil/about/heilmeier-catechism)
 
 ## Inspection extent
 
-Selected public HTML sections inspected. Accessed 2026-10-08. Locator: The eight questions under Heilmeier Catechism.
+Public HTML text at the named sections inspected in this authoring session. Inspection date: 2026-10-08. **Locator:** The Heilmeier Catechism questions.
 
 ## Claim contribution
 
-DARPA uses eight questions to examine a proposed research program: the aim, current limitations, novelty and plausibility, beneficiaries, risks, cost, duration, and intermediate/final tests.
+Research proposals are interrogated through purpose, current practice, new approach, benefit, risk, resources, time and evaluation.
 
 ## Role and independence
 
-This is first-party documentation of the stated subject, not an independent evaluation of this KPS adaptation. Evidence family: darpa-heilmeier-guidance. Other pages restating this publication do not provide independent confirmation.
+This first-party source identifies the technique or framework. It does not independently evaluate this KPS workflow. Documents from the same organization or repeating the same underlying source are not automatically independent evidence. Our engineering examples, worksheets and stopping decisions are authored application, not quotations from the source.
 
 ## Limits and nonclaims
 
-The questions evaluate a proposed program; answering them does not establish feasibility, causal truth, acceptance by DARPA or guaranteed funding. The KPS evidence annotations, decision gates and individual-use workflow are an adaptation.
+A persuasive proposal does not itself establish feasibility or funding eligibility. The questions are paraphrased rather than reproduced.
+
+Source identity establishes provenance, not truth. Claims must retain their original context. External publications are not relicensed by this repository and their full text is not bundled.

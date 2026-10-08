@@ -1,27 +1,31 @@
 ---
-package_version: "1.1.0"
 language: "KPS 9.x"
 reviewed: "2026-10-08"
+package_version: "2.0.0"
 ---
 
-# Release proposal 1 1 0
+# Technical Insight KPS 2 release
 
 ## Key takeaway
 
-This is a reviewable package change, not an official GitHub Release or evidence of engineering effectiveness.
+This is a breaking domain refactor with an established Method library and preserved Practice responsibilities.
 
 ## Summary
 
-The proposed 1.1.0 release integrates the staged investigation and opportunity Practices with method selection, Bain-inspired hypothesis structuring, technology scouting and landscapes, context-scoped readiness assessment, TRIZ-inspired alternatives, Heilmeier-inspired research framing and conditional roadmapping. The framework still uses five KPS knowledge roles and supporting Reference records, and requires no dedicated software.
+Version 2.0.0 replaces the complete generic Method layer, updates routes and evidence records, and supplies executable examples and migration checks. Compatibility remains KPS 9.x; no core-language semantic change is asserted.
 
-## Scope of this pull request
+## Changes
 
-The earlier reviewed increments introduced relevant Concepts, Models, Principles, Methods and References. This final increment integrates those methods into the two existing operational Practices and adds a concise route map and explicitly synthetic demonstration. Existing source records and engineering knowledge are retained.
+22 established techniques replace 20 generic Method operations. Five Practices retain their identities and integrate the named techniques inline. The 15 Concepts, 12 Principles and 10 Models retain the domain foundation, including technology intelligence and readiness. There are 30 supporting References and 64 core objects.
 
-## Evidence and limits
+## Breaking changes
 
-A method-selection framework, search result, patent filing, TRL assessment or attractive research case is not by itself proof of a technology's viability. The example contains no invented field results. CI checks Markdown structure, links, relationships, snapshot changes and reproducible example logic; it does not certify scientific truth, safety or applicability.
+Old Method filenames and identities are removed. Use [MIGRATION](MIGRATION.md) to update external links. Local references and metadata are updated and checked. Historical versions remain in Git; active compatibility stubs are deliberately not kept.
 
-## Publication control
+## Publication status
 
-This candidate remains under pull-request review until the maintainer merges it. An official tag and GitHub Release require a separate decision. Prior historical 1.0.0 release material remains in git history.
+The refactor was prepared and validated against repository baseline `85a92fdd39453a0de670cbfeadea85f237acc749`. The authoritative publication and merge status is recorded in the [GitHub pull request history](https://github.com/xiongxianfei/technical-insight-kps/pulls?q=is%3Apr) rather than fixed here. [PUBLISHING](PUBLISHING.md) describes the guarded application and CI policy.
+
+## Validation limits
+
+See [CHECKS](CHECKS.md) for executed tests. Tests establish structural integrity and stated arithmetic, not empirical effectiveness, safety, causation or professional qualification. No official GitHub Release or version tag was created.
