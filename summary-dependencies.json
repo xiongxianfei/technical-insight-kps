@@ -64,6 +64,10 @@
       "models/investigation-and-intelligence-routing-model.md": "637b61ea77e72d798803644cbbc7cdb0a42932e50362a1a5d342963e8c6a04ff",
       "models/question-and-system-boundary-model.md": "c6472d70cadeb126da86f2e45dd13444f087275c35d18832ee4d32b5437f9cf6"
     },
+    "concepts/technology-readiness.md": {
+      "models/readiness-evidence-model.md": "5bd2d8d2a74c7e25416cda05dc9b486d67f918e56e2848fad40913e2b5accd74",
+      "references/nasa-2023-technology-readiness-levels.md": "d26eb1b8642b9df3ea89b71ac36106a7037c529b9ab3e624a9805f565ade4f20"
+    },
     "concepts/tradeoff.md": {
       "concepts/assumptions-and-boundary-conditions.md": "8e63555fd7b6d06f294a34b72fbccf42be75af0678886b2764749b5dfb832da1",
       "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
@@ -72,6 +76,13 @@
       "concepts/assumptions-and-boundary-conditions.md": "8e63555fd7b6d06f294a34b72fbccf42be75af0678886b2764749b5dfb832da1",
       "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
       "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
+    },
+    "methods/assess-technology-readiness.md": {
+      "concepts/technology-readiness.md": "9f3ea473d22df538020a9e613aa7f0b66683cda502e96c9a21c7defa6e073fbb",
+      "methods/assess-transfer-to-a-new-context.md": "781eff0073c86b3c6190d9da53f2057970f5616479f53e302171df1bad9e7f64",
+      "models/readiness-evidence-model.md": "5bd2d8d2a74c7e25416cda05dc9b486d67f918e56e2848fad40913e2b5accd74",
+      "principles/readiness-evidence-is-context-dependent.md": "ac0c957c7bd894fad26089d68883d22889d83c1de1bf15778643b8b80bbeb878",
+      "references/nasa-2023-technology-readiness-levels.md": "d26eb1b8642b9df3ea89b71ac36106a7037c529b9ab3e624a9805f565ade4f20"
     },
     "methods/assess-transfer-to-a-new-context.md": {
       "concepts/transfer.md": "39ba9a6f01ca4f516927824e61401c58874c5038dd1bf541d21699d1bf116593",
@@ -85,6 +96,14 @@
       "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217",
       "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5",
       "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "methods/build-a-conditional-technology-roadmap.md": {
+      "methods/assess-technology-readiness.md": "8f2fa2ed494126ad278dd043eb18d5a1079d3c57d19cdcdf3ce6dafd9efcc73f",
+      "methods/evaluate-a-research-opportunity.md": "4aa6d8544fddc4e8b124b30ff797f46d6452f71f9c8b42f555a86db7175dc9fb",
+      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
+      "models/readiness-evidence-model.md": "5bd2d8d2a74c7e25416cda05dc9b486d67f918e56e2848fad40913e2b5accd74",
+      "references/government-office-for-science-2024-futures-toolkit.md": "0dbe7dc1cada967f57c2a096cd7eecd1fdcda598b9de980b15fe70f7dbddf983",
+      "references/ifm-engage-undated-technology-roadmapping.md": "0a95ec1fe9fd0734d7a4b652bc5cdd11d6d66c4a925575304cebd1f128babd4e"
     },
     "methods/build-an-explanatory-model.md": {
       "models/model-validity-envelope.md": "1995c2f557728862d66c363fd83dde78ba23331e1d6df55c968004b9b506f6ce",
@@ -113,6 +132,14 @@
       "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217",
       "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
     },
+    "methods/evaluate-a-research-opportunity.md": {
+      "methods/assess-technology-readiness.md": "8f2fa2ed494126ad278dd043eb18d5a1079d3c57d19cdcdf3ce6dafd9efcc73f",
+      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
+      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
+      "models/readiness-evidence-model.md": "5bd2d8d2a74c7e25416cda05dc9b486d67f918e56e2848fad40913e2b5accd74",
+      "references/darpa-undated-heilmeier-catechism.md": "75b50fb9aedda898bd553783b4a40e204639c0dfc1e4b7bc8fac7474494ec062",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
+    },
     "methods/evaluate-results-and-uncertainty.md": {
       "models/claim-evidence-inference-model.md": "8080a542ae1f9a2cc8b1e4bebb2bd79882aa208e4bc90046584c805e0f7e816f",
       "principles/a-useful-intervention-need-not-identify-its-mechanism.md": "98084f7b6998e5fe1c7336dc2711f4ddc38ebb6cbb76b0536323951524428743",
@@ -127,6 +154,15 @@
       "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
       "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5"
     },
+    "methods/explore-technical-contradictions.md": {
+      "concepts/mechanism.md": "b38df3248ae5a4fb4313be30b09745d2d8040126ddea9eeaad7dc22955977f46",
+      "concepts/tradeoff.md": "2c1630245db47869a72e39f0f4d10760a3366cd5d4d36bb14172ba095313b8c7",
+      "methods/compare-technical-alternatives.md": "c03c82a0282755dc49ed0893bf2ed9194b758e193eded39bcf65289cc949242c",
+      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
+      "models/causal-path-and-intervention-model.md": "ee31d3c9f3d7d26ba4fab47dd581e00d4bdd67c4310f280395e22bf7b2e55e1f",
+      "references/matriz-undated-contradictions.md": "babc4c679c04118273e9afa2cebc80717cff2dd951bd1504421f55e9dabe9994",
+      "references/oxford-creativity-undated-triz-glossary.md": "97753c0093dbf76927c862e2a202c5ae27ca2584837c4d0e84ee8335c0ef4eca"
+    },
     "methods/frame-an-insight-question.md": {
       "concepts/technical-insight.md": "254d0f1fa9f5ed10e823c1db64a361a8b6f54d387123c5cbc5fb9f51c69b64aa",
       "models/question-and-system-boundary-model.md": "c6472d70cadeb126da86f2e45dd13444f087275c35d18832ee4d32b5437f9cf6",
@@ -140,10 +176,13 @@
       "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
     },
     "methods/map-a-technical-landscape.md": {
-      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
-      "principles/novelty-and-support-are-different-properties.md": "42fd6ac3958f6388b7a9fa4164b0a69792745dbaa797f5f1bcdd71804dafd6bc",
+      "concepts/technology-intelligence.md": "8850c53b8ab48397fefe000f494bd52095a2c4441a2e5855edeb5f51a18ebcf6",
+      "methods/compare-technical-alternatives.md": "c03c82a0282755dc49ed0893bf2ed9194b758e193eded39bcf65289cc949242c",
+      "methods/scan-technology-signals.md": "9f34d9c812fcb14b58808ae3ee8b5a93708d2b353d94b5e871f63bec74bf7922",
+      "models/readiness-evidence-model.md": "5bd2d8d2a74c7e25416cda05dc9b486d67f918e56e2848fad40913e2b5accd74",
+      "references/epo-undated-patent-families.md": "faa2fe459c5f378d0490aa58381467616d586379f8675b14b450650f119cd456",
       "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
-      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
+      "references/wipo-2015-patent-landscape-guidelines.md": "648f9a224bb4092e41a4e4a55f07e523fb0cb245d733224c9e7859bc2760c46c"
     },
     "methods/review-and-revise-knowledge.md": {
       "models/insight-learning-cycle.md": "051b47e168b471d3f8d2e0a52e6a547c57cc9fe791b33cbb1e33c46b94a7235c",
@@ -151,6 +190,11 @@
       "references/kps-undated-authoring-contract-9x.md": "cffe0c341af998823f181d0501dbda84263f938f02ebb0afe7c74e59223f76c6",
       "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
       "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "methods/scan-technology-signals.md": {
+      "concepts/technology-intelligence.md": "8850c53b8ab48397fefe000f494bd52095a2c4441a2e5855edeb5f51a18ebcf6",
+      "methods/synthesize-claim-relevant-sources.md": "42a6c244e7c929f77e81fe1577e9b7e803ac8debf8cf3174899a6eb7a2e1da33",
+      "references/government-office-for-science-2024-futures-toolkit.md": "0dbe7dc1cada967f57c2a096cd7eecd1fdcda598b9de980b15fe70f7dbddf983"
     },
     "methods/structure-and-prioritize-hypotheses.md": {
       "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
@@ -235,6 +279,11 @@
       "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12",
       "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217"
     },
+    "models/readiness-evidence-model.md": {
+      "concepts/technology-readiness.md": "9f3ea473d22df538020a9e613aa7f0b66683cda502e96c9a21c7defa6e073fbb",
+      "principles/readiness-evidence-is-context-dependent.md": "ac0c957c7bd894fad26089d68883d22889d83c1de1bf15778643b8b80bbeb878",
+      "references/nasa-2023-technology-readiness-levels.md": "d26eb1b8642b9df3ea89b71ac36106a7037c529b9ab3e624a9805f565ade4f20"
+    },
     "practices/apply-and-transfer-an-insight.md": {
       "methods/assess-transfer-to-a-new-context.md": "781eff0073c86b3c6190d9da53f2057970f5616479f53e302171df1bad9e7f64",
       "methods/compare-technical-alternatives.md": "c03c82a0282755dc49ed0893bf2ed9194b758e193eded39bcf65289cc949242c",
@@ -278,7 +327,7 @@
       "methods/build-an-explanatory-model.md": "69c281c9912ed28044c89a81a217b42b7ead5ce955fe93db59ca460ca225334e",
       "methods/compare-technical-alternatives.md": "c03c82a0282755dc49ed0893bf2ed9194b758e193eded39bcf65289cc949242c",
       "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
-      "methods/map-a-technical-landscape.md": "d714fdcbba9844709975e53052870e231a8bf22e276f50fa0e3a4d422796c2c8",
+      "methods/map-a-technical-landscape.md": "2b044b9b365df0c563d6af800db32128a259ae3c2b84b87aca9263df4043e6bc",
       "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
       "principles/novelty-and-support-are-different-properties.md": "42fd6ac3958f6388b7a9fa4164b0a69792745dbaa797f5f1bcdd71804dafd6bc",
       "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
@@ -334,10 +383,14 @@
       "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217"
     },
     "principles/novelty-and-support-are-different-properties.md": {
-      "methods/map-a-technical-landscape.md": "d714fdcbba9844709975e53052870e231a8bf22e276f50fa0e3a4d422796c2c8",
+      "methods/map-a-technical-landscape.md": "2b044b9b365df0c563d6af800db32128a259ae3c2b84b87aca9263df4043e6bc",
       "methods/write-an-insight-record.md": "b4366d361afb7b074b980b48e0ef80d8a0059694cf730113180e6f132a7f59b8",
       "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
       "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "principles/readiness-evidence-is-context-dependent.md": {
+      "principles/validation-has-a-domain-of-applicability.md": "fe00e524b1c719a187a8af4ba775ba372d297a2c395fef1a0e6e8d99788fc763",
+      "references/nasa-2023-technology-readiness-levels.md": "d26eb1b8642b9df3ea89b71ac36106a7037c529b9ab3e624a9805f565ade4f20"
     },
     "principles/repeated-reports-can-share-one-evidence-base.md": {
       "methods/synthesize-claim-relevant-sources.md": "42a6c244e7c929f77e81fe1577e9b7e803ac8debf8cf3174899a6eb7a2e1da33",
