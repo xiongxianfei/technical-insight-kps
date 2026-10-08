@@ -1,0 +1,344 @@
+{
+  "format": 1,
+  "meaning": "Declared/direct dependencies requiring human summary review after content changes; not proof of factual or semantic validity.",
+  "entries": {
+    "concepts/assumptions-and-boundary-conditions.md": {
+      "concepts/system-boundary.md": "6ebcbd7b3bfe9a64adeae2ff8220c568c4d7dd891ba66d0106bf1631ff3444db",
+      "concepts/transfer.md": "39ba9a6f01ca4f516927824e61401c58874c5038dd1bf541d21699d1bf116593",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b"
+    },
+    "concepts/comparison-and-control.md": {
+      "concepts/hypothesis.md": "256a967a93c2fe646c5dde47dd58efd84cb385e8887e2b1d7e92f30bf3fd2285",
+      "concepts/measurement-uncertainty.md": "b1e692bd1167ccae1e2b3b1b2ba183d40ca9917f3bbdd821a99742debe5ec4d3",
+      "references/nist-undated-experimental-design-handbook.md": "8433b141afaa11a7833c7bcf5a3ea696cfdd3ada9526ade772883f57d681f1e5"
+    },
+    "concepts/evidence.md": {
+      "concepts/prediction.md": "ec3c6fb371b0378f8841815f9b067930a2d72c748a64998283e07ab3315c6e61",
+      "concepts/provenance.md": "c4ad5bc7c1df9b4b29437cf7100d96e07752f88e917d7a15f5884e57911172cd",
+      "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
+      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "concepts/hypothesis.md": {
+      "concepts/assumptions-and-boundary-conditions.md": "8e63555fd7b6d06f294a34b72fbccf42be75af0678886b2764749b5dfb832da1",
+      "concepts/prediction.md": "ec3c6fb371b0378f8841815f9b067930a2d72c748a64998283e07ab3315c6e61",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
+    },
+    "concepts/measurement-uncertainty.md": {
+      "concepts/observation-and-interpretation.md": "683acc3566cd893dc0c9346d49ad3140ed30ffbd67baa3e4c1774433348442d8",
+      "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217"
+    },
+    "concepts/mechanism.md": {
+      "concepts/hypothesis.md": "256a967a93c2fe646c5dde47dd58efd84cb385e8887e2b1d7e92f30bf3fd2285",
+      "concepts/system-boundary.md": "6ebcbd7b3bfe9a64adeae2ff8220c568c4d7dd891ba66d0106bf1631ff3444db",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
+    },
+    "concepts/observation-and-interpretation.md": {
+      "concepts/evidence.md": "42260fe1852ce43e5ea1c0cabe75a4b82fa5afcc104e8715054bce2baffb4559",
+      "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217",
+      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "concepts/prediction.md": {
+      "concepts/hypothesis.md": "256a967a93c2fe646c5dde47dd58efd84cb385e8887e2b1d7e92f30bf3fd2285",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/nist-undated-model-fit-and-residuals.md": "9f7d76338e6a65d2e45e007ac4084e74be79c77b782ec880047b0598dd0f01b0"
+    },
+    "concepts/provenance.md": {
+      "concepts/evidence.md": "42260fe1852ce43e5ea1c0cabe75a4b82fa5afcc104e8715054bce2baffb4559",
+      "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5",
+      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "concepts/system-boundary.md": {
+      "concepts/assumptions-and-boundary-conditions.md": "8e63555fd7b6d06f294a34b72fbccf42be75af0678886b2764749b5dfb832da1",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
+    },
+    "concepts/technical-insight.md": {
+      "concepts/hypothesis.md": "256a967a93c2fe646c5dde47dd58efd84cb385e8887e2b1d7e92f30bf3fd2285",
+      "concepts/mechanism.md": "b38df3248ae5a4fb4313be30b09745d2d8040126ddea9eeaad7dc22955977f46",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
+    },
+    "concepts/tradeoff.md": {
+      "concepts/assumptions-and-boundary-conditions.md": "8e63555fd7b6d06f294a34b72fbccf42be75af0678886b2764749b5dfb832da1",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
+    },
+    "concepts/transfer.md": {
+      "concepts/assumptions-and-boundary-conditions.md": "8e63555fd7b6d06f294a34b72fbccf42be75af0678886b2764749b5dfb832da1",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
+    },
+    "methods/assess-transfer-to-a-new-context.md": {
+      "concepts/transfer.md": "39ba9a6f01ca4f516927824e61401c58874c5038dd1bf541d21699d1bf116593",
+      "principles/validation-has-a-domain-of-applicability.md": "fe00e524b1c719a187a8af4ba775ba372d297a2c395fef1a0e6e8d99788fc763",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
+    },
+    "methods/audit-an-observation.md": {
+      "models/measurement-and-uncertainty-model.md": "010388538e0805a971a577da5088b5a8f4e0ca10338971da5b8d8221da66258c",
+      "principles/measurements-include-the-observation-process.md": "1ad57886967c5be56be46051105be5a9aab34270d3b74b11c5f80fb6d4e9159b",
+      "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217",
+      "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5",
+      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "methods/build-an-explanatory-model.md": {
+      "models/model-validity-envelope.md": "1995c2f557728862d66c363fd83dde78ba23331e1d6df55c968004b9b506f6ce",
+      "principles/fit-does-not-establish-model-validity.md": "59fea05cba55839628f995b2cfbbee7735d4bfb6c3ade9c3a3b5d23f9d650611",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217",
+      "references/nist-undated-model-fit-and-residuals.md": "9f7d76338e6a65d2e45e007ac4084e74be79c77b782ec880047b0598dd0f01b0"
+    },
+    "methods/challenge-and-replicate-an-explanation.md": {
+      "models/model-validity-envelope.md": "1995c2f557728862d66c363fd83dde78ba23331e1d6df55c968004b9b506f6ce",
+      "principles/reproducibility-does-not-establish-correctness.md": "2b2cd29d0e68ffccbb0981208018a37d183cb4c1d804e29ce4d4625345ff737c",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/nist-undated-model-fit-and-residuals.md": "9f7d76338e6a65d2e45e007ac4084e74be79c77b782ec880047b0598dd0f01b0",
+      "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5"
+    },
+    "methods/compare-technical-alternatives.md": {
+      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
+      "principles/decision-preference-depends-on-objectives-and-uncertainty.md": "b1aaeb24333d482130da6765cbe3fdd15e00bb287abd5190a2666f3f1863fa79",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
+    },
+    "methods/design-a-discriminating-test.md": {
+      "models/hypothesis-prediction-matrix.md": "1ff1239d880903c59311f0c5ce4ce54e04e698a1b67f2a6ede7451a67aebfc53",
+      "models/measurement-and-uncertainty-model.md": "010388538e0805a971a577da5088b5a8f4e0ca10338971da5b8d8221da66258c",
+      "principles/factor-effects-can-depend-on-other-factors.md": "96b1d5e6b4ac4af7dc4dd5ee7437b10ea31f07aaf2ca6f5516b628b1514edabf",
+      "references/nist-undated-experimental-design-handbook.md": "8433b141afaa11a7833c7bcf5a3ea696cfdd3ada9526ade772883f57d681f1e5",
+      "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217",
+      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
+    },
+    "methods/evaluate-results-and-uncertainty.md": {
+      "models/claim-evidence-inference-model.md": "8080a542ae1f9a2cc8b1e4bebb2bd79882aa208e4bc90046584c805e0f7e816f",
+      "principles/a-useful-intervention-need-not-identify-its-mechanism.md": "98084f7b6998e5fe1c7336dc2711f4ddc38ebb6cbb76b0536323951524428743",
+      "references/nist-undated-experimental-design-handbook.md": "8433b141afaa11a7833c7bcf5a3ea696cfdd3ada9526ade772883f57d681f1e5",
+      "references/nist-undated-model-fit-and-residuals.md": "9f7d76338e6a65d2e45e007ac4084e74be79c77b782ec880047b0598dd0f01b0",
+      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
+    },
+    "methods/execute-a-bounded-test.md": {
+      "concepts/provenance.md": "c4ad5bc7c1df9b4b29437cf7100d96e07752f88e917d7a15f5884e57911172cd",
+      "models/measurement-and-uncertainty-model.md": "010388538e0805a971a577da5088b5a8f4e0ca10338971da5b8d8221da66258c",
+      "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5"
+    },
+    "methods/frame-an-insight-question.md": {
+      "concepts/technical-insight.md": "254d0f1fa9f5ed10e823c1db64a361a8b6f54d387123c5cbc5fb9f51c69b64aa",
+      "models/question-and-system-boundary-model.md": "c6472d70cadeb126da86f2e45dd13444f087275c35d18832ee4d32b5437f9cf6",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12",
+      "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217"
+    },
+    "methods/generate-competing-explanations.md": {
+      "models/hypothesis-prediction-matrix.md": "1ff1239d880903c59311f0c5ce4ce54e04e698a1b67f2a6ede7451a67aebfc53",
+      "principles/explanations-can-share-the-same-predictions.md": "78997e3a07396e17b64c7fc6d0709d948420c5af9073b41ff87eebd5d3672b2f",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
+    },
+    "methods/map-a-technical-landscape.md": {
+      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
+      "principles/novelty-and-support-are-different-properties.md": "42fd6ac3958f6388b7a9fa4164b0a69792745dbaa797f5f1bcdd71804dafd6bc",
+      "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
+    },
+    "methods/review-and-revise-knowledge.md": {
+      "models/insight-learning-cycle.md": "051b47e168b471d3f8d2e0a52e6a547c57cc9fe791b33cbb1e33c46b94a7235c",
+      "principles/validation-has-a-domain-of-applicability.md": "fe00e524b1c719a187a8af4ba775ba372d297a2c395fef1a0e6e8d99788fc763",
+      "references/kps-undated-authoring-contract-9x.md": "cffe0c341af998823f181d0501dbda84263f938f02ebb0afe7c74e59223f76c6",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "methods/synthesize-claim-relevant-sources.md": {
+      "models/claim-evidence-inference-model.md": "8080a542ae1f9a2cc8b1e4bebb2bd79882aa208e4bc90046584c805e0f7e816f",
+      "principles/repeated-reports-can-share-one-evidence-base.md": "5c3c56a5537d0544f9de2fc2025b18fd5bd93e26c4a47cf244a7f27f24755756",
+      "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
+      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "methods/write-an-insight-record.md": {
+      "concepts/technical-insight.md": "254d0f1fa9f5ed10e823c1db64a361a8b6f54d387123c5cbc5fb9f51c69b64aa",
+      "models/claim-evidence-inference-model.md": "8080a542ae1f9a2cc8b1e4bebb2bd79882aa208e4bc90046584c805e0f7e816f",
+      "principles/novelty-and-support-are-different-properties.md": "42fd6ac3958f6388b7a9fa4164b0a69792745dbaa797f5f1bcdd71804dafd6bc",
+      "references/kps-undated-authoring-contract-9x.md": "cffe0c341af998823f181d0501dbda84263f938f02ebb0afe7c74e59223f76c6",
+      "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5",
+      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "models/causal-path-and-intervention-model.md": {
+      "methods/build-an-explanatory-model.md": "69c281c9912ed28044c89a81a217b42b7ead5ce955fe93db59ca460ca225334e",
+      "principles/a-useful-intervention-need-not-identify-its-mechanism.md": "98084f7b6998e5fe1c7336dc2711f4ddc38ebb6cbb76b0536323951524428743",
+      "principles/associations-do-not-determine-interventions.md": "0ca64c54f1322aa3ecf182296eb1cb9102bd442ff73cbe36f6e8916a39c603b6",
+      "references/nist-undated-experimental-design-handbook.md": "8433b141afaa11a7833c7bcf5a3ea696cfdd3ada9526ade772883f57d681f1e5",
+      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
+    },
+    "models/claim-evidence-inference-model.md": {
+      "methods/synthesize-claim-relevant-sources.md": "42a6c244e7c929f77e81fe1577e9b7e803ac8debf8cf3174899a6eb7a2e1da33",
+      "principles/repeated-reports-can-share-one-evidence-base.md": "5c3c56a5537d0544f9de2fc2025b18fd5bd93e26c4a47cf244a7f27f24755756",
+      "principles/reproducibility-does-not-establish-correctness.md": "2b2cd29d0e68ffccbb0981208018a37d183cb4c1d804e29ce4d4625345ff737c",
+      "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
+      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "models/decision-and-transfer-model.md": {
+      "concepts/transfer.md": "39ba9a6f01ca4f516927824e61401c58874c5038dd1bf541d21699d1bf116593",
+      "methods/assess-transfer-to-a-new-context.md": "781eff0073c86b3c6190d9da53f2057970f5616479f53e302171df1bad9e7f64",
+      "principles/decision-preference-depends-on-objectives-and-uncertainty.md": "b1aaeb24333d482130da6765cbe3fdd15e00bb287abd5190a2666f3f1863fa79",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
+    },
+    "models/hypothesis-prediction-matrix.md": {
+      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
+      "principles/explanations-can-share-the-same-predictions.md": "78997e3a07396e17b64c7fc6d0709d948420c5af9073b41ff87eebd5d3672b2f",
+      "principles/factor-effects-can-depend-on-other-factors.md": "96b1d5e6b4ac4af7dc4dd5ee7437b10ea31f07aaf2ca6f5516b628b1514edabf",
+      "references/nist-undated-experimental-design-handbook.md": "8433b141afaa11a7833c7bcf5a3ea696cfdd3ada9526ade772883f57d681f1e5",
+      "references/openstax-2016-university-physics-heat-transfer.md": "b6ab67e4ad9fecee694499d19ee820405831917a3f1eb7fabc4510b96fc97f48",
+      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
+    },
+    "models/insight-learning-cycle.md": {
+      "concepts/technical-insight.md": "254d0f1fa9f5ed10e823c1db64a361a8b6f54d387123c5cbc5fb9f51c69b64aa",
+      "methods/write-an-insight-record.md": "b4366d361afb7b074b980b48e0ef80d8a0059694cf730113180e6f132a7f59b8",
+      "practices/discover-and-validate-a-technical-insight.md": "7f3e3685d33c85ebdaafd6f189e4d5bae20bc0146013135359c5392c7aba2b53",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12",
+      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "models/measurement-and-uncertainty-model.md": {
+      "methods/audit-an-observation.md": "52f8a583bb39b148ba47f6cea7f9a968c7a8d0459f0a35a0908eaec1596db048",
+      "principles/measurements-include-the-observation-process.md": "1ad57886967c5be56be46051105be5a9aab34270d3b74b11c5f80fb6d4e9159b",
+      "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217"
+    },
+    "models/model-validity-envelope.md": {
+      "methods/challenge-and-replicate-an-explanation.md": "d1d0d3e28aeb5706e295fe1f1d7bf4bd4e99b6f8a5efcd632548485178254930",
+      "principles/fit-does-not-establish-model-validity.md": "59fea05cba55839628f995b2cfbbee7735d4bfb6c3ade9c3a3b5d23f9d650611",
+      "principles/validation-has-a-domain-of-applicability.md": "fe00e524b1c719a187a8af4ba775ba372d297a2c395fef1a0e6e8d99788fc763",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/nist-undated-model-fit-and-residuals.md": "9f7d76338e6a65d2e45e007ac4084e74be79c77b782ec880047b0598dd0f01b0"
+    },
+    "models/question-and-system-boundary-model.md": {
+      "concepts/observation-and-interpretation.md": "683acc3566cd893dc0c9346d49ad3140ed30ffbd67baa3e4c1774433348442d8",
+      "concepts/system-boundary.md": "6ebcbd7b3bfe9a64adeae2ff8220c568c4d7dd891ba66d0106bf1631ff3444db",
+      "methods/frame-an-insight-question.md": "77c9dea5da0093e9c6e00cf272e86cd9bd94e3bac558a5b1181d8fce9bf73ef2",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12",
+      "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217"
+    },
+    "practices/apply-and-transfer-an-insight.md": {
+      "methods/assess-transfer-to-a-new-context.md": "781eff0073c86b3c6190d9da53f2057970f5616479f53e302171df1bad9e7f64",
+      "methods/compare-technical-alternatives.md": "c03c82a0282755dc49ed0893bf2ed9194b758e193eded39bcf65289cc949242c",
+      "methods/evaluate-results-and-uncertainty.md": "6563964ca23a46e0eec41319ace8d6a3f3135d3a16e04d675b27d4aa19c7e31d",
+      "methods/execute-a-bounded-test.md": "6862b1855ad8588dbce4fe96788afae5565bad0ded1f5a39a36b200214dfcf3c",
+      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12",
+      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
+    },
+    "practices/assess-a-technical-claim.md": {
+      "methods/audit-an-observation.md": "52f8a583bb39b148ba47f6cea7f9a968c7a8d0459f0a35a0908eaec1596db048",
+      "methods/challenge-and-replicate-an-explanation.md": "d1d0d3e28aeb5706e295fe1f1d7bf4bd4e99b6f8a5efcd632548485178254930",
+      "methods/evaluate-results-and-uncertainty.md": "6563964ca23a46e0eec41319ace8d6a3f3135d3a16e04d675b27d4aa19c7e31d",
+      "methods/synthesize-claim-relevant-sources.md": "42a6c244e7c929f77e81fe1577e9b7e803ac8debf8cf3174899a6eb7a2e1da33",
+      "models/claim-evidence-inference-model.md": "8080a542ae1f9a2cc8b1e4bebb2bd79882aa208e4bc90046584c805e0f7e816f",
+      "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
+      "references/nist-undated-model-fit-and-residuals.md": "9f7d76338e6a65d2e45e007ac4084e74be79c77b782ec880047b0598dd0f01b0",
+      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce",
+      "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5"
+    },
+    "practices/discover-and-validate-a-technical-insight.md": {
+      "methods/audit-an-observation.md": "52f8a583bb39b148ba47f6cea7f9a968c7a8d0459f0a35a0908eaec1596db048",
+      "methods/build-an-explanatory-model.md": "69c281c9912ed28044c89a81a217b42b7ead5ce955fe93db59ca460ca225334e",
+      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
+      "methods/evaluate-results-and-uncertainty.md": "6563964ca23a46e0eec41319ace8d6a3f3135d3a16e04d675b27d4aa19c7e31d",
+      "methods/execute-a-bounded-test.md": "6862b1855ad8588dbce4fe96788afae5565bad0ded1f5a39a36b200214dfcf3c",
+      "methods/frame-an-insight-question.md": "77c9dea5da0093e9c6e00cf272e86cd9bd94e3bac558a5b1181d8fce9bf73ef2",
+      "methods/generate-competing-explanations.md": "44f251778dced9bee386fb7df0d979f11b415cbb933c5d88e85b8e58c7b0e73f",
+      "methods/synthesize-claim-relevant-sources.md": "42a6c244e7c929f77e81fe1577e9b7e803ac8debf8cf3174899a6eb7a2e1da33",
+      "methods/write-an-insight-record.md": "b4366d361afb7b074b980b48e0ef80d8a0059694cf730113180e6f132a7f59b8",
+      "models/insight-learning-cycle.md": "051b47e168b471d3f8d2e0a52e6a547c57cc9fe791b33cbb1e33c46b94a7235c",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12",
+      "references/nist-undated-experimental-design-handbook.md": "8433b141afaa11a7833c7bcf5a3ea696cfdd3ada9526ade772883f57d681f1e5",
+      "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217",
+      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce",
+      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "practices/investigate-a-technical-opportunity.md": {
+      "methods/build-an-explanatory-model.md": "69c281c9912ed28044c89a81a217b42b7ead5ce955fe93db59ca460ca225334e",
+      "methods/compare-technical-alternatives.md": "c03c82a0282755dc49ed0893bf2ed9194b758e193eded39bcf65289cc949242c",
+      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
+      "methods/map-a-technical-landscape.md": "d714fdcbba9844709975e53052870e231a8bf22e276f50fa0e3a4d422796c2c8",
+      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
+      "principles/novelty-and-support-are-different-properties.md": "42fd6ac3958f6388b7a9fa4164b0a69792745dbaa797f5f1bcdd71804dafd6bc",
+      "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
+    },
+    "practices/maintain-technical-insight-knowledge.md": {
+      "methods/review-and-revise-knowledge.md": "d0f3984302e9db9975e8e52c19e915afbcf59c98914b1c60056585055036f174",
+      "methods/synthesize-claim-relevant-sources.md": "42a6c244e7c929f77e81fe1577e9b7e803ac8debf8cf3174899a6eb7a2e1da33",
+      "methods/write-an-insight-record.md": "b4366d361afb7b074b980b48e0ef80d8a0059694cf730113180e6f132a7f59b8",
+      "models/claim-evidence-inference-model.md": "8080a542ae1f9a2cc8b1e4bebb2bd79882aa208e4bc90046584c805e0f7e816f",
+      "models/insight-learning-cycle.md": "051b47e168b471d3f8d2e0a52e6a547c57cc9fe791b33cbb1e33c46b94a7235c",
+      "references/kps-undated-authoring-contract-9x.md": "cffe0c341af998823f181d0501dbda84263f938f02ebb0afe7c74e59223f76c6",
+      "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
+      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "principles/a-useful-intervention-need-not-identify-its-mechanism.md": {
+      "methods/evaluate-results-and-uncertainty.md": "6563964ca23a46e0eec41319ace8d6a3f3135d3a16e04d675b27d4aa19c7e31d",
+      "practices/apply-and-transfer-an-insight.md": "d67a49953e128783534cfcbc6ff855f651df02a24b4ed815d15212901de83ed9",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12",
+      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
+    },
+    "principles/associations-do-not-determine-interventions.md": {
+      "methods/generate-competing-explanations.md": "44f251778dced9bee386fb7df0d979f11b415cbb933c5d88e85b8e58c7b0e73f",
+      "models/causal-path-and-intervention-model.md": "ee31d3c9f3d7d26ba4fab47dd581e00d4bdd67c4310f280395e22bf7b2e55e1f",
+      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
+    },
+    "principles/decision-preference-depends-on-objectives-and-uncertainty.md": {
+      "methods/compare-technical-alternatives.md": "c03c82a0282755dc49ed0893bf2ed9194b758e193eded39bcf65289cc949242c",
+      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
+    },
+    "principles/explanations-can-share-the-same-predictions.md": {
+      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
+      "models/hypothesis-prediction-matrix.md": "1ff1239d880903c59311f0c5ce4ce54e04e698a1b67f2a6ede7451a67aebfc53",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
+    },
+    "principles/factor-effects-can-depend-on-other-factors.md": {
+      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
+      "models/hypothesis-prediction-matrix.md": "1ff1239d880903c59311f0c5ce4ce54e04e698a1b67f2a6ede7451a67aebfc53",
+      "references/nist-undated-experimental-design-handbook.md": "8433b141afaa11a7833c7bcf5a3ea696cfdd3ada9526ade772883f57d681f1e5"
+    },
+    "principles/fit-does-not-establish-model-validity.md": {
+      "methods/evaluate-results-and-uncertainty.md": "6563964ca23a46e0eec41319ace8d6a3f3135d3a16e04d675b27d4aa19c7e31d",
+      "models/model-validity-envelope.md": "1995c2f557728862d66c363fd83dde78ba23331e1d6df55c968004b9b506f6ce",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/nist-undated-model-fit-and-residuals.md": "9f7d76338e6a65d2e45e007ac4084e74be79c77b782ec880047b0598dd0f01b0"
+    },
+    "principles/measurements-include-the-observation-process.md": {
+      "methods/audit-an-observation.md": "52f8a583bb39b148ba47f6cea7f9a968c7a8d0459f0a35a0908eaec1596db048",
+      "models/measurement-and-uncertainty-model.md": "010388538e0805a971a577da5088b5a8f4e0ca10338971da5b8d8221da66258c",
+      "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217"
+    },
+    "principles/novelty-and-support-are-different-properties.md": {
+      "methods/map-a-technical-landscape.md": "d714fdcbba9844709975e53052870e231a8bf22e276f50fa0e3a4d422796c2c8",
+      "methods/write-an-insight-record.md": "b4366d361afb7b074b980b48e0ef80d8a0059694cf730113180e6f132a7f59b8",
+      "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
+      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "principles/repeated-reports-can-share-one-evidence-base.md": {
+      "methods/synthesize-claim-relevant-sources.md": "42a6c244e7c929f77e81fe1577e9b7e803ac8debf8cf3174899a6eb7a2e1da33",
+      "models/claim-evidence-inference-model.md": "8080a542ae1f9a2cc8b1e4bebb2bd79882aa208e4bc90046584c805e0f7e816f",
+      "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
+      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "principles/reproducibility-does-not-establish-correctness.md": {
+      "methods/challenge-and-replicate-an-explanation.md": "d1d0d3e28aeb5706e295fe1f1d7bf4bd4e99b6f8a5efcd632548485178254930",
+      "methods/write-an-insight-record.md": "b4366d361afb7b074b980b48e0ef80d8a0059694cf730113180e6f132a7f59b8",
+      "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5",
+      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "principles/validation-has-a-domain-of-applicability.md": {
+      "methods/assess-transfer-to-a-new-context.md": "781eff0073c86b3c6190d9da53f2057970f5616479f53e302171df1bad9e7f64",
+      "models/model-validity-envelope.md": "1995c2f557728862d66c363fd83dde78ba23331e1d6df55c968004b9b506f6ce",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b"
+    }
+  }
+}
