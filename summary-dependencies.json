@@ -97,6 +97,14 @@
       "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5",
       "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
     },
+    "methods/build-a-conditional-technology-roadmap.md": {
+      "methods/assess-technology-readiness.md": "8f2fa2ed494126ad278dd043eb18d5a1079d3c57d19cdcdf3ce6dafd9efcc73f",
+      "methods/evaluate-a-research-opportunity.md": "4aa6d8544fddc4e8b124b30ff797f46d6452f71f9c8b42f555a86db7175dc9fb",
+      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
+      "models/readiness-evidence-model.md": "5bd2d8d2a74c7e25416cda05dc9b486d67f918e56e2848fad40913e2b5accd74",
+      "references/government-office-for-science-2024-futures-toolkit.md": "0dbe7dc1cada967f57c2a096cd7eecd1fdcda598b9de980b15fe70f7dbddf983",
+      "references/ifm-engage-undated-technology-roadmapping.md": "0a95ec1fe9fd0734d7a4b652bc5cdd11d6d66c4a925575304cebd1f128babd4e"
+    },
     "methods/build-an-explanatory-model.md": {
       "models/model-validity-envelope.md": "1995c2f557728862d66c363fd83dde78ba23331e1d6df55c968004b9b506f6ce",
       "principles/fit-does-not-establish-model-validity.md": "59fea05cba55839628f995b2cfbbee7735d4bfb6c3ade9c3a3b5d23f9d650611",
@@ -124,6 +132,14 @@
       "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217",
       "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
     },
+    "methods/evaluate-a-research-opportunity.md": {
+      "methods/assess-technology-readiness.md": "8f2fa2ed494126ad278dd043eb18d5a1079d3c57d19cdcdf3ce6dafd9efcc73f",
+      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
+      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
+      "models/readiness-evidence-model.md": "5bd2d8d2a74c7e25416cda05dc9b486d67f918e56e2848fad40913e2b5accd74",
+      "references/darpa-undated-heilmeier-catechism.md": "75b50fb9aedda898bd553783b4a40e204639c0dfc1e4b7bc8fac7474494ec062",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
+    },
     "methods/evaluate-results-and-uncertainty.md": {
       "models/claim-evidence-inference-model.md": "8080a542ae1f9a2cc8b1e4bebb2bd79882aa208e4bc90046584c805e0f7e816f",
       "principles/a-useful-intervention-need-not-identify-its-mechanism.md": "98084f7b6998e5fe1c7336dc2711f4ddc38ebb6cbb76b0536323951524428743",
@@ -137,6 +153,15 @@
       "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
       "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
       "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5"
+    },
+    "methods/explore-technical-contradictions.md": {
+      "concepts/mechanism.md": "b38df3248ae5a4fb4313be30b09745d2d8040126ddea9eeaad7dc22955977f46",
+      "concepts/tradeoff.md": "2c1630245db47869a72e39f0f4d10760a3366cd5d4d36bb14172ba095313b8c7",
+      "methods/compare-technical-alternatives.md": "c03c82a0282755dc49ed0893bf2ed9194b758e193eded39bcf65289cc949242c",
+      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
+      "models/causal-path-and-intervention-model.md": "ee31d3c9f3d7d26ba4fab47dd581e00d4bdd67c4310f280395e22bf7b2e55e1f",
+      "references/matriz-undated-contradictions.md": "babc4c679c04118273e9afa2cebc80717cff2dd951bd1504421f55e9dabe9994",
+      "references/oxford-creativity-undated-triz-glossary.md": "97753c0093dbf76927c862e2a202c5ae27ca2584837c4d0e84ee8335c0ef4eca"
     },
     "methods/frame-an-insight-question.md": {
       "concepts/technical-insight.md": "254d0f1fa9f5ed10e823c1db64a361a8b6f54d387123c5cbc5fb9f51c69b64aa",
