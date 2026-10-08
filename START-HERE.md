@@ -35,3 +35,7 @@ This guide gives a usable first session for engineering investigation. You do no
 ## Do not mistake completion for proof
 
 A completed form or passing checker does not prove a mechanism. It is acceptable to stop with an effect observed but the mechanism unresolved, a result limited to simulation, or a recommendation to obtain specialist evidence. Never invent a successful test to make the narrative complete.
+
+## Select an investigation or intelligence route
+
+Use the [Method selection map](METHOD-MAP.md) when choosing how to investigate a behavior or assess a technology opportunity. Start from a decision and missing evidence, not from a favorite branded framework. Each linked Method explains its local procedure and limits.
