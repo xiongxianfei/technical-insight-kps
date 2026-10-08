@@ -1,7 +1,7 @@
 ---
-package_version: "1.0.0"
+package_version: "1.1.0"
 language: "KPS 9.x"
-reviewed: "2026-10-07"
+reviewed: "2026-10-08"
 ---
 
 # Technical insight knowledge index
@@ -75,6 +75,8 @@ This edition contains 51 core knowledge objects and 11 supporting Reference reco
 - [Review and revise knowledge](methods/review-and-revise-knowledge.md) — Revise the claim and affected uses when new evidence changes its support or scope.
 
 ### Practices
+
+- [Integrated investigation and technology intelligence routes](INTEGRATED-PRACTICES.md) — Choose a route by question, uncertainty and evidence boundary.
 
 - [Discover and validate a technical insight](practices/discover-and-validate-a-technical-insight.md) — Build a scoped explanation by connecting a consequential question to evidence that can challenge competing accounts.
 - [Investigate a technical opportunity](practices/investigate-a-technical-opportunity.md) — Discover useful possibilities by connecting a capability gap to mechanisms, alternatives and decisive evidence.

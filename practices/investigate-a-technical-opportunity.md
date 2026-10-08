@@ -9,10 +9,10 @@ basis_kind: "authored operational synthesis; no field effectiveness study"
 confidence: "provisional for application"
 stage_titles: ["Stage1 Define the useful change", "Stage2 Map mechanisms and competing approaches", "Stage3 Explain the proposed opportunity", "Stage4 Reduce the decisive uncertainty", "Stage5 Recommend a bounded next action"]
 practice_format: "staged-inline-local-v1"
-uses_methods: ["ti:me:map-a-technical-landscape", "ti:me:compare-technical-alternatives", "ti:me:build-an-explanatory-model", "ti:me:design-a-discriminating-test"]
+uses_methods: ["ti:me:map-a-technical-landscape","ti:me:compare-technical-alternatives","ti:me:build-an-explanatory-model","ti:me:design-a-discriminating-test","ti:me:scan-technology-signals","ti:me:assess-technology-readiness","ti:me:explore-technical-contradictions","ti:me:evaluate-a-research-opportunity","ti:me:build-a-conditional-technology-roadmap","ti:me:synthesize-claim-relevant-sources"]
 uses_principles: ["ti:p:novelty-and-support-are-different-properties"]
-uses_models: ["ti:mo:decision-and-transfer-model"]
-references: ["ti:r:nasa-undated-decision-analysis", "ti:r:li-2019-collecting-data-cochrane", "ti:r:nasa-7009b-2024-models-and-simulations"]
+uses_models: ["ti:mo:decision-and-transfer-model","ti:mo:readiness-evidence-model","ti:mo:investigation-and-intelligence-routing-model"]
+references: ["ti:r:nasa-undated-decision-analysis","ti:r:li-2019-collecting-data-cochrane","ti:r:nasa-7009b-2024-models-and-simulations","ti:r:government-office-for-science-2024-futures-toolkit","ti:r:epo-undated-patent-families","ti:r:nasa-2023-technology-readiness-levels","ti:r:darpa-undated-heilmeier-catechism","ti:r:matriz-undated-contradictions","ti:r:ifm-engage-undated-technology-roadmapping"]
 ---
 
 # Investigate a technical opportunity
@@ -24,6 +24,10 @@ Discover useful possibilities by connecting a capability gap to mechanisms, alte
 ## Summary
 
 This Practice begins with an opportunity rather than a failure. It builds a technical landscape, identifies a potentially useful distinction and selects the cheapest credible way to reduce decision-relevant uncertainty. New-to-project understanding is useful even when it is not new science.
+
+## Integrated technology intelligence route
+
+Use this Practice when the decision depends on emerging alternatives, technology maturity or a proposed research program. Begin with the need, not a preferred invention. Move from dated signals through reproducible literature and patent coverage, comparable mechanisms, context-specific readiness, inventive alternatives, a falsifiable research case and a conditional roadmap. These are optional operations chosen for the decision; a TRL rating, a patent or a Heilmeier-style proposal is not evidence that the technology will deliver the desired operational result.
 
 ## Goal and prerequisites
 
@@ -64,6 +68,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 
 **Fallback and stopping:** If no decision depends on the answer, treat it as open study or narrow the purpose rather than manufacturing urgency.
 
+**Scanning gate:** Define useful capability, baseline and date horizon before [scanning technology signals](../methods/scan-technology-signals.md). Keep a dated log of claimed advances, original sources, repeated reports, independent counter-signals and search omissions. A publication or announcement is a lead, not an observed local effect. If there is no plausible route to an owner decision, stop the scan rather than expanding it indefinitely.
+
 ## Stage2 Map mechanisms and competing approaches
 
 **Goal:** Identify genuinely different routes to the goal.
@@ -88,6 +94,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 4. Record bounded search coverage and distinguish established ideas from speculation.
 
 **Fallback and stopping:** A missing search hit is not proof of originality or absence. A vendor benchmark alone does not establish general performance.
+
+**Landscape and readiness gate:** For each distinct mechanism, record original literature, search terms, patent-family relationships, use environment and fair incumbent comparisons. Patent filings are not proof of technical feasibility, ownership rights or freedom to operate. Apply [Assess technology readiness](../methods/assess-technology-readiness.md) to the actual intended use, separating component evidence, integrated demonstrations and missing environmental or operational checks. Never infer a universal TRL from a publicity claim or average unrelated component scores.
 
 ## Stage3 Explain the proposed opportunity
 
@@ -114,6 +122,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 
 **Fallback and stopping:** If all explanations predict the same claimed gain, the current evidence may select a useful action without identifying its mechanism.
 
+**Contradiction and invention gate:** When gaining one property appears to harm another, use [Explore technical contradictions](../methods/explore-technical-contradictions.md) to identify alternatives such as changed resource use, sequencing or separation. TRIZ-inspired prompts generate ideas rather than validation. For each proposed design, state the mechanism, expected benefit, potential worsening effect and a comparison that would count against it. If candidate claims remain disputed, return to a bounded hypothesis investigation.
+
 ## Stage4 Reduce the decisive uncertainty
 
 **Goal:** Learn enough to decide whether further investment is justified.
@@ -139,6 +149,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 
 **Fallback and stopping:** Use a surrogate or specialist review when the informative intervention is unsafe. Do not keep testing merely because the first result was unfavourable.
 
+**Research case gate:** Apply [Evaluate a research opportunity](../methods/evaluate-a-research-opportunity.md) as a Heilmeier-inspired review: identify what is new relative to current options, who benefits, why the mechanism might work, what can fail, expected costs and the earliest falsifiable success criterion. Novelty and benefit are separate evidential questions. A well-formed proposal may justify a safe preliminary study; it does not establish feasibility, funding eligibility or endorsement.
+
 ## Stage5 Recommend a bounded next action
 
 **Goal:** Separate a supported insight from the funding or implementation choice.
@@ -163,6 +175,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 4. Write the insight separately from the selected design; publish only permitted source-linked knowledge.
 
 **Fallback and stopping:** Do not imply that a desk study proves manufacturability, safety, economics or field-wide novelty.
+
+**Conditional roadmap and decision:** Build a [conditional technology roadmap](../methods/build-a-conditional-technology-roadmap.md) linking desired capability to source review, bounded demonstration, integration evidence, decision owners, dates if supported and explicit stop or fallback branches. State continue, redesign or no-go criteria for each gate. Record actual observed evidence separately from proposed milestones. The [integrated Practice routes](../INTEGRATED-PRACTICES.md) show how to return disputed technical claims for investigation. A [synthetic worked example](../INTEGRATED-EXAMPLE.md) illustrates the distinction without claiming real results.
 
 ## Troubleshooting
 
