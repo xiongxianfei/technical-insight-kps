@@ -60,6 +60,10 @@
       "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
       "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
     },
+    "concepts/technology-intelligence.md": {
+      "models/investigation-and-intelligence-routing-model.md": "637b61ea77e72d798803644cbbc7cdb0a42932e50362a1a5d342963e8c6a04ff",
+      "models/question-and-system-boundary-model.md": "c6472d70cadeb126da86f2e45dd13444f087275c35d18832ee4d32b5437f9cf6"
+    },
     "concepts/tradeoff.md": {
       "concepts/assumptions-and-boundary-conditions.md": "8e63555fd7b6d06f294a34b72fbccf42be75af0678886b2764749b5dfb832da1",
       "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
@@ -148,6 +152,13 @@
       "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
       "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
     },
+    "methods/structure-and-prioritize-hypotheses.md": {
+      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
+      "models/hypothesis-prediction-matrix.md": "1ff1239d880903c59311f0c5ce4ce54e04e698a1b67f2a6ede7451a67aebfc53",
+      "models/investigation-and-intelligence-routing-model.md": "637b61ea77e72d798803644cbbc7cdb0a42932e50362a1a5d342963e8c6a04ff",
+      "references/bain-undated-case-interview-preparation.md": "9c7179d0c1de53c159863b12ac56847c40b0f6a909e0eb32fb8d102e319d42e3",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
+    },
     "methods/synthesize-claim-relevant-sources.md": {
       "models/claim-evidence-inference-model.md": "8080a542ae1f9a2cc8b1e4bebb2bd79882aa208e4bc90046584c805e0f7e816f",
       "principles/repeated-reports-can-share-one-evidence-base.md": "5c3c56a5537d0544f9de2fc2025b18fd5bd93e26c4a47cf244a7f27f24755756",
@@ -198,6 +209,11 @@
       "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
       "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12",
       "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "models/investigation-and-intelligence-routing-model.md": {
+      "concepts/technology-intelligence.md": "8850c53b8ab48397fefe000f494bd52095a2c4441a2e5855edeb5f51a18ebcf6",
+      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
+      "models/hypothesis-prediction-matrix.md": "1ff1239d880903c59311f0c5ce4ce54e04e698a1b67f2a6ede7451a67aebfc53"
     },
     "models/measurement-and-uncertainty-model.md": {
       "methods/audit-an-observation.md": "52f8a583bb39b148ba47f6cea7f9a968c7a8d0459f0a35a0908eaec1596db048",
