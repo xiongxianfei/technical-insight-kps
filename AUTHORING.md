@@ -1,7 +1,7 @@
 ---
-package_version: "1.0.0"
+package_version: "2.0.0"
 language: "KPS 9.x"
-reviewed: "2026-10-07"
+reviewed: "2026-10-08"
 ---
 
 # Authoring authority
@@ -39,3 +39,7 @@ The whole real heading determines the fragment. Metadata IDs and opaque prefixes
 ## Review
 
 Run the checks documented in README. Hide links and try the intended reading task, then inspect sources to check faithful compression. Structural checks cannot evaluate engineering truth or replace human review. Only refresh `summary-dependencies.json` after examining changed source meaning.
+
+## Domain Method admission policy
+
+For this domain release, Methods document established named techniques with inspected source support. A worksheet or synthetic example is authored exposition, not a new method or a claim of official endorsement. Custom selection, sequencing, evidence handling and publication routines belong in Practices. This is a domain choice, not a redefinition of the core KPS five knowledge roles. Never infer efficacy from familiarity alone.

@@ -1,51 +1,51 @@
 ---
+language: "KPS 9.x"
+reviewed: "2026-10-08"
 id: "ti:r:wipo-2015-patent-landscape-guidelines"
 type: "reference"
-version: "1.1.0"
-language: "KPS 9.x"
+version: "2.0.0"
 status: "active"
-reviewed: "2026-10-08"
-source_title: "WIPO Guidelines for Preparing Patent Landscape Reports"
-creators: ["World Intellectual Property Organization"]
-source_type: "primary public guidance"
+source_title: "Guidelines for Preparing Patent Landscape Reports"
+creators: ["World Intellectual Property Organization; Anthony Trippe"]
+source_type: "primary guidance or documentation"
 publication_year: 2015
-date_basis: "Publication page identifies 2015"
-url: "https://www.wipo.int/publications/en/details.jsp?id=3938&plang=EN"
+url: "https://www.wipo.int/edocs/pubdocs/en/wipo_pub_946.pdf"
 accessed: "2026-10-08"
-access_extent: "Publication landing page only; full report not inspected"
-evidence_family: "wipo-patent-landscape-guidelines"
+access_extent: "Primary PDF selected text in sections 8.1 to 8.3 and table of contents screenshot inspected; not a line by line review of the complete report"
+evidence_family: "World Intellectual Property Organization; Anthony Trippe"
 ---
 
-# WIPO Guidelines for Preparing Patent Landscape Reports
+# Guidelines for Preparing Patent Landscape Reports
 
 ## Key takeaway
 
-The publication description positions patent landscaping around the objectives of a report, analysis concepts and preparation frameworks.
+A defensible landscape requires a defined purpose, documented search coverage and careful preparation of records.
 
 ## Summary
 
-This record identifies the source contribution and inspection boundary. It is not evidence that the complete Technical Insight KPS workflow improves outcomes.
+This is a source record, not our preferred conclusion. It identifies the source contribution, inspected extent and the boundary of use.
 
 ## Source identity
 
-**Creator:** World Intellectual Property Organization
+**Creator:** World Intellectual Property Organization; Anthony Trippe  
+**Date basis:** The publication or page identifies 2015.
 
-**Publication date basis:** Publication page identifies 2015
-
-[External publication](https://www.wipo.int/publications/en/details.jsp?id=3938&plang=EN)
+[External source](https://www.wipo.int/edocs/pubdocs/en/wipo_pub_946.pdf)
 
 ## Inspection extent
 
-Publication landing page only; full report not inspected. Accessed 2026-10-08. Locator: Publication description and year.
+Primary PDF selected text in sections 8.1 to 8.3 and table of contents screenshot inspected; not a line by line review of the complete report. Inspection date: 2026-10-08. **Locator:** Sections 8.1 to 8.3; scope, searching and preparation.
 
 ## Claim contribution
 
-The publication description positions patent landscaping around the objectives of a report, analysis concepts and preparation frameworks.
+A defensible landscape requires a defined purpose, documented search coverage and careful preparation of records.
 
 ## Role and independence
 
-This is first-party documentation of the stated subject, not an independent evaluation of this KPS adaptation. Evidence family: wipo-patent-landscape-guidelines. Other pages restating this publication do not provide independent confirmation.
+This first-party source identifies the technique or framework. It does not independently evaluate this KPS workflow. Documents from the same organization or repeating the same underlying source are not automatically independent evidence. Our engineering examples, worksheets and stopping decisions are authored application, not quotations from the source.
 
 ## Limits and nonclaims
 
-Only the publication landing page was inspected, not the full guideline PDF. The detailed search, deduplication and comparison procedure in this package is authored synthesis, not an extracted WIPO procedure. No patentability or freedom-to-operate judgment is provided.
+This publication does not make our search exhaustive or supply legal advice. No live patent search was conducted for the synthetic examples.
+
+Source identity establishes provenance, not truth. Claims must retain their original context. External publications are not relicensed by this repository and their full text is not bundled.

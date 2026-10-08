@@ -8,8 +8,9 @@ reviewed: "2026-10-07"
 basis_kind: "explanatory synthesis with source premises and inference separated"
 confidence: "scope dependent; application requires evaluation"
 level: "domain"
-uses_methods: ["ti:me:map-a-technical-landscape", "ti:me:write-an-insight-record"]
+uses_methods: ["ti:me:structured-literature-review", "ti:me:patent-landscaping"]
 references: ["ti:r:w3c-2013-prov-overview", "ti:r:li-2019-collecting-data-cochrane"]
+uses_practices: ["ti:pr:maintain-technical-insight-knowledge"]
 ---
 
 # Novelty and evidential support are different properties
@@ -46,8 +47,8 @@ A bounded literature search cannot certify worldwide originality or patentabilit
 
 The essential explanation or procedure is above. These links provide reusable detail and source inspection.
 
-- [Map a technical landscape](../methods/map-a-technical-landscape.md)
-- [Write an insight record](../methods/write-an-insight-record.md)
+- [Map a technical landscape in the Practice](../practices/investigate-a-technical-opportunity.md#stage2-map-mechanisms-and-competing-approaches)
+- [Write an insight record in the Practice](../practices/maintain-technical-insight-knowledge.md#stage1-identify-the-knowledge-change)
 
 - [W3C provenance overview](../references/w3c-2013-prov-overview.md)
 - [Cochrane collecting data guidance](../references/li-2019-collecting-data-cochrane.md)

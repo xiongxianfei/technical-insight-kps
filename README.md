@@ -1,67 +1,50 @@
 ---
-package_version: "1.1.0"
 language: "KPS 9.x"
 reviewed: "2026-10-08"
+package_version: "2.0.0"
 ---
 
 # Technical Insight KPS
 
 ## Key takeaway
 
-Turn consequential technical questions into scoped explanations and reviewable decisions.
+Use established techniques and evidence to develop technical understanding and qualified technology decisions.
 
 ## Summary
 
-Technical Insight KPS 1.1.0 is a domain-independent engineering investigation and learning methodology. It teaches how to discover, explain, validate, document and apply technical insights using self-contained knowledge files. It is not a catalogue of all engineering science, a guarantee of novelty or a substitute for domain expertise. Its workflows are authored synthesis informed by inspected primary sources and official guidance.
+Technical Insight KPS 2.0.0 is a Markdown knowledge system for technical investigation and technology intelligence. Established Methods provide concrete techniques; our Practices combine them into end-to-end work. This breaking refactor replaces the complete generic Method layer instead of retaining parallel libraries.
 
-## Integrated investigation and technology intelligence
+## Start here
 
-Use the [integrated route map](INTEGRATED-PRACTICES.md) to select either hypothesis-driven engineering investigation or evidence-based technology scouting and opportunity evaluation. The [synthetic example](INTEGRATED-EXAMPLE.md) traces the handoff without inventing field results. Bain-inspired, Heilmeier-inspired and TRIZ-inspired approaches are aids to reasoning, not replacements for technical validation.
+Open [METHOD MAP](METHOD-MAP.md) to choose a familiar technique. Start with [5W2H](methods/5w2h.md) for a vague question or [Radar chart](methods/radar-chart.md) for a carefully bounded profile visualization. For end-to-end execution use [Investigation](practices/discover-and-validate-a-technical-insight.md) or [Technology opportunity](practices/investigate-a-technical-opportunity.md).
 
-## Start with one real question
+## What changed
 
-Use [Discover and validate a technical insight](practices/discover-and-validate-a-technical-insight.md) for an unexplained phenomenon or consequential knowledge gap. Use [Investigate a technical opportunity](practices/investigate-a-technical-opportunity.md) when seeking a new capability. Each Practice contains the required reasoning and steps inline, not merely links to other files.
+All 20 former generic Method paths are retired. Their framing, evidence handling, modeling, testing, documentation and revision responsibilities now have explicit homes in the five Practices. The Method library contains 22 established techniques with procedures, worksheets, synthetic examples, output checks and limits. [MIGRATION](MIGRATION.md) maps every former operation; Git history remains the historical source, not active compatibility stubs.
 
-The central loop is **question → observations → competing explanations → model → discriminating check → qualified insight → application → revision**. Tests can be calculations, software fixtures, simulations or authorized experiments. A documented unresolved conclusion is better than an invented cause.
+## Knowledge structure
 
-## Choose a route
+| Type | Count | Purpose |
+|---|---|---|
+| Concepts | 15 | Define useful distinctions |
+| Principles | 12 | Explain scoped relationships rather than prescribe commands |
+| Models | 10 | Represent mechanisms, evidence, boundaries and decisions |
+| Methods | 22 | Reuse established analytical techniques and visualizations |
+| Practices | 5 | Combine knowledge for real work |
+| Reference records | 30 | Preserve external contribution and access limits |
 
-| Need | Read |
-|---|---|
-| Understand the workflow | [Start here](START-HERE.md) |
-| Assess a claim or AI explanation | [Assess a technical claim](practices/assess-a-technical-claim.md) |
-| Use an insight in a new context | [Apply and transfer an insight](practices/apply-and-transfer-an-insight.md) |
-| Find an object | [Knowledge index](INDEX.md) |
-| Trace why a method exists | [Reasoning map](WHY-MAP.md) |
-| See complete examples | [Worked examples](WORKED-EXAMPLES.md) |
-| Record actual investigation work | [Blank templates](TEMPLATES.md) |
-| Understand evidence support | [Source synthesis](SOURCE-SYNTHESIS.md) |
+References are supporting infrastructure. The 64 core objects remain self-contained at their own level. [INDEX](INDEX.md) provides all files and [WHY MAP](WHY-MAP.md) connects operations to reasoning.
 
-## What is inside
+## Compatibility and use
 
-Five core folders contain Concepts, Principles, Models, Methods and Practices. `references/` holds structured Markdown records pointing to external publications; it is not a sixth knowledge type. No source PDFs, private datasets or fabricated field observations are bundled.
+Compatible with KPS 9.x and the practical Markdown profile; inspected core release 9.0.1. Numbered Stage1 headings indicate recommended order, not permission to skip prerequisites. The core authoring contract remains authoritative. See [AUTHORING](AUTHORING.md) and [COMPATIBILITY](COMPATIBILITY.md).
 
-Principles are declarative explanations such as “Factor effects can depend on other factors,” not instructions such as “Always change one variable.” Concrete actions belong in Methods and Practices. A technical insight record is a synthesis artifact or experience record; independently reusable content is mapped back into the five roles.
+## Safety and evidence
 
-## Compatibility and publication
+No real investigation, field result, personal experience or independent effectiveness trial is invented. Source recommendations, proposed tests, actual results and design choices remain separate. Read [BOUNDARIES](BOUNDARIES.md) before acting on a live or hazardous system. Public patent information is not legal clearance. Third-party publications keep their own rights.
 
-Compatible with KPS language **9.x**, checked against authoring release **9.0.1** and its pinned commit. See [Compatibility](COMPATIBILITY.md) and [Authoring authority](AUTHORING.md). Plain Markdown, single-line YAML values and actual heading slugs are used. `Stage1` numbers indicate recommended order, not mandatory dependencies.
+## Checks and publication status
 
-This is the independent public source repository for Technical Insight KPS. Publication changes are proposed through review-ready pull requests; merging and official GitHub Releases remain separate maintainer decisions. A similarly named security-insight project has a different scope and is not part of this package.
+Use `python3 validate.py . --manifest`, `python3 test_validate.py`, `python3 test_examples.py` and `python3 test_transition.py`. These check structure, migration and synthetic calculations, not truth or safety. See [CHECKS](CHECKS.md).
 
-## Safety evidence and limits
-
-Read [Boundaries](BOUNDARIES.md) before applying the methods. A procedure here does not authorize physical, production, security or human-subject experiments. Knowledge status “active” means part of this publication; it does not mean proven effective.
-
-The three worked examples are explicitly synthetic/illustrative. Their arithmetic and set logic are testable locally, but they are not real experiments. No independent engineer usability trial, field effectiveness study or expert certification was completed. [Checks](CHECKS.md) reports exactly what was tested.
-
-## Local checks
-
-```bash
-python3 validate.py .
-python3 test_validate.py
-python3 test_examples.py
-python3 validate.py . --manifest
-```
-
-Manifest checking is for the extracted release payload. In a changed working tree, regenerate a publication manifest only after a real review; do not silence errors by blindly accepting changed summaries.
+This locally prepared release has not been pushed or merged in GitHub during this session. The current connector offers read operations only. Its [application guide](PUBLISHING.md) explains the guarded repository change; no branch protection or credentials are bypassed.

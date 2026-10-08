@@ -1,51 +1,51 @@
 ---
+language: "KPS 9.x"
+reviewed: "2026-10-08"
 id: "ti:r:ifm-engage-undated-technology-roadmapping"
 type: "reference"
-version: "1.1.0"
-language: "KPS 9.x"
+version: "2.0.0"
 status: "active"
-reviewed: "2026-10-08"
-source_title: "IfM Engage technology roadmapping"
+source_title: "Technology Roadmapping"
 creators: ["IfM Engage University of Cambridge"]
-source_type: "primary public guidance"
+source_type: "primary guidance or documentation"
 publication_year: null
-date_basis: "No reliable publication date on the inspected page; access date is not publication date"
-url: "https://engage.ifm.eng.cam.ac.uk/technology-roadmapping/"
+url: "https://engage.ifm-eng.cam.ac.uk/technology-roadmapping/"
 accessed: "2026-10-08"
-access_extent: "Selected public HTML sections inspected"
-evidence_family: "cambridge-ifm-roadmapping"
+access_extent: "Public HTML text at the named sections inspected in this authoring session"
+evidence_family: "IfM Engage University of Cambridge"
 ---
 
-# IfM Engage technology roadmapping
+# Technology Roadmapping
 
 ## Key takeaway
 
-IfM describes T-Plan as connecting market/business drivers, product or service capabilities, technology options and a chart of the resulting relationships and actions.
+Roadmapping links needs, capabilities and technological resources across time.
 
 ## Summary
 
-This record identifies the source contribution and inspection boundary. It is not evidence that the complete Technical Insight KPS workflow improves outcomes.
+This is a source record, not our preferred conclusion. It identifies the source contribution, inspected extent and the boundary of use.
 
 ## Source identity
 
-**Creator:** IfM Engage University of Cambridge
+**Creator:** IfM Engage University of Cambridge  
+**Date basis:** No verified publication year; accessed date is not a publication date.
 
-**Publication date basis:** No reliable publication date on the inspected page; access date is not publication date
-
-[External publication](https://engage.ifm.eng.cam.ac.uk/technology-roadmapping/)
+[External source](https://engage.ifm-eng.cam.ac.uk/technology-roadmapping/)
 
 ## Inspection extent
 
-Selected public HTML sections inspected. Accessed 2026-10-08. Locator: Technology roadmapping; The T-Plan process.
+Public HTML text at the named sections inspected in this authoring session. Inspection date: 2026-10-08. **Locator:** Technology Roadmapping overview.
 
 ## Claim contribution
 
-IfM describes T-Plan as connecting market/business drivers, product or service capabilities, technology options and a chart of the resulting relationships and actions.
+Roadmapping links needs, capabilities and technological resources across time.
 
 ## Role and independence
 
-This is first-party documentation of the stated subject, not an independent evaluation of this KPS adaptation. Evidence family: cambridge-ifm-roadmapping. Other pages restating this publication do not provide independent confirmation.
+This first-party source identifies the technique or framework. It does not independently evaluate this KPS workflow. Documents from the same organization or repeating the same underlying source are not automatically independent evidence. Our engineering examples, worksheets and stopping decisions are authored application, not quotations from the source.
 
 ## Limits and nonclaims
 
-The inspected page describes a facilitated workshop process, not a guaranteed technology forecast. The compact KPS roadmap is inspired by its layers and the Futures Toolkit, not delivery of the complete T-Plan service or a claim of endorsement.
+The public overview is not the complete proprietary T-Plan facilitation material. Our domain example and stage gates are application choices.
+
+Source identity establishes provenance, not truth. Claims must retain their original context. External publications are not relicensed by this repository and their full text is not bundled.

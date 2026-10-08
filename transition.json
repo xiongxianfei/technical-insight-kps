@@ -1,0 +1,222 @@
+{
+  "from_commit": "85a92fdd39453a0de670cbfeadea85f237acc749",
+  "target_version": "2.0.0",
+  "retired_methods": {
+    "frame-an-insight-question": {
+      "path": "methods/frame-an-insight-question.md",
+      "practice": "practices/discover-and-validate-a-technical-insight.md",
+      "stage": "Stage1 Bound the question and authority",
+      "techniques": [
+        "5w2h",
+        "sipoc"
+      ],
+      "responsibility": "Purpose, boundary, authority, measures and a decision-relevant question"
+    },
+    "audit-an-observation": {
+      "path": "methods/audit-an-observation.md",
+      "practice": "practices/discover-and-validate-a-technical-insight.md",
+      "stage": "Stage2 Audit the evidence before the story",
+      "techniques": [
+        "sipoc",
+        "measurement-uncertainty-budget"
+      ],
+      "responsibility": "Observation versus interpretation, calibration, provenance and artifacts"
+    },
+    "synthesize-claim-relevant-sources": {
+      "path": "methods/synthesize-claim-relevant-sources.md",
+      "practice": "practices/discover-and-validate-a-technical-insight.md",
+      "stage": "Stage3 Find the knowledge the question needs",
+      "techniques": [
+        "structured-literature-review"
+      ],
+      "responsibility": "Claim-oriented extraction, evidence families, contradictions and access limits"
+    },
+    "generate-competing-explanations": {
+      "path": "methods/generate-competing-explanations.md",
+      "practice": "practices/discover-and-validate-a-technical-insight.md",
+      "stage": "Stage4 Build rival explanations and a model",
+      "techniques": [
+        "hypothesis-driven-analysis",
+        "fishbone-analysis",
+        "five-whys"
+      ],
+      "responsibility": "Rival mechanisms, observation artifacts and contrary predictions"
+    },
+    "build-an-explanatory-model": {
+      "path": "methods/build-an-explanatory-model.md",
+      "practice": "practices/discover-and-validate-a-technical-insight.md",
+      "stage": "Stage4 Build rival explanations and a model",
+      "techniques": [
+        "hypothesis-driven-analysis",
+        "sensitivity-analysis"
+      ],
+      "responsibility": "Variables, units, relationships, limiting cases and applicability"
+    },
+    "design-a-discriminating-test": {
+      "path": "methods/design-a-discriminating-test.md",
+      "practice": "practices/discover-and-validate-a-technical-insight.md",
+      "stage": "Stage5 Design a discriminating comparison",
+      "techniques": [
+        "design-of-experiments",
+        "measurement-uncertainty-budget"
+      ],
+      "responsibility": "Comparators, manipulation, controls, independent units and safe stopping"
+    },
+    "execute-a-bounded-test": {
+      "path": "methods/execute-a-bounded-test.md",
+      "practice": "practices/discover-and-validate-a-technical-insight.md",
+      "stage": "Stage6 Execute and preserve what happened",
+      "techniques": [
+        "design-of-experiments"
+      ],
+      "responsibility": "Actual execution, configurations, deviations, raw results and authority"
+    },
+    "evaluate-results-and-uncertainty": {
+      "path": "methods/evaluate-results-and-uncertainty.md",
+      "practice": "practices/discover-and-validate-a-technical-insight.md",
+      "stage": "Stage7 Evaluate the explanation and its limits",
+      "techniques": [
+        "statistical-hypothesis-testing",
+        "measurement-uncertainty-budget",
+        "sensitivity-analysis"
+      ],
+      "responsibility": "Effect, uncertainty, execution validity and inconclusive conclusions"
+    },
+    "challenge-and-replicate-an-explanation": {
+      "path": "methods/challenge-and-replicate-an-explanation.md",
+      "practice": "practices/discover-and-validate-a-technical-insight.md",
+      "stage": "Stage7 Evaluate the explanation and its limits",
+      "techniques": [
+        "design-of-experiments",
+        "sensitivity-analysis"
+      ],
+      "responsibility": "Independent challenge, reproducibility limits and alternative explanations"
+    },
+    "compare-technical-alternatives": {
+      "path": "methods/compare-technical-alternatives.md",
+      "practice": "practices/investigate-a-technical-opportunity.md",
+      "stage": "Stage5 Recommend a bounded next action",
+      "techniques": [
+        "pugh-matrix",
+        "weighted-decision-matrix"
+      ],
+      "responsibility": "Constraints before preferences, raw evidence, uncertainty and reversibility"
+    },
+    "assess-transfer-to-a-new-context": {
+      "path": "methods/assess-transfer-to-a-new-context.md",
+      "practice": "practices/apply-and-transfer-an-insight.md",
+      "stage": "Stage2 Map preserved changed and unknown assumptions",
+      "techniques": [
+        "technology-readiness-assessment",
+        "sensitivity-analysis"
+      ],
+      "responsibility": "Preserved, changed and unknown assumptions in the target context"
+    },
+    "write-an-insight-record": {
+      "path": "methods/write-an-insight-record.md",
+      "practice": "practices/maintain-technical-insight-knowledge.md",
+      "stage": "Stage1 Identify the knowledge change",
+      "techniques": [],
+      "responsibility": "Separate observations, interpretation, evidence, applicability and decisions"
+    },
+    "review-and-revise-knowledge": {
+      "path": "methods/review-and-revise-knowledge.md",
+      "practice": "practices/maintain-technical-insight-knowledge.md",
+      "stage": "Stage2 Review evidence and downstream consequences",
+      "techniques": [
+        "structured-literature-review"
+      ],
+      "responsibility": "New evidence, correction history and dependent-summary review"
+    },
+    "map-a-technical-landscape": {
+      "path": "methods/map-a-technical-landscape.md",
+      "practice": "practices/investigate-a-technical-opportunity.md",
+      "stage": "Stage2 Map mechanisms and competing approaches",
+      "techniques": [
+        "structured-literature-review",
+        "patent-landscaping"
+      ],
+      "responsibility": "Comparable mechanisms, scope, family-aware counting and legal limits"
+    },
+    "structure-and-prioritize-hypotheses": {
+      "path": "methods/structure-and-prioritize-hypotheses.md",
+      "practice": "practices/discover-and-validate-a-technical-insight.md",
+      "stage": "Stage4 Build rival explanations and a model",
+      "techniques": [
+        "hypothesis-driven-analysis"
+      ],
+      "responsibility": "Issue structure, rivals, discrimination value and consequential priorities"
+    },
+    "scan-technology-signals": {
+      "path": "methods/scan-technology-signals.md",
+      "practice": "practices/investigate-a-technical-opportunity.md",
+      "stage": "Stage1 Define the useful change",
+      "techniques": [
+        "horizon-scanning"
+      ],
+      "responsibility": "Dated original signals, counter-signals, coverage and a search stopping rule"
+    },
+    "assess-technology-readiness": {
+      "path": "methods/assess-technology-readiness.md",
+      "practice": "practices/investigate-a-technical-opportunity.md",
+      "stage": "Stage2 Map mechanisms and competing approaches",
+      "techniques": [
+        "technology-readiness-assessment"
+      ],
+      "responsibility": "Technology and environment-specific criterion-to-evidence gaps"
+    },
+    "evaluate-a-research-opportunity": {
+      "path": "methods/evaluate-a-research-opportunity.md",
+      "practice": "practices/investigate-a-technical-opportunity.md",
+      "stage": "Stage4 Reduce the decisive uncertainty",
+      "techniques": [
+        "heilmeier-catechism"
+      ],
+      "responsibility": "Need, incumbent, novelty, basis, beneficiaries, risks and falsifiable milestones"
+    },
+    "explore-technical-contradictions": {
+      "path": "methods/explore-technical-contradictions.md",
+      "practice": "practices/investigate-a-technical-opportunity.md",
+      "stage": "Stage3 Explain the proposed opportunity",
+      "techniques": [
+        "triz-contradiction-analysis",
+        "morphological-analysis"
+      ],
+      "responsibility": "Candidate mechanisms, resources, opposing properties and downside tests"
+    },
+    "build-a-conditional-technology-roadmap": {
+      "path": "methods/build-a-conditional-technology-roadmap.md",
+      "practice": "practices/investigate-a-technical-opportunity.md",
+      "stage": "Stage5 Recommend a bounded next action",
+      "techniques": [
+        "technology-roadmapping"
+      ],
+      "responsibility": "Needs, capabilities, dependencies, owners, evidence gates and fallback paths"
+    }
+  },
+  "established_methods": [
+    "5w2h",
+    "sipoc",
+    "hypothesis-driven-analysis",
+    "five-whys",
+    "fishbone-analysis",
+    "fmea",
+    "pareto-analysis",
+    "pugh-matrix",
+    "weighted-decision-matrix",
+    "radar-chart",
+    "design-of-experiments",
+    "statistical-hypothesis-testing",
+    "measurement-uncertainty-budget",
+    "sensitivity-analysis",
+    "structured-literature-review",
+    "horizon-scanning",
+    "patent-landscaping",
+    "technology-readiness-assessment",
+    "heilmeier-catechism",
+    "triz-contradiction-analysis",
+    "morphological-analysis",
+    "technology-roadmapping"
+  ],
+  "meaning": "Routing and completeness check only; not proof of equivalent efficacy or scientific validity."
+}

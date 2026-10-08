@@ -8,7 +8,7 @@ reviewed: "2026-10-07"
 basis_kind: "explanatory synthesis with source premises and inference separated"
 confidence: "scope dependent; application requires evaluation"
 level: "domain"
-uses_methods: ["ti:me:evaluate-results-and-uncertainty"]
+uses_methods: ["ti:me:statistical-hypothesis-testing", "ti:me:measurement-uncertainty-budget", "ti:me:sensitivity-analysis"]
 uses_practices: ["ti:pr:apply-and-transfer-an-insight"]
 references: ["ti:r:pearl-2009-causal-inference-in-statistics", "ti:r:nasa-undated-decision-analysis"]
 ---
@@ -47,7 +47,7 @@ A coincident before/after improvement is not by itself evidence of intervention 
 
 The essential explanation or procedure is above. These links provide reusable detail and source inspection.
 
-- [Evaluate results and uncertainty](../methods/evaluate-results-and-uncertainty.md)
+- [Evaluate results and uncertainty in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage7-evaluate-the-explanation-and-its-limits)
 - [Apply and transfer an insight](../practices/apply-and-transfer-an-insight.md)
 
 - [Causal inference in statistics An overview](../references/pearl-2009-causal-inference-in-statistics.md)

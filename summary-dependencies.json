@@ -61,12 +61,12 @@
       "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
     },
     "concepts/technology-intelligence.md": {
-      "models/investigation-and-intelligence-routing-model.md": "637b61ea77e72d798803644cbbc7cdb0a42932e50362a1a5d342963e8c6a04ff",
-      "models/question-and-system-boundary-model.md": "c6472d70cadeb126da86f2e45dd13444f087275c35d18832ee4d32b5437f9cf6"
+      "references/government-office-for-science-2024-futures-toolkit.md": "d60094375e08b96974c1e14844121cd152cb1cfaf7b6b990a970b7b6ddaa8b13",
+      "references/wipo-2015-patent-landscape-guidelines.md": "644fccf30d91c1723848cd4770706b925a504e3432516836a601383499013689"
     },
     "concepts/technology-readiness.md": {
-      "models/readiness-evidence-model.md": "5bd2d8d2a74c7e25416cda05dc9b486d67f918e56e2848fad40913e2b5accd74",
-      "references/nasa-2023-technology-readiness-levels.md": "d26eb1b8642b9df3ea89b71ac36106a7037c529b9ab3e624a9805f565ade4f20"
+      "models/readiness-evidence-model.md": "fe8bb9e52419b6e5601e4fccf9f5da4d7c6e19a9f683d465881983dad0e2ce13",
+      "references/nasa-2023-technology-readiness-levels.md": "0719ca779bc296a593e9e15db47a7a719fbd2285ccec47b0233f2182c216ad70"
     },
     "concepts/tradeoff.md": {
       "concepts/assumptions-and-boundary-conditions.md": "8e63555fd7b6d06f294a34b72fbccf42be75af0678886b2764749b5dfb832da1",
@@ -77,354 +77,413 @@
       "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
       "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
     },
-    "methods/assess-technology-readiness.md": {
-      "concepts/technology-readiness.md": "9f3ea473d22df538020a9e613aa7f0b66683cda502e96c9a21c7defa6e073fbb",
-      "methods/assess-transfer-to-a-new-context.md": "781eff0073c86b3c6190d9da53f2057970f5616479f53e302171df1bad9e7f64",
-      "models/readiness-evidence-model.md": "5bd2d8d2a74c7e25416cda05dc9b486d67f918e56e2848fad40913e2b5accd74",
-      "principles/readiness-evidence-is-context-dependent.md": "ac0c957c7bd894fad26089d68883d22889d83c1de1bf15778643b8b80bbeb878",
-      "references/nasa-2023-technology-readiness-levels.md": "d26eb1b8642b9df3ea89b71ac36106a7037c529b9ab3e624a9805f565ade4f20"
+    "methods/5w2h.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/ahrq-undated-5w2h.md": "c15e6f83b106d0a30fda56945496018f041014946edf1781d1a485c3be81ceab"
     },
-    "methods/assess-transfer-to-a-new-context.md": {
-      "concepts/transfer.md": "39ba9a6f01ca4f516927824e61401c58874c5038dd1bf541d21699d1bf116593",
-      "principles/validation-has-a-domain-of-applicability.md": "fe00e524b1c719a187a8af4ba775ba372d297a2c395fef1a0e6e8d99788fc763",
-      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
-      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
+    "methods/design-of-experiments.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/nist-undated-experimental-design-handbook.md": "8433b141afaa11a7833c7bcf5a3ea696cfdd3ada9526ade772883f57d681f1e5"
     },
-    "methods/audit-an-observation.md": {
-      "models/measurement-and-uncertainty-model.md": "010388538e0805a971a577da5088b5a8f4e0ca10338971da5b8d8221da66258c",
-      "principles/measurements-include-the-observation-process.md": "1ad57886967c5be56be46051105be5a9aab34270d3b74b11c5f80fb6d4e9159b",
-      "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217",
-      "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5",
-      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    "methods/fishbone-analysis.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/asq-undated-fishbone.md": "dff8b11abffff20208b82f94ccbc73588ac2684cb976fd8478acd0e0330b6f7e"
     },
-    "methods/build-a-conditional-technology-roadmap.md": {
-      "methods/assess-technology-readiness.md": "8f2fa2ed494126ad278dd043eb18d5a1079d3c57d19cdcdf3ce6dafd9efcc73f",
-      "methods/evaluate-a-research-opportunity.md": "4aa6d8544fddc4e8b124b30ff797f46d6452f71f9c8b42f555a86db7175dc9fb",
-      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
-      "models/readiness-evidence-model.md": "5bd2d8d2a74c7e25416cda05dc9b486d67f918e56e2848fad40913e2b5accd74",
-      "references/government-office-for-science-2024-futures-toolkit.md": "0dbe7dc1cada967f57c2a096cd7eecd1fdcda598b9de980b15fe70f7dbddf983",
-      "references/ifm-engage-undated-technology-roadmapping.md": "0a95ec1fe9fd0734d7a4b652bc5cdd11d6d66c4a925575304cebd1f128babd4e"
-    },
-    "methods/build-an-explanatory-model.md": {
-      "models/model-validity-envelope.md": "1995c2f557728862d66c363fd83dde78ba23331e1d6df55c968004b9b506f6ce",
-      "principles/fit-does-not-establish-model-validity.md": "59fea05cba55839628f995b2cfbbee7735d4bfb6c3ade9c3a3b5d23f9d650611",
-      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
-      "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217",
-      "references/nist-undated-model-fit-and-residuals.md": "9f7d76338e6a65d2e45e007ac4084e74be79c77b782ec880047b0598dd0f01b0"
-    },
-    "methods/challenge-and-replicate-an-explanation.md": {
-      "models/model-validity-envelope.md": "1995c2f557728862d66c363fd83dde78ba23331e1d6df55c968004b9b506f6ce",
-      "principles/reproducibility-does-not-establish-correctness.md": "2b2cd29d0e68ffccbb0981208018a37d183cb4c1d804e29ce4d4625345ff737c",
-      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
-      "references/nist-undated-model-fit-and-residuals.md": "9f7d76338e6a65d2e45e007ac4084e74be79c77b782ec880047b0598dd0f01b0",
-      "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5"
-    },
-    "methods/compare-technical-alternatives.md": {
-      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
-      "principles/decision-preference-depends-on-objectives-and-uncertainty.md": "b1aaeb24333d482130da6765cbe3fdd15e00bb287abd5190a2666f3f1863fa79",
-      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
-    },
-    "methods/design-a-discriminating-test.md": {
-      "models/hypothesis-prediction-matrix.md": "1ff1239d880903c59311f0c5ce4ce54e04e698a1b67f2a6ede7451a67aebfc53",
-      "models/measurement-and-uncertainty-model.md": "010388538e0805a971a577da5088b5a8f4e0ca10338971da5b8d8221da66258c",
-      "principles/factor-effects-can-depend-on-other-factors.md": "96b1d5e6b4ac4af7dc4dd5ee7437b10ea31f07aaf2ca6f5516b628b1514edabf",
-      "references/nist-undated-experimental-design-handbook.md": "8433b141afaa11a7833c7bcf5a3ea696cfdd3ada9526ade772883f57d681f1e5",
-      "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217",
+    "methods/five-whys.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/asq-undated-five-whys.md": "e33f02be26b111e7c76968c16fe1257a2eda1fd0268746e919c47dbb1b10b480",
       "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
     },
-    "methods/evaluate-a-research-opportunity.md": {
-      "methods/assess-technology-readiness.md": "8f2fa2ed494126ad278dd043eb18d5a1079d3c57d19cdcdf3ce6dafd9efcc73f",
-      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
-      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
-      "models/readiness-evidence-model.md": "5bd2d8d2a74c7e25416cda05dc9b486d67f918e56e2848fad40913e2b5accd74",
-      "references/darpa-undated-heilmeier-catechism.md": "75b50fb9aedda898bd553783b4a40e204639c0dfc1e4b7bc8fac7474494ec062",
+    "methods/fmea.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/asq-undated-fmea.md": "4b01551954b7c6e977f734868f9e6b94094c175c641c07a1a7eafc797f8c5dcc"
+    },
+    "methods/heilmeier-catechism.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/darpa-undated-heilmeier-catechism.md": "bb1e2643545a6f57aa8fb180f056580a27a4e78353c442f5ca9f48cbb49b70b7"
+    },
+    "methods/horizon-scanning.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/government-office-for-science-2024-futures-toolkit.md": "d60094375e08b96974c1e14844121cd152cb1cfaf7b6b990a970b7b6ddaa8b13"
+    },
+    "methods/hypothesis-driven-analysis.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/bain-undated-case-interview-preparation.md": "dc503de3527fcea1c5db5dd3ff13e572581acb791d7304c80243aef2d73c416d",
       "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
     },
-    "methods/evaluate-results-and-uncertainty.md": {
-      "models/claim-evidence-inference-model.md": "8080a542ae1f9a2cc8b1e4bebb2bd79882aa208e4bc90046584c805e0f7e816f",
-      "principles/a-useful-intervention-need-not-identify-its-mechanism.md": "98084f7b6998e5fe1c7336dc2711f4ddc38ebb6cbb76b0536323951524428743",
-      "references/nist-undated-experimental-design-handbook.md": "8433b141afaa11a7833c7bcf5a3ea696cfdd3ada9526ade772883f57d681f1e5",
-      "references/nist-undated-model-fit-and-residuals.md": "9f7d76338e6a65d2e45e007ac4084e74be79c77b782ec880047b0598dd0f01b0",
-      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
-    },
-    "methods/execute-a-bounded-test.md": {
-      "concepts/provenance.md": "c4ad5bc7c1df9b4b29437cf7100d96e07752f88e917d7a15f5884e57911172cd",
-      "models/measurement-and-uncertainty-model.md": "010388538e0805a971a577da5088b5a8f4e0ca10338971da5b8d8221da66258c",
-      "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
-      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
-      "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5"
-    },
-    "methods/explore-technical-contradictions.md": {
-      "concepts/mechanism.md": "b38df3248ae5a4fb4313be30b09745d2d8040126ddea9eeaad7dc22955977f46",
-      "concepts/tradeoff.md": "2c1630245db47869a72e39f0f4d10760a3366cd5d4d36bb14172ba095313b8c7",
-      "methods/compare-technical-alternatives.md": "c03c82a0282755dc49ed0893bf2ed9194b758e193eded39bcf65289cc949242c",
-      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
-      "models/causal-path-and-intervention-model.md": "ee31d3c9f3d7d26ba4fab47dd581e00d4bdd67c4310f280395e22bf7b2e55e1f",
-      "references/matriz-undated-contradictions.md": "babc4c679c04118273e9afa2cebc80717cff2dd951bd1504421f55e9dabe9994",
-      "references/oxford-creativity-undated-triz-glossary.md": "97753c0093dbf76927c862e2a202c5ae27ca2584837c4d0e84ee8335c0ef4eca"
-    },
-    "methods/frame-an-insight-question.md": {
-      "concepts/technical-insight.md": "254d0f1fa9f5ed10e823c1db64a361a8b6f54d387123c5cbc5fb9f51c69b64aa",
-      "models/question-and-system-boundary-model.md": "c6472d70cadeb126da86f2e45dd13444f087275c35d18832ee4d32b5437f9cf6",
-      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12",
+    "methods/measurement-uncertainty-budget.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
       "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217"
     },
-    "methods/generate-competing-explanations.md": {
-      "models/hypothesis-prediction-matrix.md": "1ff1239d880903c59311f0c5ce4ce54e04e698a1b67f2a6ede7451a67aebfc53",
-      "principles/explanations-can-share-the-same-predictions.md": "78997e3a07396e17b64c7fc6d0709d948420c5af9073b41ff87eebd5d3672b2f",
-      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
-      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
+    "methods/morphological-analysis.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/ritchey-2013-general-morphological-analysis.md": "1872ddad5587aea4ba45a6e1ddeb49ae567b43b1c6cbdb2f9af3b0da13cf31cf"
     },
-    "methods/map-a-technical-landscape.md": {
-      "concepts/technology-intelligence.md": "8850c53b8ab48397fefe000f494bd52095a2c4441a2e5855edeb5f51a18ebcf6",
-      "methods/compare-technical-alternatives.md": "c03c82a0282755dc49ed0893bf2ed9194b758e193eded39bcf65289cc949242c",
-      "methods/scan-technology-signals.md": "9f34d9c812fcb14b58808ae3ee8b5a93708d2b353d94b5e871f63bec74bf7922",
-      "models/readiness-evidence-model.md": "5bd2d8d2a74c7e25416cda05dc9b486d67f918e56e2848fad40913e2b5accd74",
-      "references/epo-undated-patent-families.md": "faa2fe459c5f378d0490aa58381467616d586379f8675b14b450650f119cd456",
-      "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
-      "references/wipo-2015-patent-landscape-guidelines.md": "648f9a224bb4092e41a4e4a55f07e523fb0cb245d733224c9e7859bc2760c46c"
+    "methods/pareto-analysis.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/asq-undated-pareto.md": "2fb94dbb3288c441c5f2c8f79e120f58f60f04f71928b32e9ab05a4e6d8d9c00"
     },
-    "methods/review-and-revise-knowledge.md": {
-      "models/insight-learning-cycle.md": "051b47e168b471d3f8d2e0a52e6a547c57cc9fe791b33cbb1e33c46b94a7235c",
-      "principles/validation-has-a-domain-of-applicability.md": "fe00e524b1c719a187a8af4ba775ba372d297a2c395fef1a0e6e8d99788fc763",
-      "references/kps-undated-authoring-contract-9x.md": "cffe0c341af998823f181d0501dbda84263f938f02ebb0afe7c74e59223f76c6",
-      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
-      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    "methods/patent-landscaping.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/epo-undated-patent-families.md": "f54c83f19ff7eebf5db0d349ceeb1f0582fe8ee667d2582a3848aee04d959e48",
+      "references/wipo-2015-patent-landscape-guidelines.md": "644fccf30d91c1723848cd4770706b925a504e3432516836a601383499013689"
     },
-    "methods/scan-technology-signals.md": {
-      "concepts/technology-intelligence.md": "8850c53b8ab48397fefe000f494bd52095a2c4441a2e5855edeb5f51a18ebcf6",
-      "methods/synthesize-claim-relevant-sources.md": "42a6c244e7c929f77e81fe1577e9b7e803ac8debf8cf3174899a6eb7a2e1da33",
-      "references/government-office-for-science-2024-futures-toolkit.md": "0dbe7dc1cada967f57c2a096cd7eecd1fdcda598b9de980b15fe70f7dbddf983"
-    },
-    "methods/structure-and-prioritize-hypotheses.md": {
-      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
-      "models/hypothesis-prediction-matrix.md": "1ff1239d880903c59311f0c5ce4ce54e04e698a1b67f2a6ede7451a67aebfc53",
-      "models/investigation-and-intelligence-routing-model.md": "637b61ea77e72d798803644cbbc7cdb0a42932e50362a1a5d342963e8c6a04ff",
-      "references/bain-undated-case-interview-preparation.md": "9c7179d0c1de53c159863b12ac56847c40b0f6a909e0eb32fb8d102e319d42e3",
+    "methods/pugh-matrix.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/asq-undated-decision-matrix.md": "fed450f3ef05266db8934a6ced442af87855af6f172a616d501ec461c99f3592",
       "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
     },
-    "methods/synthesize-claim-relevant-sources.md": {
-      "models/claim-evidence-inference-model.md": "8080a542ae1f9a2cc8b1e4bebb2bd79882aa208e4bc90046584c805e0f7e816f",
-      "principles/repeated-reports-can-share-one-evidence-base.md": "5c3c56a5537d0544f9de2fc2025b18fd5bd93e26c4a47cf244a7f27f24755756",
+    "methods/radar-chart.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/asq-undated-decision-matrix.md": "fed450f3ef05266db8934a6ced442af87855af6f172a616d501ec461c99f3592",
+      "references/matplotlib-undated-radar-chart.md": "e874e504017c68e7e4bebde0b51f072a25d0fd53a27abf48d901de926c4e7ae7"
+    },
+    "methods/sensitivity-analysis.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
+    },
+    "methods/sipoc.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/asq-undated-sipoc.md": "e03c4c821515ce7b94d5103191b4cf038abfca35f3fee89ab9b29f3d697682ad"
+    },
+    "methods/statistical-hypothesis-testing.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/nist-undated-hypothesis-tests.md": "8d73e4dc1f60ea4d0f0aecea0337a71800d41cf945ead6b68c0ef75d0e2cf655",
+      "references/nist-undated-model-fit-and-residuals.md": "9f7d76338e6a65d2e45e007ac4084e74be79c77b782ec880047b0598dd0f01b0"
+    },
+    "methods/structured-literature-review.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
       "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
       "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
     },
-    "methods/write-an-insight-record.md": {
-      "concepts/technical-insight.md": "254d0f1fa9f5ed10e823c1db64a361a8b6f54d387123c5cbc5fb9f51c69b64aa",
-      "models/claim-evidence-inference-model.md": "8080a542ae1f9a2cc8b1e4bebb2bd79882aa208e4bc90046584c805e0f7e816f",
-      "principles/novelty-and-support-are-different-properties.md": "42fd6ac3958f6388b7a9fa4164b0a69792745dbaa797f5f1bcdd71804dafd6bc",
-      "references/kps-undated-authoring-contract-9x.md": "cffe0c341af998823f181d0501dbda84263f938f02ebb0afe7c74e59223f76c6",
-      "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5",
-      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    "methods/technology-readiness-assessment.md": {
+      "models/readiness-evidence-model.md": "fe8bb9e52419b6e5601e4fccf9f5da4d7c6e19a9f683d465881983dad0e2ce13",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/nasa-2023-technology-readiness-levels.md": "0719ca779bc296a593e9e15db47a7a719fbd2285ccec47b0233f2182c216ad70"
+    },
+    "methods/technology-roadmapping.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/government-office-for-science-2024-futures-toolkit.md": "d60094375e08b96974c1e14844121cd152cb1cfaf7b6b990a970b7b6ddaa8b13",
+      "references/ifm-engage-undated-technology-roadmapping.md": "5cd184d3ddf5d47867aa3026abb3590d6c84e539fd69db0b97640183ec864814"
+    },
+    "methods/triz-contradiction-analysis.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/matriz-undated-contradictions.md": "3398ed6c0c67a8441423918917d363575ab12b763f7d1f09acd8a58de7f8984a",
+      "references/oxford-creativity-undated-triz-glossary.md": "2038f0f9ec935d4b0208ee6365824a00f35ddfcb9cc039180380dcb93033a938"
+    },
+    "methods/weighted-decision-matrix.md": {
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/asq-undated-decision-matrix.md": "fed450f3ef05266db8934a6ced442af87855af6f172a616d501ec461c99f3592",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
     },
     "models/causal-path-and-intervention-model.md": {
-      "methods/build-an-explanatory-model.md": "69c281c9912ed28044c89a81a217b42b7ead5ce955fe93db59ca460ca225334e",
-      "principles/a-useful-intervention-need-not-identify-its-mechanism.md": "98084f7b6998e5fe1c7336dc2711f4ddc38ebb6cbb76b0536323951524428743",
-      "principles/associations-do-not-determine-interventions.md": "0ca64c54f1322aa3ecf182296eb1cb9102bd442ff73cbe36f6e8916a39c603b6",
+      "methods/hypothesis-driven-analysis.md": "b64b7bfce6b29537ab2e91b47f1751b48dc1b24ef04f0e7a3a6dc0bc227f567d",
+      "methods/sensitivity-analysis.md": "2d2fdaba251096e615b5e637aa804c5ae2a3b0f9325aa7a7f79e58cfd2ad87d3",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "principles/a-useful-intervention-need-not-identify-its-mechanism.md": "e1c332e768ad6879cf01293421907b967b5aa00c0ba0e3516d886fbbacfda368",
+      "principles/associations-do-not-determine-interventions.md": "8e46b4024226d36fc3d655eee7b70e7d254c77067836f7cde00d8bb745399ae6",
       "references/nist-undated-experimental-design-handbook.md": "8433b141afaa11a7833c7bcf5a3ea696cfdd3ada9526ade772883f57d681f1e5",
       "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
     },
     "models/claim-evidence-inference-model.md": {
-      "methods/synthesize-claim-relevant-sources.md": "42a6c244e7c929f77e81fe1577e9b7e803ac8debf8cf3174899a6eb7a2e1da33",
-      "principles/repeated-reports-can-share-one-evidence-base.md": "5c3c56a5537d0544f9de2fc2025b18fd5bd93e26c4a47cf244a7f27f24755756",
-      "principles/reproducibility-does-not-establish-correctness.md": "2b2cd29d0e68ffccbb0981208018a37d183cb4c1d804e29ce4d4625345ff737c",
+      "methods/structured-literature-review.md": "540b6c40a63506a34d7c1e58ea56893dcfd8e5ede9e20b24861a03de3fdaa486",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "principles/repeated-reports-can-share-one-evidence-base.md": "1c7e67a28ff799cff48b9468a881b21108babd514bc93fe2ae5b8170c2cbe7a6",
+      "principles/reproducibility-does-not-establish-correctness.md": "509c33e3e0d3ea620417140fc7c10bf38dd2eb300198f70a78f63430449c7858",
       "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
       "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
     },
     "models/decision-and-transfer-model.md": {
       "concepts/transfer.md": "39ba9a6f01ca4f516927824e61401c58874c5038dd1bf541d21699d1bf116593",
-      "methods/assess-transfer-to-a-new-context.md": "781eff0073c86b3c6190d9da53f2057970f5616479f53e302171df1bad9e7f64",
-      "principles/decision-preference-depends-on-objectives-and-uncertainty.md": "b1aaeb24333d482130da6765cbe3fdd15e00bb287abd5190a2666f3f1863fa79",
+      "methods/sensitivity-analysis.md": "2d2fdaba251096e615b5e637aa804c5ae2a3b0f9325aa7a7f79e58cfd2ad87d3",
+      "methods/technology-readiness-assessment.md": "b4fe9a09c714b615538ae6201074fcc9df840b957efbf35fdd553ee55d98456b",
+      "practices/apply-and-transfer-an-insight.md": "34b2eeb0f564064a4d254faf92500ce6796b892046e09a7fc9c090a9d4c7d6a3",
+      "principles/decision-preference-depends-on-objectives-and-uncertainty.md": "955d5f9b210048e516225bbd437cf20dbd3c962b059265d471329b6ea291995f",
       "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
       "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
     },
     "models/hypothesis-prediction-matrix.md": {
-      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
-      "principles/explanations-can-share-the-same-predictions.md": "78997e3a07396e17b64c7fc6d0709d948420c5af9073b41ff87eebd5d3672b2f",
-      "principles/factor-effects-can-depend-on-other-factors.md": "96b1d5e6b4ac4af7dc4dd5ee7437b10ea31f07aaf2ca6f5516b628b1514edabf",
+      "methods/design-of-experiments.md": "4bda05e318c8ebd06bdcf7a07f4b02b2840baaf6929b63163595362d2a2fa8b7",
+      "methods/measurement-uncertainty-budget.md": "a3baf484a2b66a4fd00f11fde1fe3228245de265d11c3639c3a09fe47b0b0505",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "principles/explanations-can-share-the-same-predictions.md": "e984ba6533da8a01ee2c21bfc393c1bac0bcff098ea4666f5354723480a9ff13",
+      "principles/factor-effects-can-depend-on-other-factors.md": "ee328b346b40c4abc89b9754a82bcf7516ae525c436d5d513cdbea25a9cf43cb",
       "references/nist-undated-experimental-design-handbook.md": "8433b141afaa11a7833c7bcf5a3ea696cfdd3ada9526ade772883f57d681f1e5",
       "references/openstax-2016-university-physics-heat-transfer.md": "b6ab67e4ad9fecee694499d19ee820405831917a3f1eb7fabc4510b96fc97f48",
       "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
     },
     "models/insight-learning-cycle.md": {
       "concepts/technical-insight.md": "254d0f1fa9f5ed10e823c1db64a361a8b6f54d387123c5cbc5fb9f51c69b64aa",
-      "methods/write-an-insight-record.md": "b4366d361afb7b074b980b48e0ef80d8a0059694cf730113180e6f132a7f59b8",
-      "practices/discover-and-validate-a-technical-insight.md": "2103415dc0f14a9639a70d09239532adda9df16bd210602904edf01bb4e2592b",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/maintain-technical-insight-knowledge.md": "d53f98812910c4d3d19cd2b1cf1b7b2d9a3ded889c35cda7d5c6abdf76061de9",
       "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
       "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12",
       "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
     },
     "models/investigation-and-intelligence-routing-model.md": {
-      "concepts/technology-intelligence.md": "8850c53b8ab48397fefe000f494bd52095a2c4441a2e5855edeb5f51a18ebcf6",
-      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
-      "models/hypothesis-prediction-matrix.md": "1ff1239d880903c59311f0c5ce4ce54e04e698a1b67f2a6ede7451a67aebfc53"
+      "concepts/technology-intelligence.md": "77e85b8913b9b06bd133aced472d81699d0c26dc1ed1a41c34635e5db2e4580d"
     },
     "models/measurement-and-uncertainty-model.md": {
-      "methods/audit-an-observation.md": "52f8a583bb39b148ba47f6cea7f9a968c7a8d0459f0a35a0908eaec1596db048",
-      "principles/measurements-include-the-observation-process.md": "1ad57886967c5be56be46051105be5a9aab34270d3b74b11c5f80fb6d4e9159b",
+      "methods/measurement-uncertainty-budget.md": "a3baf484a2b66a4fd00f11fde1fe3228245de265d11c3639c3a09fe47b0b0505",
+      "methods/sipoc.md": "9ef205224d55ab1ba12f49d6e30d4dfdaa3a55a4895a39d2bbd94e4cf17f8370",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "principles/measurements-include-the-observation-process.md": "f5af86b82196275ace4c19f47f312e2a2b8086f093627b1db81a51db7ee208cb",
       "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217"
     },
     "models/model-validity-envelope.md": {
-      "methods/challenge-and-replicate-an-explanation.md": "d1d0d3e28aeb5706e295fe1f1d7bf4bd4e99b6f8a5efcd632548485178254930",
-      "principles/fit-does-not-establish-model-validity.md": "59fea05cba55839628f995b2cfbbee7735d4bfb6c3ade9c3a3b5d23f9d650611",
-      "principles/validation-has-a-domain-of-applicability.md": "fe00e524b1c719a187a8af4ba775ba372d297a2c395fef1a0e6e8d99788fc763",
+      "methods/design-of-experiments.md": "4bda05e318c8ebd06bdcf7a07f4b02b2840baaf6929b63163595362d2a2fa8b7",
+      "methods/sensitivity-analysis.md": "2d2fdaba251096e615b5e637aa804c5ae2a3b0f9325aa7a7f79e58cfd2ad87d3",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "principles/fit-does-not-establish-model-validity.md": "d0443ab3bcb2e2b541539644352c09596aa265414091d52876a5f31df80cb261",
+      "principles/validation-has-a-domain-of-applicability.md": "65c8b6cc50d71aa33884b6f1c3156ec80c0911a727f9c128fb99f105399da992",
       "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
       "references/nist-undated-model-fit-and-residuals.md": "9f7d76338e6a65d2e45e007ac4084e74be79c77b782ec880047b0598dd0f01b0"
     },
     "models/question-and-system-boundary-model.md": {
       "concepts/observation-and-interpretation.md": "683acc3566cd893dc0c9346d49ad3140ed30ffbd67baa3e4c1774433348442d8",
       "concepts/system-boundary.md": "6ebcbd7b3bfe9a64adeae2ff8220c568c4d7dd891ba66d0106bf1631ff3444db",
-      "methods/frame-an-insight-question.md": "77c9dea5da0093e9c6e00cf272e86cd9bd94e3bac558a5b1181d8fce9bf73ef2",
+      "methods/5w2h.md": "29928cbf701045d59681993a0ef80c9d51cdb7fe160e2b789f47ec86c2fc29e4",
+      "methods/sipoc.md": "9ef205224d55ab1ba12f49d6e30d4dfdaa3a55a4895a39d2bbd94e4cf17f8370",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
       "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
       "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12",
       "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217"
     },
     "models/readiness-evidence-model.md": {
-      "concepts/technology-readiness.md": "9f3ea473d22df538020a9e613aa7f0b66683cda502e96c9a21c7defa6e073fbb",
-      "principles/readiness-evidence-is-context-dependent.md": "ac0c957c7bd894fad26089d68883d22889d83c1de1bf15778643b8b80bbeb878",
-      "references/nasa-2023-technology-readiness-levels.md": "d26eb1b8642b9df3ea89b71ac36106a7037c529b9ab3e624a9805f565ade4f20"
+      "principles/readiness-evidence-is-context-dependent.md": "8b2a731b38e0c769f1ef72440e173bbbeff46b4ff8d76b36c099cd67f263f7f2",
+      "references/nasa-2023-technology-readiness-levels.md": "0719ca779bc296a593e9e15db47a7a719fbd2285ccec47b0233f2182c216ad70"
     },
     "practices/apply-and-transfer-an-insight.md": {
-      "methods/assess-transfer-to-a-new-context.md": "781eff0073c86b3c6190d9da53f2057970f5616479f53e302171df1bad9e7f64",
-      "methods/compare-technical-alternatives.md": "c03c82a0282755dc49ed0893bf2ed9194b758e193eded39bcf65289cc949242c",
-      "methods/evaluate-results-and-uncertainty.md": "6563964ca23a46e0eec41319ace8d6a3f3135d3a16e04d675b27d4aa19c7e31d",
-      "methods/execute-a-bounded-test.md": "6862b1855ad8588dbce4fe96788afae5565bad0ded1f5a39a36b200214dfcf3c",
-      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
-      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
-      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12",
-      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
-    },
-    "practices/assess-a-technical-claim.md": {
-      "methods/audit-an-observation.md": "52f8a583bb39b148ba47f6cea7f9a968c7a8d0459f0a35a0908eaec1596db048",
-      "methods/challenge-and-replicate-an-explanation.md": "d1d0d3e28aeb5706e295fe1f1d7bf4bd4e99b6f8a5efcd632548485178254930",
-      "methods/evaluate-results-and-uncertainty.md": "6563964ca23a46e0eec41319ace8d6a3f3135d3a16e04d675b27d4aa19c7e31d",
-      "methods/synthesize-claim-relevant-sources.md": "42a6c244e7c929f77e81fe1577e9b7e803ac8debf8cf3174899a6eb7a2e1da33",
-      "models/claim-evidence-inference-model.md": "8080a542ae1f9a2cc8b1e4bebb2bd79882aa208e4bc90046584c805e0f7e816f",
-      "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
-      "references/nist-undated-model-fit-and-residuals.md": "9f7d76338e6a65d2e45e007ac4084e74be79c77b782ec880047b0598dd0f01b0",
-      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce",
-      "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5"
-    },
-    "practices/discover-and-validate-a-technical-insight.md": {
-      "methods/audit-an-observation.md": "52f8a583bb39b148ba47f6cea7f9a968c7a8d0459f0a35a0908eaec1596db048",
-      "methods/build-an-explanatory-model.md": "69c281c9912ed28044c89a81a217b42b7ead5ce955fe93db59ca460ca225334e",
-      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
-      "methods/evaluate-results-and-uncertainty.md": "6563964ca23a46e0eec41319ace8d6a3f3135d3a16e04d675b27d4aa19c7e31d",
-      "methods/execute-a-bounded-test.md": "6862b1855ad8588dbce4fe96788afae5565bad0ded1f5a39a36b200214dfcf3c",
-      "methods/frame-an-insight-question.md": "77c9dea5da0093e9c6e00cf272e86cd9bd94e3bac558a5b1181d8fce9bf73ef2",
-      "methods/generate-competing-explanations.md": "44f251778dced9bee386fb7df0d979f11b415cbb933c5d88e85b8e58c7b0e73f",
-      "methods/structure-and-prioritize-hypotheses.md": "f9e8feafff66d6e1fc50601c4c54a472b1c3d0438eb6742f8e8658bc9467d0b0",
-      "methods/synthesize-claim-relevant-sources.md": "42a6c244e7c929f77e81fe1577e9b7e803ac8debf8cf3174899a6eb7a2e1da33",
-      "methods/write-an-insight-record.md": "b4366d361afb7b074b980b48e0ef80d8a0059694cf730113180e6f132a7f59b8",
-      "models/insight-learning-cycle.md": "051b47e168b471d3f8d2e0a52e6a547c57cc9fe791b33cbb1e33c46b94a7235c",
-      "models/investigation-and-intelligence-routing-model.md": "637b61ea77e72d798803644cbbc7cdb0a42932e50362a1a5d342963e8c6a04ff",
-      "practices/investigate-a-technical-opportunity.md": "556818b8d95ad3abc2d3696e340fa1c90ef5d4b5319e02b0833fcb314f1899e6",
-      "references/bain-undated-case-interview-preparation.md": "9c7179d0c1de53c159863b12ac56847c40b0f6a909e0eb32fb8d102e319d42e3",
+      "methods/5w2h.md": "29928cbf701045d59681993a0ef80c9d51cdb7fe160e2b789f47ec86c2fc29e4",
+      "methods/design-of-experiments.md": "4bda05e318c8ebd06bdcf7a07f4b02b2840baaf6929b63163595362d2a2fa8b7",
+      "methods/fmea.md": "d44c0fd39bb91d29168235f280a2c37e55d2aaeec9693ef688d090343b37ffe4",
+      "methods/pugh-matrix.md": "2fa6150049039ff76c7781424bc929ddfe8cd84cbec86c2d66b0f69386081e80",
+      "methods/sensitivity-analysis.md": "2d2fdaba251096e615b5e637aa804c5ae2a3b0f9325aa7a7f79e58cfd2ad87d3",
+      "methods/sipoc.md": "9ef205224d55ab1ba12f49d6e30d4dfdaa3a55a4895a39d2bbd94e4cf17f8370",
+      "methods/technology-readiness-assessment.md": "b4fe9a09c714b615538ae6201074fcc9df840b957efbf35fdd553ee55d98456b",
+      "models/decision-and-transfer-model.md": "73cb2615fe67001b093baabd3f53ac7902a06dda465832eb30fc07ff4645a068",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "references/ahrq-undated-5w2h.md": "c15e6f83b106d0a30fda56945496018f041014946edf1781d1a485c3be81ceab",
+      "references/asq-undated-decision-matrix.md": "fed450f3ef05266db8934a6ced442af87855af6f172a616d501ec461c99f3592",
+      "references/asq-undated-fmea.md": "4b01551954b7c6e977f734868f9e6b94094c175c641c07a1a7eafc797f8c5dcc",
+      "references/asq-undated-sipoc.md": "e03c4c821515ce7b94d5103191b4cf038abfca35f3fee89ab9b29f3d697682ad",
+      "references/nasa-2023-technology-readiness-levels.md": "0719ca779bc296a593e9e15db47a7a719fbd2285ccec47b0233f2182c216ad70",
       "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
       "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12",
       "references/nist-undated-experimental-design-handbook.md": "8433b141afaa11a7833c7bcf5a3ea696cfdd3ada9526ade772883f57d681f1e5",
+      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
+    },
+    "practices/assess-a-technical-claim.md": {
+      "methods/5w2h.md": "29928cbf701045d59681993a0ef80c9d51cdb7fe160e2b789f47ec86c2fc29e4",
+      "methods/design-of-experiments.md": "4bda05e318c8ebd06bdcf7a07f4b02b2840baaf6929b63163595362d2a2fa8b7",
+      "methods/hypothesis-driven-analysis.md": "b64b7bfce6b29537ab2e91b47f1751b48dc1b24ef04f0e7a3a6dc0bc227f567d",
+      "methods/measurement-uncertainty-budget.md": "a3baf484a2b66a4fd00f11fde1fe3228245de265d11c3639c3a09fe47b0b0505",
+      "methods/sensitivity-analysis.md": "2d2fdaba251096e615b5e637aa804c5ae2a3b0f9325aa7a7f79e58cfd2ad87d3",
+      "methods/statistical-hypothesis-testing.md": "65db7da802d5cffa756e102708a6f11c3fc3ac59912b68bfcd6ee9fa57e0189d",
+      "methods/structured-literature-review.md": "540b6c40a63506a34d7c1e58ea56893dcfd8e5ede9e20b24861a03de3fdaa486",
+      "models/claim-evidence-inference-model.md": "52ff3e9b52a7eaad2b650a08f9c64116bf9007c9a42e031dd20960ff725e0aac",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "references/ahrq-undated-5w2h.md": "c15e6f83b106d0a30fda56945496018f041014946edf1781d1a485c3be81ceab",
+      "references/bain-undated-case-interview-preparation.md": "dc503de3527fcea1c5db5dd3ff13e572581acb791d7304c80243aef2d73c416d",
+      "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12",
+      "references/nist-undated-experimental-design-handbook.md": "8433b141afaa11a7833c7bcf5a3ea696cfdd3ada9526ade772883f57d681f1e5",
+      "references/nist-undated-hypothesis-tests.md": "8d73e4dc1f60ea4d0f0aecea0337a71800d41cf945ead6b68c0ef75d0e2cf655",
       "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217",
+      "references/nist-undated-model-fit-and-residuals.md": "9f7d76338e6a65d2e45e007ac4084e74be79c77b782ec880047b0598dd0f01b0",
+      "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce",
+      "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5",
+      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
+    },
+    "practices/discover-and-validate-a-technical-insight.md": {
+      "methods/5w2h.md": "29928cbf701045d59681993a0ef80c9d51cdb7fe160e2b789f47ec86c2fc29e4",
+      "methods/design-of-experiments.md": "4bda05e318c8ebd06bdcf7a07f4b02b2840baaf6929b63163595362d2a2fa8b7",
+      "methods/fishbone-analysis.md": "02864b99e8dbca7f207f29d03e3e8c1dcbe8ad7824fd69d972313f324c4d2959",
+      "methods/five-whys.md": "646f58ba34bc5b502b419d42af2b61a13f9f9285e7b385e1562ed1700a3ac35c",
+      "methods/fmea.md": "d44c0fd39bb91d29168235f280a2c37e55d2aaeec9693ef688d090343b37ffe4",
+      "methods/hypothesis-driven-analysis.md": "b64b7bfce6b29537ab2e91b47f1751b48dc1b24ef04f0e7a3a6dc0bc227f567d",
+      "methods/measurement-uncertainty-budget.md": "a3baf484a2b66a4fd00f11fde1fe3228245de265d11c3639c3a09fe47b0b0505",
+      "methods/pareto-analysis.md": "6d49188c8cde8741d888237194764db1295b02f5b1319b21352b89b2a84e92be",
+      "methods/sensitivity-analysis.md": "2d2fdaba251096e615b5e637aa804c5ae2a3b0f9325aa7a7f79e58cfd2ad87d3",
+      "methods/sipoc.md": "9ef205224d55ab1ba12f49d6e30d4dfdaa3a55a4895a39d2bbd94e4cf17f8370",
+      "methods/statistical-hypothesis-testing.md": "65db7da802d5cffa756e102708a6f11c3fc3ac59912b68bfcd6ee9fa57e0189d",
+      "methods/structured-literature-review.md": "540b6c40a63506a34d7c1e58ea56893dcfd8e5ede9e20b24861a03de3fdaa486",
+      "models/insight-learning-cycle.md": "9d645b21047bc1414d9190dad74e980045c7cce1f0683a58697511a379a6fc32",
+      "practices/maintain-technical-insight-knowledge.md": "d53f98812910c4d3d19cd2b1cf1b7b2d9a3ded889c35cda7d5c6abdf76061de9",
+      "references/ahrq-undated-5w2h.md": "c15e6f83b106d0a30fda56945496018f041014946edf1781d1a485c3be81ceab",
+      "references/asq-undated-fishbone.md": "dff8b11abffff20208b82f94ccbc73588ac2684cb976fd8478acd0e0330b6f7e",
+      "references/asq-undated-five-whys.md": "e33f02be26b111e7c76968c16fe1257a2eda1fd0268746e919c47dbb1b10b480",
+      "references/asq-undated-fmea.md": "4b01551954b7c6e977f734868f9e6b94094c175c641c07a1a7eafc797f8c5dcc",
+      "references/asq-undated-pareto.md": "2fb94dbb3288c441c5f2c8f79e120f58f60f04f71928b32e9ab05a4e6d8d9c00",
+      "references/asq-undated-sipoc.md": "e03c4c821515ce7b94d5103191b4cf038abfca35f3fee89ab9b29f3d697682ad",
+      "references/bain-undated-case-interview-preparation.md": "dc503de3527fcea1c5db5dd3ff13e572581acb791d7304c80243aef2d73c416d",
+      "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
+      "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12",
+      "references/nist-undated-experimental-design-handbook.md": "8433b141afaa11a7833c7bcf5a3ea696cfdd3ada9526ade772883f57d681f1e5",
+      "references/nist-undated-hypothesis-tests.md": "8d73e4dc1f60ea4d0f0aecea0337a71800d41cf945ead6b68c0ef75d0e2cf655",
+      "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217",
+      "references/nist-undated-model-fit-and-residuals.md": "9f7d76338e6a65d2e45e007ac4084e74be79c77b782ec880047b0598dd0f01b0",
       "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce",
       "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
     },
     "practices/investigate-a-technical-opportunity.md": {
-      "methods/assess-technology-readiness.md": "8f2fa2ed494126ad278dd043eb18d5a1079d3c57d19cdcdf3ce6dafd9efcc73f",
-      "methods/build-a-conditional-technology-roadmap.md": "5d41b1411e6958e6b74e650a1bb435eca20be7c89f82cd09b8693d9202f2771d",
-      "methods/build-an-explanatory-model.md": "69c281c9912ed28044c89a81a217b42b7ead5ce955fe93db59ca460ca225334e",
-      "methods/compare-technical-alternatives.md": "c03c82a0282755dc49ed0893bf2ed9194b758e193eded39bcf65289cc949242c",
-      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
-      "methods/evaluate-a-research-opportunity.md": "4aa6d8544fddc4e8b124b30ff797f46d6452f71f9c8b42f555a86db7175dc9fb",
-      "methods/explore-technical-contradictions.md": "df7f6f8731ee8249e9b28ad98dcdf51250c3957a403fe9cdf7c5fad1a4586ec2",
-      "methods/map-a-technical-landscape.md": "2b044b9b365df0c563d6af800db32128a259ae3c2b84b87aca9263df4043e6bc",
-      "methods/scan-technology-signals.md": "9f34d9c812fcb14b58808ae3ee8b5a93708d2b353d94b5e871f63bec74bf7922",
-      "methods/synthesize-claim-relevant-sources.md": "42a6c244e7c929f77e81fe1577e9b7e803ac8debf8cf3174899a6eb7a2e1da33",
-      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
-      "models/investigation-and-intelligence-routing-model.md": "637b61ea77e72d798803644cbbc7cdb0a42932e50362a1a5d342963e8c6a04ff",
-      "models/readiness-evidence-model.md": "5bd2d8d2a74c7e25416cda05dc9b486d67f918e56e2848fad40913e2b5accd74",
-      "principles/novelty-and-support-are-different-properties.md": "42fd6ac3958f6388b7a9fa4164b0a69792745dbaa797f5f1bcdd71804dafd6bc",
-      "references/darpa-undated-heilmeier-catechism.md": "75b50fb9aedda898bd553783b4a40e204639c0dfc1e4b7bc8fac7474494ec062",
-      "references/epo-undated-patent-families.md": "faa2fe459c5f378d0490aa58381467616d586379f8675b14b450650f119cd456",
-      "references/government-office-for-science-2024-futures-toolkit.md": "0dbe7dc1cada967f57c2a096cd7eecd1fdcda598b9de980b15fe70f7dbddf983",
-      "references/ifm-engage-undated-technology-roadmapping.md": "0a95ec1fe9fd0734d7a4b652bc5cdd11d6d66c4a925575304cebd1f128babd4e",
+      "methods/5w2h.md": "29928cbf701045d59681993a0ef80c9d51cdb7fe160e2b789f47ec86c2fc29e4",
+      "methods/design-of-experiments.md": "4bda05e318c8ebd06bdcf7a07f4b02b2840baaf6929b63163595362d2a2fa8b7",
+      "methods/heilmeier-catechism.md": "b65b7da001fea8eca0c4675a38649ee7b6d5f428a6aeccba2d9fec39181c60c3",
+      "methods/horizon-scanning.md": "48a92e3045536e366f28963c6a8d2b0e87d1f9cfa75f1e4458edae76f3708dce",
+      "methods/morphological-analysis.md": "75757cc47d021e6057a9166bebba795ee9c5f1a65d97088585215536401163c1",
+      "methods/patent-landscaping.md": "6e3aca3b117a920be58f72b81d049ed6595dc74c6337b4dd5293884b6d6faffe",
+      "methods/pugh-matrix.md": "2fa6150049039ff76c7781424bc929ddfe8cd84cbec86c2d66b0f69386081e80",
+      "methods/radar-chart.md": "ce248f8ebc3b25e556a4756bd9d6bf2139fb8d95c40ab178016e109442249ecf",
+      "methods/structured-literature-review.md": "540b6c40a63506a34d7c1e58ea56893dcfd8e5ede9e20b24861a03de3fdaa486",
+      "methods/technology-readiness-assessment.md": "b4fe9a09c714b615538ae6201074fcc9df840b957efbf35fdd553ee55d98456b",
+      "methods/technology-roadmapping.md": "c08e79a625dd82bbfb732a62947910a3eb96fbc2cfa74ee51fbecfd4585c7972",
+      "methods/triz-contradiction-analysis.md": "34e61e6e96d9b8d02dfd6315ab0d7608e47718163fc869c0b0638a4101e04398",
+      "methods/weighted-decision-matrix.md": "390376a06b4c1be03df8ec738a67dbec8eca66cce142b13df766db5068e6df62",
+      "models/decision-and-transfer-model.md": "73cb2615fe67001b093baabd3f53ac7902a06dda465832eb30fc07ff4645a068",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "principles/novelty-and-support-are-different-properties.md": "44e118ada172f943c11d2b625461551ece7955e1e1402c0b17eec2dd87020976",
+      "references/ahrq-undated-5w2h.md": "c15e6f83b106d0a30fda56945496018f041014946edf1781d1a485c3be81ceab",
+      "references/asq-undated-decision-matrix.md": "fed450f3ef05266db8934a6ced442af87855af6f172a616d501ec461c99f3592",
+      "references/darpa-undated-heilmeier-catechism.md": "bb1e2643545a6f57aa8fb180f056580a27a4e78353c442f5ca9f48cbb49b70b7",
+      "references/epo-undated-patent-families.md": "f54c83f19ff7eebf5db0d349ceeb1f0582fe8ee667d2582a3848aee04d959e48",
+      "references/government-office-for-science-2024-futures-toolkit.md": "d60094375e08b96974c1e14844121cd152cb1cfaf7b6b990a970b7b6ddaa8b13",
+      "references/ifm-engage-undated-technology-roadmapping.md": "5cd184d3ddf5d47867aa3026abb3590d6c84e539fd69db0b97640183ec864814",
       "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
-      "references/matriz-undated-contradictions.md": "babc4c679c04118273e9afa2cebc80717cff2dd951bd1504421f55e9dabe9994",
-      "references/nasa-2023-technology-readiness-levels.md": "d26eb1b8642b9df3ea89b71ac36106a7037c529b9ab3e624a9805f565ade4f20",
+      "references/matplotlib-undated-radar-chart.md": "e874e504017c68e7e4bebde0b51f072a25d0fd53a27abf48d901de926c4e7ae7",
+      "references/matriz-undated-contradictions.md": "3398ed6c0c67a8441423918917d363575ab12b763f7d1f09acd8a58de7f8984a",
+      "references/nasa-2023-technology-readiness-levels.md": "0719ca779bc296a593e9e15db47a7a719fbd2285ccec47b0233f2182c216ad70",
       "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
-      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
+      "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12",
+      "references/nist-undated-experimental-design-handbook.md": "8433b141afaa11a7833c7bcf5a3ea696cfdd3ada9526ade772883f57d681f1e5",
+      "references/oxford-creativity-undated-triz-glossary.md": "2038f0f9ec935d4b0208ee6365824a00f35ddfcb9cc039180380dcb93033a938",
+      "references/ritchey-2013-general-morphological-analysis.md": "1872ddad5587aea4ba45a6e1ddeb49ae567b43b1c6cbdb2f9af3b0da13cf31cf",
+      "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328",
+      "references/wipo-2015-patent-landscape-guidelines.md": "644fccf30d91c1723848cd4770706b925a504e3432516836a601383499013689"
     },
     "practices/maintain-technical-insight-knowledge.md": {
-      "methods/review-and-revise-knowledge.md": "d0f3984302e9db9975e8e52c19e915afbcf59c98914b1c60056585055036f174",
-      "methods/synthesize-claim-relevant-sources.md": "42a6c244e7c929f77e81fe1577e9b7e803ac8debf8cf3174899a6eb7a2e1da33",
-      "methods/write-an-insight-record.md": "b4366d361afb7b074b980b48e0ef80d8a0059694cf730113180e6f132a7f59b8",
-      "models/claim-evidence-inference-model.md": "8080a542ae1f9a2cc8b1e4bebb2bd79882aa208e4bc90046584c805e0f7e816f",
-      "models/insight-learning-cycle.md": "051b47e168b471d3f8d2e0a52e6a547c57cc9fe791b33cbb1e33c46b94a7235c",
+      "methods/5w2h.md": "29928cbf701045d59681993a0ef80c9d51cdb7fe160e2b789f47ec86c2fc29e4",
+      "methods/structured-literature-review.md": "540b6c40a63506a34d7c1e58ea56893dcfd8e5ede9e20b24861a03de3fdaa486",
+      "models/claim-evidence-inference-model.md": "52ff3e9b52a7eaad2b650a08f9c64116bf9007c9a42e031dd20960ff725e0aac",
+      "models/insight-learning-cycle.md": "9d645b21047bc1414d9190dad74e980045c7cce1f0683a58697511a379a6fc32",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "references/ahrq-undated-5w2h.md": "c15e6f83b106d0a30fda56945496018f041014946edf1781d1a485c3be81ceab",
       "references/kps-undated-authoring-contract-9x.md": "cffe0c341af998823f181d0501dbda84263f938f02ebb0afe7c74e59223f76c6",
       "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
       "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
     },
     "principles/a-useful-intervention-need-not-identify-its-mechanism.md": {
-      "methods/evaluate-results-and-uncertainty.md": "6563964ca23a46e0eec41319ace8d6a3f3135d3a16e04d675b27d4aa19c7e31d",
-      "practices/apply-and-transfer-an-insight.md": "d67a49953e128783534cfcbc6ff855f651df02a24b4ed815d15212901de83ed9",
+      "methods/measurement-uncertainty-budget.md": "a3baf484a2b66a4fd00f11fde1fe3228245de265d11c3639c3a09fe47b0b0505",
+      "methods/sensitivity-analysis.md": "2d2fdaba251096e615b5e637aa804c5ae2a3b0f9325aa7a7f79e58cfd2ad87d3",
+      "methods/statistical-hypothesis-testing.md": "65db7da802d5cffa756e102708a6f11c3fc3ac59912b68bfcd6ee9fa57e0189d",
+      "practices/apply-and-transfer-an-insight.md": "34b2eeb0f564064a4d254faf92500ce6796b892046e09a7fc9c090a9d4c7d6a3",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
       "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12",
       "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
     },
     "principles/associations-do-not-determine-interventions.md": {
-      "methods/generate-competing-explanations.md": "44f251778dced9bee386fb7df0d979f11b415cbb933c5d88e85b8e58c7b0e73f",
-      "models/causal-path-and-intervention-model.md": "ee31d3c9f3d7d26ba4fab47dd581e00d4bdd67c4310f280395e22bf7b2e55e1f",
+      "methods/fishbone-analysis.md": "02864b99e8dbca7f207f29d03e3e8c1dcbe8ad7824fd69d972313f324c4d2959",
+      "methods/five-whys.md": "646f58ba34bc5b502b419d42af2b61a13f9f9285e7b385e1562ed1700a3ac35c",
+      "methods/hypothesis-driven-analysis.md": "b64b7bfce6b29537ab2e91b47f1751b48dc1b24ef04f0e7a3a6dc0bc227f567d",
+      "models/causal-path-and-intervention-model.md": "19d2378d9fc179fb2df0a4d6c5e53786c0543f8c8460d5dad4de09c8ffdb5910",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
       "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
     },
     "principles/decision-preference-depends-on-objectives-and-uncertainty.md": {
-      "methods/compare-technical-alternatives.md": "c03c82a0282755dc49ed0893bf2ed9194b758e193eded39bcf65289cc949242c",
-      "models/decision-and-transfer-model.md": "2135a849d121c1651a65d24067bc899499c97fda4af5f71e5e3541fb650b2472",
+      "methods/pugh-matrix.md": "2fa6150049039ff76c7781424bc929ddfe8cd84cbec86c2d66b0f69386081e80",
+      "methods/weighted-decision-matrix.md": "390376a06b4c1be03df8ec738a67dbec8eca66cce142b13df766db5068e6df62",
+      "models/decision-and-transfer-model.md": "73cb2615fe67001b093baabd3f53ac7902a06dda465832eb30fc07ff4645a068",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
       "references/nasa-undated-decision-analysis.md": "9937ecf57b1b87eb247d48b94dda0366efdd4ba9a1b0a50920714f01244f0c12"
     },
     "principles/explanations-can-share-the-same-predictions.md": {
-      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
-      "models/hypothesis-prediction-matrix.md": "1ff1239d880903c59311f0c5ce4ce54e04e698a1b67f2a6ede7451a67aebfc53",
+      "methods/design-of-experiments.md": "4bda05e318c8ebd06bdcf7a07f4b02b2840baaf6929b63163595362d2a2fa8b7",
+      "methods/measurement-uncertainty-budget.md": "a3baf484a2b66a4fd00f11fde1fe3228245de265d11c3639c3a09fe47b0b0505",
+      "models/hypothesis-prediction-matrix.md": "9bbb7b9d533a5196801781ebd928967e0dd3e5eedcadd3a695dcd89aa28ad42a",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
       "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
       "references/pearl-2009-causal-inference-in-statistics.md": "a471c3d6cd0705a10e7f6dffedfb95ac7067dec1f220dcd0ec96efb203e7ecce"
     },
     "principles/factor-effects-can-depend-on-other-factors.md": {
-      "methods/design-a-discriminating-test.md": "c9779c1735709ddfbd982362e1ffa3d6382fe35b1b9a73d1bcb067cc309296e4",
-      "models/hypothesis-prediction-matrix.md": "1ff1239d880903c59311f0c5ce4ce54e04e698a1b67f2a6ede7451a67aebfc53",
+      "methods/design-of-experiments.md": "4bda05e318c8ebd06bdcf7a07f4b02b2840baaf6929b63163595362d2a2fa8b7",
+      "methods/measurement-uncertainty-budget.md": "a3baf484a2b66a4fd00f11fde1fe3228245de265d11c3639c3a09fe47b0b0505",
+      "models/hypothesis-prediction-matrix.md": "9bbb7b9d533a5196801781ebd928967e0dd3e5eedcadd3a695dcd89aa28ad42a",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
       "references/nist-undated-experimental-design-handbook.md": "8433b141afaa11a7833c7bcf5a3ea696cfdd3ada9526ade772883f57d681f1e5"
     },
     "principles/fit-does-not-establish-model-validity.md": {
-      "methods/evaluate-results-and-uncertainty.md": "6563964ca23a46e0eec41319ace8d6a3f3135d3a16e04d675b27d4aa19c7e31d",
-      "models/model-validity-envelope.md": "1995c2f557728862d66c363fd83dde78ba23331e1d6df55c968004b9b506f6ce",
+      "methods/measurement-uncertainty-budget.md": "a3baf484a2b66a4fd00f11fde1fe3228245de265d11c3639c3a09fe47b0b0505",
+      "methods/sensitivity-analysis.md": "2d2fdaba251096e615b5e637aa804c5ae2a3b0f9325aa7a7f79e58cfd2ad87d3",
+      "methods/statistical-hypothesis-testing.md": "65db7da802d5cffa756e102708a6f11c3fc3ac59912b68bfcd6ee9fa57e0189d",
+      "models/model-validity-envelope.md": "39f6b00258be6f6a9496c6a24c1b0443da1fd25af9a124a34fd8afe838f9e038",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
       "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b",
       "references/nist-undated-model-fit-and-residuals.md": "9f7d76338e6a65d2e45e007ac4084e74be79c77b782ec880047b0598dd0f01b0"
     },
     "principles/measurements-include-the-observation-process.md": {
-      "methods/audit-an-observation.md": "52f8a583bb39b148ba47f6cea7f9a968c7a8d0459f0a35a0908eaec1596db048",
-      "models/measurement-and-uncertainty-model.md": "010388538e0805a971a577da5088b5a8f4e0ca10338971da5b8d8221da66258c",
+      "methods/measurement-uncertainty-budget.md": "a3baf484a2b66a4fd00f11fde1fe3228245de265d11c3639c3a09fe47b0b0505",
+      "methods/sipoc.md": "9ef205224d55ab1ba12f49d6e30d4dfdaa3a55a4895a39d2bbd94e4cf17f8370",
+      "models/measurement-and-uncertainty-model.md": "a8ce430b167843b35bd7f96391526d122f97889a0c4bc5d0760375ceb01ddcce",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
       "references/nist-undated-measurement-uncertainty.md": "4b038a7b3a4a15df0c8d622f6bac7c084beb52eea34812db052d37e9500d4217"
     },
     "principles/novelty-and-support-are-different-properties.md": {
-      "methods/map-a-technical-landscape.md": "2b044b9b365df0c563d6af800db32128a259ae3c2b84b87aca9263df4043e6bc",
-      "methods/write-an-insight-record.md": "b4366d361afb7b074b980b48e0ef80d8a0059694cf730113180e6f132a7f59b8",
+      "methods/patent-landscaping.md": "6e3aca3b117a920be58f72b81d049ed6595dc74c6337b4dd5293884b6d6faffe",
+      "methods/structured-literature-review.md": "540b6c40a63506a34d7c1e58ea56893dcfd8e5ede9e20b24861a03de3fdaa486",
+      "practices/investigate-a-technical-opportunity.md": "fc7c7a71bae211f7201c20d8cf0f9e46a0f64ce7308f3be8665728907d941553",
+      "practices/maintain-technical-insight-knowledge.md": "d53f98812910c4d3d19cd2b1cf1b7b2d9a3ded889c35cda7d5c6abdf76061de9",
       "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
       "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
     },
     "principles/readiness-evidence-is-context-dependent.md": {
-      "principles/validation-has-a-domain-of-applicability.md": "fe00e524b1c719a187a8af4ba775ba372d297a2c395fef1a0e6e8d99788fc763",
-      "references/nasa-2023-technology-readiness-levels.md": "d26eb1b8642b9df3ea89b71ac36106a7037c529b9ab3e624a9805f565ade4f20"
+      "references/nasa-2023-technology-readiness-levels.md": "0719ca779bc296a593e9e15db47a7a719fbd2285ccec47b0233f2182c216ad70"
     },
     "principles/repeated-reports-can-share-one-evidence-base.md": {
-      "methods/synthesize-claim-relevant-sources.md": "42a6c244e7c929f77e81fe1577e9b7e803ac8debf8cf3174899a6eb7a2e1da33",
-      "models/claim-evidence-inference-model.md": "8080a542ae1f9a2cc8b1e4bebb2bd79882aa208e4bc90046584c805e0f7e816f",
+      "methods/structured-literature-review.md": "540b6c40a63506a34d7c1e58ea56893dcfd8e5ede9e20b24861a03de3fdaa486",
+      "models/claim-evidence-inference-model.md": "52ff3e9b52a7eaad2b650a08f9c64116bf9007c9a42e031dd20960ff725e0aac",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
       "references/li-2019-collecting-data-cochrane.md": "9d025ccc4b8a3ba9c83c0a5e15c9379043e83019c275925b3df1fc7cb35854d6",
       "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
     },
     "principles/reproducibility-does-not-establish-correctness.md": {
-      "methods/challenge-and-replicate-an-explanation.md": "d1d0d3e28aeb5706e295fe1f1d7bf4bd4e99b6f8a5efcd632548485178254930",
-      "methods/write-an-insight-record.md": "b4366d361afb7b074b980b48e0ef80d8a0059694cf730113180e6f132a7f59b8",
+      "methods/design-of-experiments.md": "4bda05e318c8ebd06bdcf7a07f4b02b2840baaf6929b63163595362d2a2fa8b7",
+      "methods/sensitivity-analysis.md": "2d2fdaba251096e615b5e637aa804c5ae2a3b0f9325aa7a7f79e58cfd2ad87d3",
+      "practices/discover-and-validate-a-technical-insight.md": "11afbd18e3172cbdb2af47d671836b1191f552eafa42660df839b1074a4d8179",
+      "practices/maintain-technical-insight-knowledge.md": "d53f98812910c4d3d19cd2b1cf1b7b2d9a3ded889c35cda7d5c6abdf76061de9",
       "references/sandve-2013-reproducible-computational-research.md": "1c475ed279e13507469a7fe4ce07fb2465a61a65c1bb3fcd6b6edf1f2bfa59b5",
       "references/w3c-2013-prov-overview.md": "7f8675f8c9ed725083d6ac4d65e892b5d76ca82f182e426c573ed2a4c33b5328"
     },
     "principles/validation-has-a-domain-of-applicability.md": {
-      "methods/assess-transfer-to-a-new-context.md": "781eff0073c86b3c6190d9da53f2057970f5616479f53e302171df1bad9e7f64",
-      "models/model-validity-envelope.md": "1995c2f557728862d66c363fd83dde78ba23331e1d6df55c968004b9b506f6ce",
+      "methods/sensitivity-analysis.md": "2d2fdaba251096e615b5e637aa804c5ae2a3b0f9325aa7a7f79e58cfd2ad87d3",
+      "methods/technology-readiness-assessment.md": "b4fe9a09c714b615538ae6201074fcc9df840b957efbf35fdd553ee55d98456b",
+      "models/model-validity-envelope.md": "39f6b00258be6f6a9496c6a24c1b0443da1fd25af9a124a34fd8afe838f9e038",
+      "practices/apply-and-transfer-an-insight.md": "34b2eeb0f564064a4d254faf92500ce6796b892046e09a7fc9c090a9d4c7d6a3",
       "references/nasa-7009b-2024-models-and-simulations.md": "f61a253430f1d3236e05d7a9d3c14d86aa78c39a85ad21035da2406e0260e31b"
     }
   }

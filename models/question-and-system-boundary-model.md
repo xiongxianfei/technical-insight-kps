@@ -8,7 +8,7 @@ reviewed: "2026-10-07"
 basis_kind: "authored synthesis; evidence and inference distinguished"
 confidence: "scoped and revisable; not validated as a complete framework"
 uses_concepts: ["ti:c:system-boundary", "ti:c:observation-and-interpretation"]
-uses_methods: ["ti:me:frame-an-insight-question"]
+uses_methods: ["ti:me:5w2h", "ti:me:sipoc"]
 references: ["ti:r:nasa-undated-decision-analysis", "ti:r:nist-undated-measurement-uncertainty", "ti:r:nasa-7009b-2024-models-and-simulations"]
 ---
 
@@ -64,7 +64,7 @@ The essential explanation or procedure is above. These links provide reusable de
 
 - [System boundary](../concepts/system-boundary.md)
 - [Observation and interpretation](../concepts/observation-and-interpretation.md)
-- [Frame an insight question](../methods/frame-an-insight-question.md)
+- [Frame an insight question in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage1-bound-the-question-and-authority)
 
 - [NASA decision analysis guidance](../references/nasa-undated-decision-analysis.md)
 - [NIST essentials of measurement uncertainty](../references/nist-undated-measurement-uncertainty.md)

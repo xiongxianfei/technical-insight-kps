@@ -1,15 +1,15 @@
 ---
 id: "ti:mo:insight-learning-cycle"
 type: "model"
-version: "1.0.0"
+version: "2.0.0"
 language: "KPS 9.x"
 status: "active"
-reviewed: "2026-10-07"
+reviewed: "2026-10-08"
 basis_kind: "authored synthesis; evidence and inference distinguished"
 confidence: "scoped and revisable; not validated as a complete framework"
 uses_concepts: ["ti:c:technical-insight"]
-uses_methods: ["ti:me:write-an-insight-record"]
-uses_practices: ["ti:pr:discover-and-validate-a-technical-insight"]
+uses_methods: []
+uses_practices: ["ti:pr:discover-and-validate-a-technical-insight", "ti:pr:maintain-technical-insight-knowledge"]
 references: ["ti:r:nasa-undated-decision-analysis", "ti:r:nasa-7009b-2024-models-and-simulations", "ti:r:w3c-2013-prov-overview"]
 ---
 
@@ -59,7 +59,7 @@ No amount of structural completeness supplies missing evidence. The cycle should
 The essential explanation or procedure is above. These links provide reusable detail and source inspection.
 
 - [Technical insight](../concepts/technical-insight.md)
-- [Write an insight record](../methods/write-an-insight-record.md)
+- [Write an insight record in the Practice](../practices/maintain-technical-insight-knowledge.md#stage1-identify-the-knowledge-change)
 - [Discover and validate a technical insight](../practices/discover-and-validate-a-technical-insight.md)
 
 - [NASA decision analysis guidance](../references/nasa-undated-decision-analysis.md)
@@ -67,3 +67,7 @@ The essential explanation or procedure is above. These links provide reusable de
 - [W3C provenance overview](../references/w3c-2013-prov-overview.md)
 
 [Package home](../README.md)
+
+## Established techniques and workflow synthesis
+
+The learning cycle is a Model, not a newly invented universal Method. Named techniques such as 5W2H, Fishbone, DOE and sensitivity analysis support particular questions. The [Investigation Practice](../practices/discover-and-validate-a-technical-insight.md) combines them with evidence capture, explanation, decisions and revision. Authorship alone does not determine a KPS type, but this domain deliberately reuses established techniques as Methods in this release.

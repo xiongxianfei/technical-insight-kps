@@ -9,7 +9,7 @@ basis_kind: "explanatory synthesis with source premises and inference separated"
 confidence: "scope dependent; application requires evaluation"
 level: "domain"
 uses_models: ["ti:mo:decision-and-transfer-model"]
-uses_methods: ["ti:me:compare-technical-alternatives"]
+uses_methods: ["ti:me:pugh-matrix", "ti:me:weighted-decision-matrix"]
 references: ["ti:r:nasa-undated-decision-analysis"]
 ---
 
@@ -48,7 +48,7 @@ Required safeguards are not ordinary weighted preferences. Missing evidence cann
 The essential explanation or procedure is above. These links provide reusable detail and source inspection.
 
 - [Decision and transfer model](../models/decision-and-transfer-model.md)
-- [Compare technical alternatives](../methods/compare-technical-alternatives.md)
+- [Compare technical alternatives in the Practice](../practices/investigate-a-technical-opportunity.md#stage5-recommend-a-bounded-next-action)
 
 - [NASA decision analysis guidance](../references/nasa-undated-decision-analysis.md)
 

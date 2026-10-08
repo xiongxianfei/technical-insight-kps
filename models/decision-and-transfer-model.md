@@ -9,7 +9,7 @@ basis_kind: "authored synthesis; evidence and inference distinguished"
 confidence: "scoped and revisable; not validated as a complete framework"
 uses_principles: ["ti:p:decision-preference-depends-on-objectives-and-uncertainty"]
 uses_concepts: ["ti:c:transfer"]
-uses_methods: ["ti:me:assess-transfer-to-a-new-context"]
+uses_methods: ["ti:me:technology-readiness-assessment", "ti:me:sensitivity-analysis"]
 references: ["ti:r:nasa-undated-decision-analysis", "ti:r:nasa-7009b-2024-models-and-simulations"]
 ---
 
@@ -61,7 +61,7 @@ The essential explanation or procedure is above. These links provide reusable de
 
 - [Decision preference depends on objectives and uncertainty](../principles/decision-preference-depends-on-objectives-and-uncertainty.md)
 - [Transfer](../concepts/transfer.md)
-- [Assess transfer to a new context](../methods/assess-transfer-to-a-new-context.md)
+- [Assess transfer to a new context in the Practice](../practices/apply-and-transfer-an-insight.md#stage2-map-preserved-changed-and-unknown-assumptions)
 
 - [NASA decision analysis guidance](../references/nasa-undated-decision-analysis.md)
 - [NASA standard for models and simulations](../references/nasa-7009b-2024-models-and-simulations.md)

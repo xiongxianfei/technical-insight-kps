@@ -1,17 +1,17 @@
 ---
 id: "ti:pr:apply-and-transfer-an-insight"
 type: "practice"
-version: "1.0.0"
+version: "2.0.0"
 language: "KPS 9.x"
 status: "active"
-reviewed: "2026-10-07"
-basis_kind: "authored operational synthesis; no field effectiveness study"
+reviewed: "2026-10-08"
+basis_kind: "authored Practice integrating established techniques; not an independently validated programme"
 confidence: "provisional for application"
 stage_titles: ["Stage1 Define target use and source scope", "Stage2 Map preserved changed and unknown assumptions", "Stage3 Select an authorized implementation", "Stage4 Evaluate target behavior and adverse outcomes", "Stage5 Adopt with revision triggers"]
 practice_format: "staged-inline-local-v1"
-uses_methods: ["ti:me:assess-transfer-to-a-new-context", "ti:me:compare-technical-alternatives", "ti:me:execute-a-bounded-test", "ti:me:evaluate-results-and-uncertainty"]
+uses_methods: ["ti:me:5w2h", "ti:me:sipoc", "ti:me:technology-readiness-assessment", "ti:me:sensitivity-analysis", "ti:me:fmea", "ti:me:pugh-matrix", "ti:me:design-of-experiments"]
 uses_models: ["ti:mo:decision-and-transfer-model"]
-references: ["ti:r:nasa-7009b-2024-models-and-simulations", "ti:r:nasa-undated-decision-analysis", "ti:r:pearl-2009-causal-inference-in-statistics"]
+references: ["ti:r:ahrq-undated-5w2h", "ti:r:asq-undated-decision-matrix", "ti:r:asq-undated-fmea", "ti:r:asq-undated-sipoc", "ti:r:nasa-2023-technology-readiness-levels", "ti:r:nasa-7009b-2024-models-and-simulations", "ti:r:nasa-undated-decision-analysis", "ti:r:nist-undated-experimental-design-handbook", "ti:r:pearl-2009-causal-inference-in-statistics"]
 ---
 
 # Apply and transfer an insight
@@ -23,6 +23,12 @@ Use an insight through a bounded decision and a target-context check rather than
 ## Summary
 
 This Practice connects understanding to a safe design or process change. It retains alternative solutions, tests applicability and monitors consequences. Successful adoption does not automatically prove the complete mechanism.
+
+
+## Established techniques used
+
+[5W2H](../methods/5w2h.md), [SIPOC](../methods/sipoc.md), [Technology readiness assessment](../methods/technology-readiness-assessment.md), [Sensitivity analysis](../methods/sensitivity-analysis.md), [Failure mode and effects analysis](../methods/fmea.md), [Pugh matrix](../methods/pugh-matrix.md), [Design of experiments](../methods/design-of-experiments.md). These supply repeatable techniques; the stage order, handoffs and decisions below are our authored Practice, not an official combined method.
+
 
 ## Goal and prerequisites
 
@@ -63,6 +69,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 
 **Fallback and stopping:** If the original scope is unavailable, mark the source incomplete and avoid asserting ready transfer.
 
+**5W2H and SIPOC application.** Specify the target user, process boundary, outcome, duty cycle and constraints. Identify inputs and outputs that differ from the original application. Keep the source result and the intended target benefit in separate columns.
+
 ## Stage2 Map preserved changed and unknown assumptions
 
 **Goal:** Identify the applicability gaps that matter.
@@ -87,6 +95,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 4. Prioritize gaps by effect on the intended decision and harm potential.
 
 **Fallback and stopping:** Do not use surface analogy as validation. A critical unknown may require expert review rather than a small pilot.
+
+**Readiness and sensitivity application.** Compare configuration, interfaces, environmental conditions, scale, measurement and required outcome. Mark assumptions preserved, changed or unknown. Inspect whether plausible differences change model predictions or the proposed decision; do not transfer a numeric TRL without its evidence context.
 
 ## Stage3 Select an authorized implementation
 
@@ -113,6 +123,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 
 **Fallback and stopping:** Do not authorize deployment merely because a knowledge file says active or a structural validator passes.
 
+**FMEA and Pugh application.** Screen unacceptable failure consequences before preference comparison. Include no change and a simpler alternative. A Pugh table compares each candidate to a datum with evidence or unknown cells. The selected implementation is a decision under constraints, not a newly discovered universal Principle.
+
 ## Stage4 Evaluate target behavior and adverse outcomes
 
 **Goal:** Determine whether the chosen implementation meets the target need.
@@ -138,6 +150,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 
 **Fallback and stopping:** Stop on safeguard violations. If the pilot is too narrow for the consequence, keep the deployment decision deferred.
 
+**DOE application.** Plan a representative authorized pilot or surrogate with comparator, meaningful outcomes, independent units, measurement uncertainty and stop conditions. Keep actual implementation and observed effects separate. Check adverse outcomes as well as the hoped-for benefit; a laboratory success is not an automatic operational success.
+
 ## Stage5 Adopt with revision triggers
 
 **Goal:** Keep implementation status separate from knowledge certainty.
@@ -162,6 +176,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 4. Update related Principles, Models or Methods only where the target evidence supports generalization.
 
 **Fallback and stopping:** Do not promote a single successful target run to a universal law. A changed operating regime triggers a new applicability review.
+
+**Working Practice update.** Record what was adopted, under which conditions, by whose authority and with what monitoring. Keep an exit or rollback condition appropriate to the use. A positive local outcome is personal or project evidence until broader support is established; do not publish confidential context while generalizing it.
 
 ## Troubleshooting
 
@@ -189,10 +205,10 @@ No real investigation results are supplied in this publication. Fill this sectio
 
 The essential explanation or procedure is above. These links provide reusable detail and source inspection.
 
-- [Assess transfer to a new context](../methods/assess-transfer-to-a-new-context.md)
-- [Compare technical alternatives](../methods/compare-technical-alternatives.md)
-- [Execute a bounded test](../methods/execute-a-bounded-test.md)
-- [Evaluate results and uncertainty](../methods/evaluate-results-and-uncertainty.md)
+- [Assess transfer to a new context in the Practice](../practices/apply-and-transfer-an-insight.md#stage2-map-preserved-changed-and-unknown-assumptions)
+- [Compare technical alternatives in the Practice](../practices/investigate-a-technical-opportunity.md#stage5-recommend-a-bounded-next-action)
+- [Execute a bounded test in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage6-execute-and-preserve-what-happened)
+- [Evaluate results and uncertainty in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage7-evaluate-the-explanation-and-its-limits)
 - [Decision and transfer model](../models/decision-and-transfer-model.md)
 
 - [NASA standard for models and simulations](../references/nasa-7009b-2024-models-and-simulations.md)

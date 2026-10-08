@@ -1,50 +1,45 @@
 ---
+language: "KPS 9.x"
+reviewed: "2026-10-08"
 id: "ti:mo:investigation-and-intelligence-routing-model"
 type: "model"
-version: "1.1.0"
-language: "KPS 9.x"
+version: "2.0.0"
 status: "active"
-reviewed: "2026-10-08"
-basis_kind: "authored decision routing model"
 uses_concepts: ["ti:c:technology-intelligence"]
-uses_models: ["ti:mo:hypothesis-prediction-matrix", "ti:mo:decision-and-transfer-model"]
 ---
 
 # Investigation and intelligence routing model
 
 ## Key takeaway
 
-Choose the next operation from the uncertainty blocking a decision rather than from a preferred framework.
+Select the route by the uncertainty, not by the prestige of a framework.
 
 ## Summary
 
-This model connects a question, its evidence gap, the operation that could reduce that gap and the resulting decision. It distinguishes discovery, explanation, comparison, demonstration and adoption. Moving between them is expected; the diagram is not a compulsory pipeline.
+Technical investigation tests explanations of behavior. Technology intelligence assesses external possibilities for a decision. A disputed technical claim transfers from intelligence to investigation; a newly exposed capability gap can send investigation back to intelligence.
 
 ## Representation
 
-| Uncertainty | Operation | Output that can change the next decision |
-|---|---|---|
-| The objective is vague | Bound outcome, comparator and constraints | A question whose possible answers matter |
-| Relevant approaches are unknown | Scan and map available evidence | A qualified candidate set with omissions |
-| A reported result lacks an explanation | Generate alternatives and discriminating predictions | A testable mechanism question |
-| A claimed capability is not demonstrated here | Audit configuration, environment and measurement | A demonstration gap, not a guessed readiness score |
-| Several candidates remain plausible | Compare criteria and uncertainty | A reversible next action or a reason to defer |
-| The preferred direction may fail in another future | Stress-test assumptions and dependencies | Conditional milestones and review triggers |
+```text
+Decision and evidence gap
+  |-- behavior or causal claim -> investigation -> qualified explanation
+  |-- emerging possibility -> intelligence -> scoped opportunity assessment
+                               |                     |
+                               +---- disputed claim -+
+```
 
-The central record is: **question -> uncertainty -> operation -> evidence -> qualified conclusion -> next decision**. A new observation can send the work back to framing. A promising technology may require an experiment; a failed experiment may require a broader search.
+## Selection logic
 
-## Reading the model
+Use 5W2H to clarify the question. Use named techniques only when their outputs match the gap: Fishbone generates candidate causes, DOE addresses designed comparisons, a radar chart displays comparable dimensions, and TRL assesses demonstration status. None supplies the other output automatically.
 
-An opportunity brief organizes a proposed research direction; it does not validate the technology. A causal diagram represents assumed relationships; it is not observed causation. A readiness label summarizes a particular demonstration basis, not commercial desirability. The object of evaluation and the meaning of the evidence must remain explicit.
+## Handoff record
 
-## Example and counterexample
+Carry the exact claim, source, configuration, environment, uncertainty and the decision affected. Never upgrade a proposed test to an executed result during handoff. Keep source review, interpretation and design preference separate.
 
-For an overheating device, comparing publication counts does not distinguish heat storage from heat rejection. A scoped landscape is useful for finding candidate mechanisms, but a time-dependent temperature observation is needed for that mechanism question. Conversely, running experiments on only the familiar candidate does not show that the landscape is complete.
+## Example and limits
 
-## Assumptions and limits
-
-The model assumes an identifiable decision and some access to appropriate evidence. Restricted data, unsafe tests or unknown requirements may justify a stop or referral. The routes are authored design choices, not a validated optimal investigation algorithm.
+A low-power monitoring announcement prompts a landscape. Its claim of unchanged detection quality becomes an investigation question on representative traces. A roadmap remains conditional while that claim is unresolved. This routing is our Practice design, not an empirical law or a compulsory sequence.
 
 ## Deeper knowledge
 
-[Technology intelligence](../concepts/technology-intelligence.md), [hypothesis prediction matrix](hypothesis-prediction-matrix.md), [decision and transfer model](decision-and-transfer-model.md), and [method map](../METHOD-MAP.md).
+[Method map](../METHOD-MAP.md) selects concrete techniques. [Technology intelligence](../concepts/technology-intelligence.md) defines the external-information task.

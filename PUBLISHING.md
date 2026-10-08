@@ -1,29 +1,33 @@
 ---
-package_version: "1.0.0"
 language: "KPS 9.x"
-reviewed: "2026-10-07"
+reviewed: "2026-10-08"
+package_version: "2.0.0"
 ---
 
-# Publishing this domain
+# Apply and publish the refactor
 
 ## Key takeaway
 
-Publish this domain as an independently versioned public repository through ready-for-review pull requests. Preserve existing repository files and run the included checks on the proposed branch.
+Apply the complete transition to the inspected baseline without overwriting unrelated work.
 
 ## Summary
 
-The repository is [technical-insight-kps](https://github.com/xiongxianfei/technical-insight-kps). The separate daily security-insight project has a different scope and remains untouched. The initial proposed version is 1.0.0, compatible with KPS 9.x; merging and an official GitHub Release are maintainer decisions.
+This source package was validated against an inspected GitHub baseline. Publication uses one pull request directly against `main` and the maintainer-authorized automatic merge after GitHub checks pass. The actual merge and CI results must be verified on GitHub; this document does not assert them in advance.
 
-## Review and publication workflow
+## Repository baseline
 
-Inspect the repository and default branch first. Preserve the existing license and unrelated files. Prepare a scoped publication branch, run local validation, and open a ready-for-review PR with results and limitations. Merge, tag and create an official release only with maintainer approval. For a domain without an accessible repository, distribute a verified ZIP instead. Do not include private investigation records or raw third-party publications.
+Repository: `xiongxianfei/technical-insight-kps`. Inspected main commit: `85a92fdd39453a0de670cbfeadea85f237acc749`. The complete refactor retires the 20 exact Method filenames in [MIGRATION](MIGRATION.md) and writes the supplied 2.0.0 files. It does not delete private records or external directories.
 
-## Continuous integration
+## Guarded application
 
-The included workflow checks publication structure and runs core regression and synthetic-example tests. It uses read-only repository permissions and pins actions/checkout v6.0.3 to commit `df4cb1c069e1874edd31b4311f1884172cec0e10`, resolved from the official action tag on 2026-10-07. The workflow is configured to run on pull requests and main-branch updates; GitHub reports the actual CI result.
+The separately supplied `apply_technical_insight_refactor.py` previews changes by default. With its explicit apply option, it requires a clean main checkout at the inspected commit, creates a new local branch and applies the explicit payload and removals. It checks archive checksums, rejects path traversal and symlink members, preserves the existing MIT license, and runs the package checks. It does not fetch credentials, push, merge or bypass protections.
 
-A checked-in archive manifest describes that exact release. It should be regenerated for a new publication after review, not used as an immutable expectation across arbitrary repository edits. The regression suite exercises manifest protection in temporary fixtures.
+Do not overlay the ZIP onto a different base without reviewing the changes. Old external links need the mapping in MIGRATION; Git history retains their former definitions.
 
-## Licensing and attribution
+## Validation
 
-The included MIT notice is retained for reused KPS tooling. Linked publications remain third-party works and are not relicensed by this package. Review [Third party notices](THIRD-PARTY-NOTICES.md) before publication. No source PDFs or large excerpts are bundled.
+Run `python3 validate.py . --manifest`, `python3 test_validate.py`, `python3 test_examples.py` and `python3 test_transition.py` from the package root. A dependency refresh means relevant summaries were reviewed, not that evidence became true.
+
+## Publication policy
+
+For user-authorized knowledge changes, use one PR directly to main. Merge after required checks without an extra approval ceremony, while respecting actual repository permissions and protections. Do not create official release tags unless requested. Report only observed remote actions and results. GitHub records the work; it is not an additional knowledge type or validation of scientific truth.

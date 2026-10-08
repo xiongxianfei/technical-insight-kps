@@ -1,7 +1,7 @@
 ---
-package_version: "1.0.0"
+package_version: "2.0.0"
 language: "KPS 9.x"
-reviewed: "2026-10-07"
+reviewed: "2026-10-08"
 ---
 
 # Contributing
@@ -32,4 +32,8 @@ Do not upload restricted source documents, personal data, secrets or confidentia
 
 ## Publication workflow
 
-When a corresponding repository exists, propose changes on a branch and open a ready-for-review PR. Preserve existing license and unrelated content. Merge, tag and official release creation remain owner decisions. In the absence of a repository, deliver a validated ZIP with honest checks and limits.
+When a corresponding repository exists, propose changes on a branch and open a ready-for-review PR. Preserve existing license and unrelated content. Merge authority follows the owner's explicit instructions; the owner may authorize automatic merging after required checks for a requested knowledge update. Tags and official releases require an explicit request. No protection bypass is permitted. In the absence of a repository, deliver a validated ZIP with honest checks and limits.
+
+## New Method admission
+
+A Method contribution names an established technique and an inspected source, supplies a concrete procedure and example, and explains the output and limitations. An original end-to-end workflow belongs in a Practice by default for this domain. Do not claim that a famous name validates a local adaptation. Keep older generic Method files retired; consult [MIGRATION](MIGRATION.md) before introducing an overlapping wrapper.

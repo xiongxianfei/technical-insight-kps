@@ -1,7 +1,7 @@
 ---
-package_version: "1.0.0"
+package_version: "2.0.0"
 language: "KPS 9.x"
-reviewed: "2026-10-07"
+reviewed: "2026-10-08"
 ---
 
 # Source synthesis for technical insight
@@ -49,3 +49,7 @@ This completed desk synthesis explains three load-bearing reasoning choices. It 
 **Our inference:** Each insight record separates located evidence, explicit inference, rival accounts, scope and application. Each Reference says what the source does not establish. The principles remain explanatory, while chosen instructions live in Methods/Practices.
 
 **Limits and competing consideration:** Complete provenance can be costly or restricted. Capture the decision-critical chain, document gaps and protect confidential material. These heterogeneous sources support particular distinctions; they do not collectively prove the efficacy of Technical Insight KPS.
+
+## Named techniques are not evidence of effectiveness
+
+The established-Methods policy changes where procedures are organized, not the standard of truth. AHRQ and ASQ document recognizable techniques; their existence does not establish that our combined engineering workflow is effective. Public vendor and institutional frameworks are sources for questions, representation or process, not a substitute for technical evidence. Our Practices retain the extra interpretation, safety, integration and documentation decisions. See [Source review](SOURCE-REVIEW.md) and [Method map](METHOD-MAP.md).

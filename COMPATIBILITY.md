@@ -1,7 +1,7 @@
 ---
-package_version: "1.0.0"
+package_version: "2.0.0"
 language: "KPS 9.x"
-reviewed: "2026-10-07"
+reviewed: "2026-10-08"
 ---
 
 # Compatibility
@@ -12,12 +12,12 @@ Domain content evolves independently while its authoring contract remains compat
 
 ## Summary
 
-The package version is 1.0.0. Compatibility is declared against the KPS major line; the exact inspected release and source commit are recorded separately. The five object roles and Markdown requirements are adopted, not redefined.
+The package version is 2.0.0. Compatibility is declared against the KPS major line; the exact inspected release and source commit are recorded separately. The five object roles and Markdown requirements are adopted, not redefined.
 
 ## Declarations
 
 ```yaml
-package_version: "1.0.0"
+package_version: "2.0.0"
 kps_language: "9.x"
 validated_with: "9.0.1"
 markdown_profile: "practical-markdown-v1"
@@ -31,7 +31,7 @@ All local knowledge links resolve within this package. External URLs identify so
 
 ## Tooling provenance
 
-`validate.py` and `test_validate.py` are byte-identical to the files at the inspected KPS commit, including the shared manifest-payload selection fix. The MIT notice is retained. `test_examples.py` is local domain verification code.
+`validate.py` and `test_validate.py` are byte-identical to the files at the inspected KPS commit, including the shared manifest-payload selection fix. The MIT notice is retained. `test_examples.py` and `test_transition.py` are local domain verification code. The latter checks the complete migration and synthetic technique arithmetic, not empirical effectiveness.
 
 ## Limits
 

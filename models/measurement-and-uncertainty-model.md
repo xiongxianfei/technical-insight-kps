@@ -8,7 +8,7 @@ reviewed: "2026-10-07"
 basis_kind: "authored synthesis; evidence and inference distinguished"
 confidence: "scoped and revisable; not validated as a complete framework"
 uses_principles: ["ti:p:measurements-include-the-observation-process"]
-uses_methods: ["ti:me:audit-an-observation"]
+uses_methods: ["ti:me:sipoc", "ti:me:measurement-uncertainty-budget"]
 references: ["ti:r:nist-undated-measurement-uncertainty"]
 ---
 
@@ -64,7 +64,7 @@ No numerical error bounds are supplied by this diagram. A full budget and accept
 The essential explanation or procedure is above. These links provide reusable detail and source inspection.
 
 - [Measurements include the observation process](../principles/measurements-include-the-observation-process.md)
-- [Audit an observation](../methods/audit-an-observation.md)
+- [Audit an observation in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage2-audit-the-evidence-before-the-story)
 
 - [NIST essentials of measurement uncertainty](../references/nist-undated-measurement-uncertainty.md)
 

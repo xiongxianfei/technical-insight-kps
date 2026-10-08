@@ -9,7 +9,7 @@ basis_kind: "explanatory synthesis with source premises and inference separated"
 confidence: "scope dependent; application requires evaluation"
 level: "domain"
 uses_models: ["ti:mo:hypothesis-prediction-matrix"]
-uses_methods: ["ti:me:design-a-discriminating-test"]
+uses_methods: ["ti:me:design-of-experiments", "ti:me:measurement-uncertainty-budget"]
 references: ["ti:r:pearl-2009-causal-inference-in-statistics", "ti:r:nasa-7009b-2024-models-and-simulations"]
 ---
 
@@ -48,7 +48,7 @@ Tests can still be useful without uniquely identifying a cause, for example by b
 The essential explanation or procedure is above. These links provide reusable detail and source inspection.
 
 - [Hypothesis prediction matrix](../models/hypothesis-prediction-matrix.md)
-- [Design a discriminating test](../methods/design-a-discriminating-test.md)
+- [Design a discriminating test in the Practice](../practices/discover-and-validate-a-technical-insight.md#stage5-design-a-discriminating-comparison)
 
 - [Causal inference in statistics An overview](../references/pearl-2009-causal-inference-in-statistics.md)
 - [NASA standard for models and simulations](../references/nasa-7009b-2024-models-and-simulations.md)

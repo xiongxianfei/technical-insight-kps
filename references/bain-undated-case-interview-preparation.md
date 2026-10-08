@@ -1,51 +1,51 @@
 ---
+language: "KPS 9.x"
+reviewed: "2026-10-08"
 id: "ti:r:bain-undated-case-interview-preparation"
 type: "reference"
-version: "1.1.0"
-language: "KPS 9.x"
+version: "2.0.0"
 status: "active"
-reviewed: "2026-10-08"
-source_title: "Bain case interview preparation"
+source_title: "Case Interview Preparation"
 creators: ["Bain and Company"]
-source_type: "primary public guidance"
+source_type: "primary guidance or documentation"
 publication_year: null
-date_basis: "No reliable publication date on the inspected page; access date is not publication date"
 url: "https://www.bain.com/careers/hiring-process/case-interview/"
 accessed: "2026-10-08"
-access_extent: "Selected public HTML sections inspected"
-evidence_family: "bain-case-interview-guidance"
+access_extent: "Public HTML text at the named sections inspected in this authoring session"
+evidence_family: "Bain and Company"
 ---
 
-# Bain case interview preparation
+# Case Interview Preparation
 
 ## Key takeaway
 
-Bain advises clarifying the objective, structuring the problem, making reasoning visible and adapting as new information arrives.
+The public guidance illustrates structured analytical reasoning and testing ideas against information.
 
 ## Summary
 
-This record identifies the source contribution and inspection boundary. It is not evidence that the complete Technical Insight KPS workflow improves outcomes.
+This is a source record, not our preferred conclusion. It identifies the source contribution, inspected extent and the boundary of use.
 
 ## Source identity
 
-**Creator:** Bain and Company
+**Creator:** Bain and Company  
+**Date basis:** No verified publication year; accessed date is not a publication date.
 
-**Publication date basis:** No reliable publication date on the inspected page; access date is not publication date
-
-[External publication](https://www.bain.com/careers/hiring-process/case-interview/)
+[External source](https://www.bain.com/careers/hiring-process/case-interview/)
 
 ## Inspection extent
 
-Selected public HTML sections inspected. Accessed 2026-10-08. Locator: What is a case interview and Additional tips.
+Public HTML text at the named sections inspected in this authoring session. Inspection date: 2026-10-08. **Locator:** Case interview guidance.
 
 ## Claim contribution
 
-Bain advises clarifying the objective, structuring the problem, making reasoning visible and adapting as new information arrives.
+The public guidance illustrates structured analytical reasoning and testing ideas against information.
 
 ## Role and independence
 
-This is first-party documentation of the stated subject, not an independent evaluation of this KPS adaptation. Evidence family: bain-case-interview-guidance. Other pages restating this publication do not provide independent confirmation.
+This first-party source identifies the technique or framework. It does not independently evaluate this KPS workflow. Documents from the same organization or repeating the same underlying source are not automatically independent evidence. Our engineering examples, worksheets and stopping decisions are authored application, not quotations from the source.
 
 ## Limits and nonclaims
 
-This is recruiting and case-interview guidance. It does not specify the hypothesis-prioritization procedure used here, prove engineering causal claims, or establish an official complete Bain methodology. The KPS procedure combines these framing ideas with explicit predictions, alternatives and decision-relevant evidence.
+Recruiting guidance is not an official engineering method specification or independent effectiveness study. This package does not claim Bain endorsement.
+
+Source identity establishes provenance, not truth. Claims must retain their original context. External publications are not relicensed by this repository and their full text is not bundled.

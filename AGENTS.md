@@ -1,7 +1,7 @@
 ---
-package_version: "1.0.0"
+package_version: "2.0.0"
 language: "KPS 9.x"
-reviewed: "2026-10-07"
+reviewed: "2026-10-08"
 ---
 
 # Instructions for assisted authoring
@@ -26,6 +26,10 @@ Inspect sources for claims that need support. Preserve source identity, locators
 
 ## Publication responsibilities
 
-Read the current corresponding repository before making changes. Open ready-for-review PRs when authorized; never merge or create official releases without separate approval. When no repository exists, prepare a validated ZIP. Do not repurpose a similarly named but unrelated repository.
+Read the current corresponding repository before making changes. Use one PR directly to main for a coherent change. The user has authorized merging after required checks for requested knowledge publications; do not add another approval ceremony. Respect repository protections and do not create tags or official releases unless requested. Report a merge only after observing its result. If write tools are unavailable, deliver the checked package without claiming a remote change. When no repository exists, prepare a validated ZIP. Do not repurpose a similarly named but unrelated repository.
 
 Preserve the shared manifest-payload exclusions in the validator and its tests. Do not disable integrity checks to get green CI. Update summary hashes only after review and report exactly which checks ran.
+
+## Established techniques and original Practices
+
+Keep independently documented Methods grounded in recognizable techniques. Do not promote a broad authored workflow into a supposedly established Method. Preserve original framing, evidence, model-building, testing, interpretation and record-keeping in self-contained Practices. When refactoring, update links and typed relationships and account for the retired responsibility. Visualization and questioning are not evidence of technical superiority or causation.
