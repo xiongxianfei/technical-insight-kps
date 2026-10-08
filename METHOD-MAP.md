@@ -56,3 +56,7 @@ The method library now covers structured hypotheses, scanning, landscapes, readi
 ## Deeper knowledge
 
 [Routing model](models/investigation-and-intelligence-routing-model.md) explains the selection logic. [Discover and validate an insight](practices/discover-and-validate-a-technical-insight.md) and [investigate an opportunity](practices/investigate-a-technical-opportunity.md) apply the existing workflow. [Boundaries](BOUNDARIES.md) retains authority, safety and confidentiality limits.
+
+## Integrated Practices
+
+The [integrated Practice routes](INTEGRATED-PRACTICES.md) explain the handoff between [Discover and validate a technical insight](practices/discover-and-validate-a-technical-insight.md) and [Investigate a technical opportunity](practices/investigate-a-technical-opportunity.md). They contain operational details inline; Methods remain optional depth. The [synthetic example](INTEGRATED-EXAMPLE.md) preserves the distinction between a proposed capability, an inspected source and an actual observed result.

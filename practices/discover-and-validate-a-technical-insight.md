@@ -9,9 +9,9 @@ basis_kind: "authored operational synthesis; no field effectiveness study"
 confidence: "provisional for application"
 stage_titles: ["Stage1 Bound the question and authority", "Stage2 Audit the evidence before the story", "Stage3 Find the knowledge the question needs", "Stage4 Build rival explanations and a model", "Stage5 Design a discriminating comparison", "Stage6 Execute and preserve what happened", "Stage7 Evaluate the explanation and its limits", "Stage8 Document apply and keep the question revisable"]
 practice_format: "staged-inline-local-v1"
-uses_methods: ["ti:me:frame-an-insight-question", "ti:me:audit-an-observation", "ti:me:synthesize-claim-relevant-sources", "ti:me:generate-competing-explanations", "ti:me:build-an-explanatory-model", "ti:me:design-a-discriminating-test", "ti:me:execute-a-bounded-test", "ti:me:evaluate-results-and-uncertainty", "ti:me:write-an-insight-record"]
-uses_models: ["ti:mo:insight-learning-cycle"]
-references: ["ti:r:pearl-2009-causal-inference-in-statistics", "ti:r:nist-undated-measurement-uncertainty", "ti:r:nist-undated-experimental-design-handbook", "ti:r:nasa-7009b-2024-models-and-simulations", "ti:r:nasa-undated-decision-analysis", "ti:r:w3c-2013-prov-overview"]
+uses_methods: ["ti:me:frame-an-insight-question","ti:me:audit-an-observation","ti:me:synthesize-claim-relevant-sources","ti:me:generate-competing-explanations","ti:me:build-an-explanatory-model","ti:me:design-a-discriminating-test","ti:me:execute-a-bounded-test","ti:me:evaluate-results-and-uncertainty","ti:me:write-an-insight-record","ti:me:structure-and-prioritize-hypotheses"]
+uses_models: ["ti:mo:insight-learning-cycle","ti:mo:investigation-and-intelligence-routing-model"]
+references: ["ti:r:pearl-2009-causal-inference-in-statistics","ti:r:nist-undated-measurement-uncertainty","ti:r:nist-undated-experimental-design-handbook","ti:r:nasa-7009b-2024-models-and-simulations","ti:r:nasa-undated-decision-analysis","ti:r:w3c-2013-prov-overview","ti:r:bain-undated-case-interview-preparation"]
 ---
 
 # Discover and validate a technical insight
@@ -23,6 +23,10 @@ Build a scoped explanation by connecting a consequential question to evidence th
 ## Summary
 
 This is the primary Practice for turning a surprise or knowledge gap into a reusable technical insight. It combines observation auditing, source synthesis, explanatory modeling, permitted tests and honest reporting. A supported result, a narrowed claim and a well-justified unresolved question are all legitimate outcomes.
+
+## Investigation method selection
+
+Use a Bain-inspired issue tree as an aid for breaking the engineering decision into observable questions, then write rival hypotheses for the parts whose outcome would change the decision. Decomposition and prioritization organize attention; they do not establish causality. Select a discriminating observation and check it against measurement and model uncertainty. If the uncertainty concerns which technologies exist or whether a research opportunity is worth pursuing, pass the bounded need and existing evidence to [the technology opportunity Practice](investigate-a-technical-opportunity.md). Do not upgrade a source report to a demonstrated capability.
 
 ## Goal and prerequisites
 
@@ -65,6 +69,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 4. Choose a stopping point: a bounded decision, a permitted pilot or an explicit specialist handoff.
 
 **Fallback and stopping:** Do not begin a test when competence, authority or safe stopping is unclear. Desk study can continue without intervention.
+
+**Integrated framing check:** Write a decision owner, current baseline, named measurement and safe authorization boundary. Split the issue into observation quality, technical mechanism and use-context questions. These branches are organizational prompts, not proof that physical causes are mutually exclusive; mechanisms may interact. Select the first question by whether its answer would change the decision, not by how confidently it was proposed.
 
 ## Stage2 Audit the evidence before the story
 
@@ -141,6 +147,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 
 **Fallback and stopping:** If no available test separates the accounts, keep them unresolved and consider an action robust to both. Do not invent a unique root cause.
 
+**Hypothesis structuring and priority:** Apply [Structure and prioritize hypotheses](../methods/structure-and-prioritize-hypotheses.md) to the issue tree. Include measurement-process and context explanations alongside the favored mechanism. For each account, write a distinguishing prediction, a counter-signal and an assumption. A list of possible causes is not yet a causal model; if two explanations predict the same observation, preserve both until an authorized comparison can separate them.
+
 ## Stage5 Design a discriminating comparison
 
 **Goal:** Choose an authorized test that can challenge the consequential explanation.
@@ -165,6 +173,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 4. Specify execution fidelity, excluded data, stop criteria and rollback responsibility. Obtain necessary review.
 
 **Fallback and stopping:** If a comparator is harmful or operationally prohibited, use a safe surrogate or change the question. A completed plan is not an executed test.
+
+**Selection check:** Order candidate comparisons by decision impact, predicted discrimination, source quality, reversibility and authorization. Preserve a proposed test that failed feasibility review as a rejected option, not as a completed experiment. A desk source inspection, fixture or documented simulation can be chosen instead, but its inferential scope must be stated before the result.
 
 ## Stage6 Execute and preserve what happened
 
@@ -240,6 +250,8 @@ Stage numbers show recommended reading and learning order. Actual prerequisites,
 4. Review confidentiality, references, self-containment and navigation; publish via a ready-for-review PR or validated ZIP without merging or releasing automatically.
 
 **Fallback and stopping:** If the claim is unvalidated, preserve that status. Publication completeness cannot replace missing evidence or an authorized adoption decision.
+
+**Handoff and tool discipline:** Record the qualifying context, contrary evidence, permission boundaries and any unresolved mechanism. The [integrated Practice routes](../INTEGRATED-PRACTICES.md) explain when to hand a capability gap to technology intelligence. Spreadsheets, calculations, Python or an AI assistant can support comparisons but do not independently validate premises or grant safety authorization.
 
 ## Troubleshooting
 

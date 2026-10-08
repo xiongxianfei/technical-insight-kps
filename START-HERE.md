@@ -1,7 +1,7 @@
 ---
-package_version: "1.0.0"
+package_version: "1.1.0"
 language: "KPS 9.x"
-reviewed: "2026-10-07"
+reviewed: "2026-10-08"
 ---
 
 # Start here
@@ -39,3 +39,7 @@ A completed form or passing checker does not prove a mechanism. It is acceptable
 ## Select an investigation or intelligence route
 
 Use the [Method selection map](METHOD-MAP.md) when choosing how to investigate a behavior or assess a technology opportunity. Start from a decision and missing evidence, not from a favorite branded framework. Each linked Method explains its local procedure and limits.
+
+## Integrated routes
+
+For an observed technical behavior, use [Discover and validate](practices/discover-and-validate-a-technical-insight.md), now including hypothesis prioritization. For technology scouting, readiness, innovation and a conditional research roadmap, use [Investigate a technical opportunity](practices/investigate-a-technical-opportunity.md). Consult the [integrated Practice map](INTEGRATED-PRACTICES.md) and [synthetic worked example](INTEGRATED-EXAMPLE.md) when the boundary between routes is unclear.

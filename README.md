@@ -1,7 +1,7 @@
 ---
-package_version: "1.0.0"
+package_version: "1.1.0"
 language: "KPS 9.x"
-reviewed: "2026-10-07"
+reviewed: "2026-10-08"
 ---
 
 # Technical Insight KPS
@@ -12,7 +12,11 @@ Turn consequential technical questions into scoped explanations and reviewable d
 
 ## Summary
 
-Technical Insight KPS 1.0.0 is a domain-independent engineering investigation and learning methodology. It teaches how to discover, explain, validate, document and apply technical insights using self-contained knowledge files. It is not a catalogue of all engineering science, a guarantee of novelty or a substitute for domain expertise. Its workflows are authored synthesis informed by inspected primary sources and official guidance.
+Technical Insight KPS 1.1.0 is a domain-independent engineering investigation and learning methodology. It teaches how to discover, explain, validate, document and apply technical insights using self-contained knowledge files. It is not a catalogue of all engineering science, a guarantee of novelty or a substitute for domain expertise. Its workflows are authored synthesis informed by inspected primary sources and official guidance.
+
+## Integrated investigation and technology intelligence
+
+Use the [integrated route map](INTEGRATED-PRACTICES.md) to select either hypothesis-driven engineering investigation or evidence-based technology scouting and opportunity evaluation. The [synthetic example](INTEGRATED-EXAMPLE.md) traces the handoff without inventing field results. Bain-inspired, Heilmeier-inspired and TRIZ-inspired approaches are aids to reasoning, not replacements for technical validation.
 
 ## Start with one real question
 
