@@ -21,6 +21,8 @@ Technical investigation explains behavior; technology intelligence identifies an
 | What decision are we making | [Frame an insight question](methods/frame-an-insight-question.md) | Bounded outcome and comparator; not a chosen solution |
 | Where should the analysis focus | [Structure and prioritize hypotheses](methods/structure-and-prioritize-hypotheses.md) | Evidence-based queue; not a proof from an issue tree |
 | Is the observation trustworthy | [Audit an observation](methods/audit-an-observation.md) | Measurement and provenance limits; not a cause |
+| What may be emerging | [Scan technology signals](methods/scan-technology-signals.md) | Dated leads and uncertainty; not a forecast |
+| How mature is the candidate here | [Assess technology readiness](methods/assess-technology-readiness.md) | Criterion-to-evidence gaps; not a general attractiveness score |
 | What approaches may solve the need | [Map a technical landscape](methods/map-a-technical-landscape.md) | Scoped candidate set; not exhaustive coverage |
 | What does the literature actually support | [Synthesize claim-relevant sources](methods/synthesize-claim-relevant-sources.md) | Premises, disagreement and inference; not citation counting |
 | Why might the system behave this way | [Generate competing explanations](methods/generate-competing-explanations.md) and [build an explanatory model](methods/build-an-explanatory-model.md) | Explicit mechanisms and assumptions; not established causation |
@@ -46,7 +48,7 @@ Markdown and ordinary tables are the default. A spreadsheet, Python or a noteboo
 
 ## Expansion boundary
 
-Later review increments add dedicated horizon scanning, patent and literature landscaping, readiness assessment, DARPA-inspired opportunity review, TRIZ-inspired contradiction work and technology roadmapping. This snapshot does not pretend those procedures have already been added. There is no new software platform or mandatory tool subscription.
+Horizon scanning, literature and patent landscaping, and readiness assessment are now populated. Later review increments add DARPA-inspired opportunity review, TRIZ-inspired contradiction work and technology roadmapping. Those later procedures are not yet claimed as present in this snapshot. There is no new software platform or mandatory tool subscription.
 
 ## Deeper knowledge
 
