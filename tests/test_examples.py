@@ -2,7 +2,10 @@
 """Tests of synthetic examples, not empirical validation of a technical system."""
 import math
 import unittest
-from example_calculations import thermal_rise, factorial_effects, illustrative_payload
+from pathlib import Path
+import sys
+sys.path.insert(0, str(Path(__file__).resolve().parents[1]))
+from tools.example_calculations import thermal_rise, factorial_effects, illustrative_payload
 
 
 class SyntheticExamples(unittest.TestCase):

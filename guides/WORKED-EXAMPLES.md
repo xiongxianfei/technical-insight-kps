@@ -94,4 +94,4 @@ At B=0, increasing A changes Y by +4. At B=1, it changes Y by -2. The difference
 
 ## Executable checks and boundaries
 
-Run `python3 test_examples.py`. The code checks the manifest sets, thermal formula and interaction arithmetic, including invalid input and limiting cases. Passing establishes the stated computations only. The broader Practices have not been field-tested by these examples.
+Run `python3 -m unittest discover -s tests -p test_examples.py`. The code checks the manifest sets, thermal formula and interaction arithmetic, including invalid input and limiting cases. Passing establishes the stated computations only. The broader Practices have not been field-tested by these examples.

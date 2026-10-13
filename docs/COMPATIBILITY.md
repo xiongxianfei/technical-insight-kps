@@ -31,7 +31,7 @@ All local knowledge links resolve within this package. External URLs identify so
 
 ## Tooling provenance
 
-`validate.py` remains byte-identical to the inspected KPS commit, including the shared manifest-payload selection fix. Its digest is checked by `test_package.py` against `upstream-lock.json`; the full regression suite remains in Core Git history at that commit. The MIT notice is retained. `test_examples.py` and `test_methods.py` check local synthetic examples and Method declarations. Completed migration inventories are historical records, not constraints on future library growth.
+`validate.py` remains byte-identical to the inspected KPS commit, including the shared manifest-payload selection fix. Its digest is checked by `tests/test_package.py` against `upstream-lock.json`; the full regression suite remains in Core Git history at that commit. The MIT notice is retained. `tests/test_examples.py` and `tests/test_methods.py` check local synthetic examples and Method declarations. Completed migration inventories are historical records, not constraints on future library growth.
 
 ## Limits
 

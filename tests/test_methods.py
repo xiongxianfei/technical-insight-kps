@@ -6,7 +6,7 @@ import math
 import re
 import sys
 import unittest
-ROOT=Path(__file__).resolve().parent
+ROOT=Path(__file__).resolve().parents[1]
 spec=importlib.util.spec_from_file_location('transition_validator', ROOT/'validate.py')
 v=importlib.util.module_from_spec(spec);sys.modules[spec.name]=v;spec.loader.exec_module(v)
 
