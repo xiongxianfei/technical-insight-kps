@@ -62,4 +62,4 @@ Paper or Markdown is sufficient unless the calculation or experiment requires mo
 
 ## Deeper knowledge
 
-[General Morphological Analysis](../references/ritchey-2013-general-morphological-analysis.md). [Select a technique](../METHOD-MAP.md). [Investigation Practice](../practices/discover-and-validate-a-technical-insight.md). [Technology opportunity Practice](../practices/investigate-a-technical-opportunity.md).
+[General Morphological Analysis](../references/ritchey-2013-general-morphological-analysis.md). [Select a technique](../guides/METHOD-MAP.md). [Investigation Practice](../practices/discover-and-validate-a-technical-insight.md). [Technology opportunity Practice](../practices/investigate-a-technical-opportunity.md).

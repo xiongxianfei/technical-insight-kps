@@ -62,4 +62,4 @@ Paper or Markdown is sufficient unless the calculation or experiment requires mo
 
 ## Deeper knowledge
 
-[SIPOC CM Diagram](../references/asq-undated-sipoc.md). [Select a technique](../METHOD-MAP.md). [Investigation Practice](../practices/discover-and-validate-a-technical-insight.md). [Technology opportunity Practice](../practices/investigate-a-technical-opportunity.md).
+[SIPOC CM Diagram](../references/asq-undated-sipoc.md). [Select a technique](../guides/METHOD-MAP.md). [Investigation Practice](../practices/discover-and-validate-a-technical-insight.md). [Technology opportunity Practice](../practices/investigate-a-technical-opportunity.md).

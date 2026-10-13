@@ -62,4 +62,4 @@ Paper or Markdown is sufficient unless the calculation or experiment requires mo
 
 ## Deeper knowledge
 
-[Radar chart example](../references/matplotlib-undated-radar-chart.md); [Decision Matrix](../references/asq-undated-decision-matrix.md). [Select a technique](../METHOD-MAP.md). [Investigation Practice](../practices/discover-and-validate-a-technical-insight.md). [Technology opportunity Practice](../practices/investigate-a-technical-opportunity.md).
+[Radar chart example](../references/matplotlib-undated-radar-chart.md); [Decision Matrix](../references/asq-undated-decision-matrix.md). [Select a technique](../guides/METHOD-MAP.md). [Investigation Practice](../practices/discover-and-validate-a-technical-insight.md). [Technology opportunity Practice](../practices/investigate-a-technical-opportunity.md).

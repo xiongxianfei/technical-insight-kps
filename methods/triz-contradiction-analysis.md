@@ -62,4 +62,4 @@ Paper or Markdown is sufficient unless the calculation or experiment requires mo
 
 ## Deeper knowledge
 
-[TRIZ glossary](../references/matriz-undated-contradictions.md); [Oxford Creativity TRIZ glossary](../references/oxford-creativity-undated-triz-glossary.md). [Select a technique](../METHOD-MAP.md). [Investigation Practice](../practices/discover-and-validate-a-technical-insight.md). [Technology opportunity Practice](../practices/investigate-a-technical-opportunity.md).
+[TRIZ glossary](../references/matriz-undated-contradictions.md); [Oxford Creativity TRIZ glossary](../references/oxford-creativity-undated-triz-glossary.md). [Select a technique](../guides/METHOD-MAP.md). [Investigation Practice](../practices/discover-and-validate-a-technical-insight.md). [Technology opportunity Practice](../practices/investigate-a-technical-opportunity.md).

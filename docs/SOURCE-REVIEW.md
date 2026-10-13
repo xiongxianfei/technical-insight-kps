@@ -42,4 +42,4 @@ The source-backed technique is separated from our worked examples, worksheets, c
 
 ## External material and privacy
 
-Only Reference records and our exposition are bundled. No full external book, standards text, proprietary matrix, personal field data or hidden credentials are included. [Third party notices](THIRD-PARTY-NOTICES.md) and [Boundaries](BOUNDARIES.md) remain applicable.
+Only Reference records and our exposition are bundled. No full external book, standards text, proprietary matrix, personal field data or hidden credentials are included. [Third party notices](../THIRD-PARTY-NOTICES.md) and [Boundaries](../guides/BOUNDARIES.md) remain applicable.

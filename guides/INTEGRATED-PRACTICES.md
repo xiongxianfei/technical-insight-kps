@@ -18,11 +18,11 @@ The five existing Practice identities remain the main routes. They are not repla
 
 | Question | Practice | Main established techniques |
 |---|---|---|
-| Why does a technical behavior occur | [Investigation](practices/discover-and-validate-a-technical-insight.md) | 5W2H, SIPOC, hypotheses, Fishbone, Five Whys, DOE, uncertainty |
-| Which technology deserves further work | [Opportunity](practices/investigate-a-technical-opportunity.md) | Scanning, literature, patents, TRL, TRIZ, morphology, Heilmeier, decision matrices, roadmapping |
-| Does a source claim hold | [Claim assessment](practices/assess-a-technical-claim.md) | Structured review, hypothesis comparison, sensitivity and appropriate tests |
-| Can a finding be used elsewhere | [Transfer](practices/apply-and-transfer-an-insight.md) | 5W2H, SIPOC, readiness, FMEA, Pugh and controlled evaluation |
-| How do we retain and update learning | [Maintenance](practices/maintain-technical-insight-knowledge.md) | Evidence review plus our KPS authoring and publication workflow |
+| Why does a technical behavior occur | [Investigation](../practices/discover-and-validate-a-technical-insight.md) | 5W2H, SIPOC, hypotheses, Fishbone, Five Whys, DOE, uncertainty |
+| Which technology deserves further work | [Opportunity](../practices/investigate-a-technical-opportunity.md) | Scanning, literature, patents, TRL, TRIZ, morphology, Heilmeier, decision matrices, roadmapping |
+| Does a source claim hold | [Claim assessment](../practices/assess-a-technical-claim.md) | Structured review, hypothesis comparison, sensitivity and appropriate tests |
+| Can a finding be used elsewhere | [Transfer](../practices/apply-and-transfer-an-insight.md) | 5W2H, SIPOC, readiness, FMEA, Pugh and controlled evaluation |
+| How do we retain and update learning | [Maintenance](../practices/maintain-technical-insight-knowledge.md) | Evidence review plus our KPS authoring and publication workflow |
 
 ## Handoffs without invented certainty
 

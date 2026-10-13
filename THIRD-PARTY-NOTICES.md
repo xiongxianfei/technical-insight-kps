@@ -16,7 +16,7 @@ This domain contains authored explanations, procedures, synthetic examples and b
 
 ## KPS tooling
 
-`validate.py` and `test_validate.py` are copied byte-for-byte from xiongxianfei/knowledge-practice-system commit `60972c57199ae8bc21d4b7a00ac55552b4105277`. The MIT license and attribution are retained in LICENSE. The authoring contract is linked rather than copied as a competing domain specification.
+`validate.py` is copied byte-for-byte from xiongxianfei/knowledge-practice-system commit `60972c57199ae8bc21d4b7a00ac55552b4105277`. The regression suite remains in Core at that commit; its duplicated domain copy was removed. The local validator digest is recorded in upstream-lock.json. The MIT license and attribution are retained in LICENSE. The authoring contract is linked rather than copied as a competing domain specification.
 
 ## Scientific and methodological references
 
