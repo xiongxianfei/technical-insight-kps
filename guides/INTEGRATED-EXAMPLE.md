@@ -70,4 +70,4 @@ Actual results: none. Supported preference: none. Next question: which represent
 
 ## Deeper knowledge
 
-[Investigation](practices/discover-and-validate-a-technical-insight.md), [Opportunity](practices/investigate-a-technical-opportunity.md), [5W2H](methods/5w2h.md), [DOE](methods/design-of-experiments.md), [Radar](methods/radar-chart.md), [Pugh](methods/pugh-matrix.md) and [Roadmapping](methods/technology-roadmapping.md) provide procedures. The arithmetic is checked by `test_transition.py`, not by fabricated field data.
+[Investigation](../practices/discover-and-validate-a-technical-insight.md), [Opportunity](../practices/investigate-a-technical-opportunity.md), [5W2H](../methods/5w2h.md), [DOE](../methods/design-of-experiments.md), [Radar](../methods/radar-chart.md), [Pugh](../methods/pugh-matrix.md) and [Roadmapping](../methods/technology-roadmapping.md) provide procedures. The arithmetic is checked by `test_methods.py`, not by fabricated field data.

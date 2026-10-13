@@ -62,4 +62,4 @@ Paper or Markdown is sufficient unless the calculation or experiment requires mo
 
 ## Deeper knowledge
 
-[Source record](../references/li-2019-collecting-data-cochrane.md); [Source record](../references/w3c-2013-prov-overview.md). [Select a technique](../METHOD-MAP.md). [Investigation Practice](../practices/discover-and-validate-a-technical-insight.md). [Technology opportunity Practice](../practices/investigate-a-technical-opportunity.md).
+[Source record](../references/li-2019-collecting-data-cochrane.md); [Source record](../references/w3c-2013-prov-overview.md). [Select a technique](../guides/METHOD-MAP.md). [Investigation Practice](../practices/discover-and-validate-a-technical-insight.md). [Technology opportunity Practice](../practices/investigate-a-technical-opportunity.md).

@@ -16,9 +16,9 @@ jobs:
           persist-credentials: false
       - name: Validate publication
         run: python3 validate.py .
-      - name: Run core regression tests
-        run: python3 test_validate.py
+      - name: Verify pinned checker
+        run: python3 test_package.py
       - name: Verify synthetic example calculations
         run: python3 test_examples.py
-      - name: Check complete Method transition and synthetic technique arithmetic
-        run: python3 test_transition.py
+      - name: Check Method declarations and synthetic arithmetic
+        run: python3 test_methods.py

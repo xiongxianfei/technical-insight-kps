@@ -62,4 +62,4 @@ Paper or Markdown is sufficient unless the calculation or experiment requires mo
 
 ## Deeper knowledge
 
-[Five Whys and Five Hows](../references/asq-undated-five-whys.md); [Source record](../references/pearl-2009-causal-inference-in-statistics.md). [Select a technique](../METHOD-MAP.md). [Investigation Practice](../practices/discover-and-validate-a-technical-insight.md). [Technology opportunity Practice](../practices/investigate-a-technical-opportunity.md).
+[Five Whys and Five Hows](../references/asq-undated-five-whys.md); [Source record](../references/pearl-2009-causal-inference-in-statistics.md). [Select a technique](../guides/METHOD-MAP.md). [Investigation Practice](../practices/discover-and-validate-a-technical-insight.md). [Technology opportunity Practice](../practices/investigate-a-technical-opportunity.md).

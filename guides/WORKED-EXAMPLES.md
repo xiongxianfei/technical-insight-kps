@@ -40,7 +40,7 @@ difference = {.git/HEAD}
 
 **Question:** Does a cooler early reading mean better heat removal?
 
-**Scientific basis:** [OpenStax heat capacity and heat transfer](references/openstax-2016-university-physics-heat-transfer.md) distinguishes energy storage from heat transfer. The model below is an authored approximation, not a textbook-provided test of a device.
+**Scientific basis:** [OpenStax heat capacity and heat transfer](../references/openstax-2016-university-physics-heat-transfer.md) distinguishes energy storage from heat transfer. The model below is an authored approximation, not a textbook-provided test of a device.
 
 **Assumptions:** One spatially uniform temperature; constant input power P; constant thermal capacitance C; one linear heat-transfer resistance R; fixed ambient temperature; initial temperature equal to ambient; no phase change, extra heat sources, nonlinear losses or sensor lag.
 
@@ -90,7 +90,7 @@ At B=0, increasing A changes Y by +4. At B=1, it changes Y by -2. The difference
 
 **Evidence status:** The numbers are synthetic, with one value per cell and no independent replicates. They establish a logical/numerical example, not measurement variability, statistical significance, causality in a real process or a safe operating policy. An exact saturated fit is not validation.
 
-**Next test plan:** In an actual authorized investigation, choose factor levels and controls from domain knowledge, plan independent experimental units and relevant uncertainty, account for nuisance factors and carryover, and assess the joint combinations where safe. [NIST experimental design guidance](references/nist-undated-experimental-design-handbook.md) supports the design distinction; it does not supply these invented data.
+**Next test plan:** In an actual authorized investigation, choose factor levels and controls from domain knowledge, plan independent experimental units and relevant uncertainty, account for nuisance factors and carryover, and assess the joint combinations where safe. [NIST experimental design guidance](../references/nist-undated-experimental-design-handbook.md) supports the design distinction; it does not supply these invented data.
 
 ## Executable checks and boundaries
 

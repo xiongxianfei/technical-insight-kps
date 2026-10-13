@@ -1,0 +1,10 @@
+{
+  "repository": "xiongxianfei/knowledge-practice-system",
+  "commit": "60972c57199ae8bc21d4b7a00ac55552b4105277",
+  "validator": {
+    "path": "validate.py",
+    "sha256": "1195ea350787102844470268c713484e99de2f7d146058ba035a68c29a23527a",
+    "reuse": "unchanged upstream copy"
+  },
+  "regression_suite": "test_validate.py at the pinned Core commit; archived there, not copied into this domain"
+}

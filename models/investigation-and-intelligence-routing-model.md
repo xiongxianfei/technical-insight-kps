@@ -42,4 +42,4 @@ A low-power monitoring announcement prompts a landscape. Its claim of unchanged 
 
 ## Deeper knowledge
 
-[Method map](../METHOD-MAP.md) selects concrete techniques. [Technology intelligence](../concepts/technology-intelligence.md) defines the external-information task.
+[Method map](../guides/METHOD-MAP.md) selects concrete techniques. [Technology intelligence](../concepts/technology-intelligence.md) defines the external-information task.

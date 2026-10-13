@@ -16,6 +16,8 @@ This file summarizes authoring and publication instructions for people and autom
 
 ## Content responsibilities
 
+Read [Authoring](docs/AUTHORING.md) before edits and [Maintenance](docs/MAINTENANCE.md) for checks and supporting document locations.
+
 Use the five core types. Technical insight is a domain and a kind of synthesis, not a sixth type. A Principle explains a reusable relationship without prescribing a specific design. A source record preserves the source’s contribution rather than our preferred conclusion.
 
 Every significant Markdown file needs a meaningful takeaway, summary, local explanation/procedure and limits. Practice stages use StageN headings, recommended order, inline procedures, observations and fallbacks. Never replace essential safety or rationale with a link.

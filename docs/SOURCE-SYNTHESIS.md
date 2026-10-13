@@ -18,7 +18,7 @@ This completed desk synthesis explains three load-bearing reasoning choices. It 
 
 **Question:** When does a helpful change justify an explanation of why it helped?
 
-**Source premises:** [Causal inference in statistics An overview](references/pearl-2009-causal-inference-in-statistics.md) distinguishes observational information, intervention questions and causal assumptions. [NIST experimental design guidance](references/nist-undated-experimental-design-handbook.md) explains how design controls and factor combinations affect what a comparison can reveal.
+**Source premises:** [Causal inference in statistics An overview](../references/pearl-2009-causal-inference-in-statistics.md) distinguishes observational information, intervention questions and causal assumptions. [NIST experimental design guidance](../references/nist-undated-experimental-design-handbook.md) explains how design controls and factor combinations affect what a comparison can reveal.
 
 **Synthesis:** A controlled, well-implemented comparison can strengthen an effect claim. The same evidence may remain compatible with several mechanisms. A before/after coincidence is weaker because context and selection may change too.
 
@@ -30,7 +30,7 @@ This completed desk synthesis explains three load-bearing reasoning choices. It 
 
 **Question:** Does a model that matches a trace justify an engineering insight?
 
-**Source premises:** [NIST model fit and residual analysis](references/nist-undated-model-fit-and-residuals.md) cautions that a single fit statistic is insufficient and uses residuals to inspect adequacy. [NASA standard for models and simulations](references/nasa-7009b-2024-models-and-simulations.md) distinguishes calibration, implementation verification, validation referents and domains of validation. [NIST essentials of measurement uncertainty](references/nist-undated-measurement-uncertainty.md) places the observation process inside the measurement equation.
+**Source premises:** [NIST model fit and residual analysis](../references/nist-undated-model-fit-and-residuals.md) cautions that a single fit statistic is insufficient and uses residuals to inspect adequacy. [NASA standard for models and simulations](../references/nasa-7009b-2024-models-and-simulations.md) distinguishes calibration, implementation verification, validation referents and domains of validation. [NIST essentials of measurement uncertainty](../references/nist-undated-measurement-uncertainty.md) places the observation process inside the measurement equation.
 
 **Synthesis:** Fit, implementation correctness, measurement validity and intended-use applicability are different checks. Good fit can coexist with parameter ambiguity or a missing mechanism.
 
@@ -42,7 +42,7 @@ This completed desk synthesis explains three load-bearing reasoning choices. It 
 
 **Question:** What makes a documented insight more than a polished story?
 
-**Source premises:** [Cochrane collecting data guidance](references/li-2019-collecting-data-cochrane.md) distinguishes studies from reports and preserves context. [Reproducible computational research](references/sandve-2013-reproducible-computational-research.md) connects computational results to their input/processing chain. [W3C provenance overview](references/w3c-2013-prov-overview.md) records production lineage.
+**Source premises:** [Cochrane collecting data guidance](../references/li-2019-collecting-data-cochrane.md) distinguishes studies from reports and preserves context. [Reproducible computational research](../references/sandve-2013-reproducible-computational-research.md) connects computational results to their input/processing chain. [W3C provenance overview](../references/w3c-2013-prov-overview.md) records production lineage.
 
 **Synthesis:** A traceable explanation is inspectable, but the same sources or computations can preserve a shared error. Independent support concerns the underlying evidence, not the number of links.
 
@@ -52,4 +52,4 @@ This completed desk synthesis explains three load-bearing reasoning choices. It 
 
 ## Named techniques are not evidence of effectiveness
 
-The established-Methods policy changes where procedures are organized, not the standard of truth. AHRQ and ASQ document recognizable techniques; their existence does not establish that our combined engineering workflow is effective. Public vendor and institutional frameworks are sources for questions, representation or process, not a substitute for technical evidence. Our Practices retain the extra interpretation, safety, integration and documentation decisions. See [Source review](SOURCE-REVIEW.md) and [Method map](METHOD-MAP.md).
+The established-Methods policy changes where procedures are organized, not the standard of truth. AHRQ and ASQ document recognizable techniques; their existence does not establish that our combined engineering workflow is effective. Public vendor and institutional frameworks are sources for questions, representation or process, not a substitute for technical evidence. Our Practices retain the extra interpretation, safety, integration and documentation decisions. See [Source review](SOURCE-REVIEW.md) and [Method map](../guides/METHOD-MAP.md).

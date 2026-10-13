@@ -63,4 +63,4 @@ Paper or Markdown is sufficient unless the calculation or experiment requires mo
 
 ## Deeper knowledge
 
-[Technology Readiness Levels](../references/nasa-2023-technology-readiness-levels.md). [Select a technique](../METHOD-MAP.md). [Investigation Practice](../practices/discover-and-validate-a-technical-insight.md). [Technology opportunity Practice](../practices/investigate-a-technical-opportunity.md).
+[Technology Readiness Levels](../references/nasa-2023-technology-readiness-levels.md). [Select a technique](../guides/METHOD-MAP.md). [Investigation Practice](../practices/discover-and-validate-a-technical-insight.md). [Technology opportunity Practice](../practices/investigate-a-technical-opportunity.md).
