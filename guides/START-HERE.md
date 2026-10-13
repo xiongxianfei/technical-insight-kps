@@ -32,4 +32,4 @@ Do not apply all 22 Methods. Do not call brainstorming evidence, visual area uti
 
 ## Example and maintenance
 
-[INTEGRATED EXAMPLE](INTEGRATED-EXAMPLE.md) uses hypothetical sensor data and no real tests. [MIGRATION](../docs/history/2.0.0-method-migration.md) shows where old Method responsibilities moved. [METHOD MAP](METHOD-MAP.md) is the working selection map.
+[INTEGRATED EXAMPLE](INTEGRATED-EXAMPLE.md) uses hypothetical sensor data and no real tests. [MIGRATION](../docs/METHOD-MIGRATION.md) shows where old Method responsibilities moved. [METHOD MAP](METHOD-MAP.md) is the working selection map.

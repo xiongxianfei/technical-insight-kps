@@ -11,7 +11,7 @@ Read the Markdown directly; use the existing checks when changing the library.
 
 ## Summary
 
-Knowledge remains in the five role folders and `references/`. Reader routes, worked examples and blank templates live in `guides/`; authoring, indexes, review and publication guidance live in `docs/`. Prior release records live in `docs/history/`. The layout cleanup does not change knowledge identities, Practice stages or the pinned KPS contract.
+Knowledge remains in the five role folders and `references/`. Reader routes, worked examples and blank templates live in `guides/`; authoring, indexes, review and publication guidance live in `docs/`. Obsolete release reports stay in Git history; the useful Method responsibility map remains in `docs/METHOD-MIGRATION.md`. The layout cleanup does not change knowledge identities, Practice stages or the pinned KPS contract.
 
 ## Commands
 
@@ -64,13 +64,11 @@ Update bookmarks to the paths below. Old root document URLs do not automatically
 | `SOURCE-SYNTHESIS.md` | [docs/SOURCE-SYNTHESIS.md](../docs/SOURCE-SYNTHESIS.md) |
 | `PUBLISHING.md` | [docs/PUBLISHING.md](../docs/PUBLISHING.md) |
 | `CONTRIBUTING.md` | [.github/CONTRIBUTING.md](../.github/CONTRIBUTING.md) |
-| `CHECKS.md` | [docs/history/2.0.0-checks.md](../docs/history/2.0.0-checks.md) |
-| `RELEASE.md` | [docs/history/2.0.0-release.md](../docs/history/2.0.0-release.md) |
-| `MIGRATION.md` | [docs/history/2.0.0-method-migration.md](../docs/history/2.0.0-method-migration.md) |
+| `MIGRATION.md` | [docs/METHOD-MIGRATION.md](../docs/METHOD-MIGRATION.md) |
 
 ## Verification limits
 
-The historical [2.0.0 check report](history/2.0.0-checks.md) describes that edition, not a fresh run. Report current command results with each change. Structural and arithmetic checks do not establish empirical effectiveness or independent expert review.
+Report current command results in each change PR. Obsolete execution logs and the duplicate transition inventory are not retained in the current tree. Structural and arithmetic checks do not establish empirical effectiveness or independent expert review.
 
 ## Layout dependency review
 

@@ -57,4 +57,4 @@ Before selecting software, identify the question, required evidence, output and 
 
 ## Limits and provenance
 
-Named and well-known does not mean universally valid. Some entries are families with a bounded introductory variant, such as DOE and statistical testing; public guidance is not a complete specialist standard. Every Method identifies its inspected basis and where our worksheet or example adds application detail. [Migration](../docs/history/2.0.0-method-migration.md) records the complete replacement of the 20 generic operations. [Worked example](INTEGRATED-EXAMPLE.md) shows the distinction in use.
+Named and well-known does not mean universally valid. Some entries are families with a bounded introductory variant, such as DOE and statistical testing; public guidance is not a complete specialist standard. Every Method identifies its inspected basis and where our worksheet or example adds application detail. [Migration](../docs/METHOD-MIGRATION.md) records the complete replacement of the 20 generic operations. [Worked example](INTEGRATED-EXAMPLE.md) shows the distinction in use.

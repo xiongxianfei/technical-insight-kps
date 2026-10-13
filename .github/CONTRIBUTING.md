@@ -36,4 +36,4 @@ Propose one coherent change on a branch and open a PR to `main`. Preserve the ex
 
 ## New Method admission
 
-A Method contribution names an established technique and an inspected source, supplies a concrete procedure and example, and explains the output and limitations. An original end-to-end workflow belongs in a Practice by default for this domain. Do not claim that a famous name validates a local adaptation. Keep older generic Method files retired; consult [MIGRATION](../docs/history/2.0.0-method-migration.md) before introducing an overlapping wrapper.
+A Method contribution names an established technique and an inspected source, supplies a concrete procedure and example, and explains the output and limitations. An original end-to-end workflow belongs in a Practice by default for this domain. Do not claim that a famous name validates a local adaptation. Keep older generic Method files retired; consult [MIGRATION](../docs/METHOD-MIGRATION.md) before introducing an overlapping wrapper.

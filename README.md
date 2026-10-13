@@ -49,4 +49,4 @@ No real investigation, field result, personal experience or independent effectiv
 
 Reader guides and blank templates live in `guides/`; authoring, evidence review and library indexes live in `docs/`. [Maintenance](docs/MAINTENANCE.md) lists the checks, why each script remains, and the old-to-new document paths. [Contributing](.github/CONTRIBUTING.md) explains changes and review.
 
-Run `python3 validate.py .` for local structure and links; use the full checks before submitting a change. Historical [2.0.0 release notes](docs/history/2.0.0-release.md) and the [Method migration](docs/history/2.0.0-method-migration.md) retain the earlier transition record. Tests check structure and calculations, not empirical effectiveness.
+Run `python3 validate.py .` for local structure and links; use the full checks before submitting a change. The [Method migration map](docs/METHOD-MIGRATION.md) helps resolve references to retired operations. Record actual check results in the change PR. Tests check structure and calculations, not empirical effectiveness.

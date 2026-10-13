@@ -43,3 +43,7 @@ The source-backed technique is separated from our worked examples, worksheets, c
 ## External material and privacy
 
 Only Reference records and our exposition are bundled. No full external book, standards text, proprietary matrix, personal field data or hidden credentials are included. [Third party notices](../THIRD-PARTY-NOTICES.md) and [Boundaries](../guides/BOUNDARIES.md) remain applicable.
+
+## Recorded Method transition review
+
+The 2.0.0 publication record states that the Method distinction, source roles, synthetic examples, constraints and receiving stages were reviewed before the dependency snapshot was regenerated. Original explanations were retained where relevant and links were migrated to techniques or meaningful Practice stages. This records the earlier author review, not a new inspection or independent peer or user validation. The retained [responsibility map](METHOD-MIGRATION.md) identifies those receiving stages.
