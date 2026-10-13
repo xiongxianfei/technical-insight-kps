@@ -26,4 +26,4 @@ Push and publish when authorized. For user-authorized knowledge publications, me
 
 ## Historical migration
 
-The [2.0.0 Method migration](history/2.0.0-method-migration.md) records retired filenames and the receiving Practice stages. It remains useful for old links; its former baseline and archive application instructions do not govern an ordinary change to the current repository.
+The [Method migration map](METHOD-MIGRATION.md) records retired filenames and the receiving Practice stages. Use it when updating an old reference; ordinary changes follow the current maintenance instructions.

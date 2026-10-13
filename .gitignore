@@ -4,3 +4,5 @@ __pycache__/
 .DS_Store
 Thumbs.db
 private-records/
+# Generated only for a packaged archive.
+/MANIFEST.sha256
